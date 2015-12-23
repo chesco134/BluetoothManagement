@@ -56,22 +56,22 @@ public class ConsoleActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                if(inputCommand.isEnabled())
-                try {
-                    cmd = inputCommand.getText().toString();
-                    salida.write((cmd + "\r").getBytes());
-                    logZone.append("\n\t---> " + cmd + "\n\tResponse -> ");
-                    inputCommand.setText("");
-                }catch(IOException e){
-                    e.printStackTrace();
-                    isRunning = false;
-                    inputCommand.setEnabled(false);
-                    Snackbar.make(view, "Problemas con la conexión, vuelva a conectar",
-                            Snackbar.LENGTH_SHORT).setAction("Null",null).show();
-                }
+                if (inputCommand.isEnabled())
+                    try {
+                        cmd = inputCommand.getText().toString();
+                        salida.write((cmd + "\r").getBytes());
+                        logZone.append("\n\t---> " + cmd + "\n\tResponse -> ");
+                        inputCommand.setText("");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                        isRunning = false;
+                        inputCommand.setEnabled(false);
+                        Snackbar.make(view, "Problemas con la conexión, vuelva a conectar",
+                                Snackbar.LENGTH_SHORT).setAction("Null", null).show();
+                    }
                 else
-                    Snackbar.make(view,"Debemos conectarnos primero",Snackbar.LENGTH_SHORT)
-                    .setAction("Aviso",null).show();
+                    Snackbar.make(view, "Debemos conectarnos primero", Snackbar.LENGTH_SHORT)
+                            .setAction("Aviso", null).show();
             }
         });
     }
@@ -103,15 +103,6 @@ public class ConsoleActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart(){
-        super.onStart();
-        if(isRunning) {
-            new PerformConnection().execute();
-            Toast.makeText(this,"Reconnecting",Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    @Override
     protected void onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
         outState.putBoolean("iputCommandEnabled", inputCommand.isEnabled());
@@ -125,6 +116,10 @@ public class ConsoleActivity extends AppCompatActivity {
         inputCommand.setEnabled(savedInstanceState.getBoolean("inputCommandEnabled"));
         logZone.setText(savedInstanceState.getString("logZone"));
         isRunning = savedInstanceState.getBoolean("isRunning");
+        if(isRunning) {
+            new PerformConnection().execute();
+            Toast.makeText(this,"Reconnecting",Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
@@ -216,6 +211,8 @@ public class ConsoleActivity extends AppCompatActivity {
                 while(true){
                     if((c = (char)entrada.read()) != '>')
                         publishProgress("" + c);
+                    else
+                        publishProgress("*");
                 }
             }catch(IOException e){
                 e.printStackTrace();
