@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/speed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/speed_label"/>
+
+    <TextView
+        android:id="@+id/speed_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/speed_label"
+        android:layout_toRightOf="@+id/speed_label"
+        android:layout_marginStart="12sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:text="@string/default_value"/>
+
+    <TextView
+        android:id="@+id/rpm_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speed_label"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/rpm_label"/>
+
+    <TextView
+        android:id="@+id/rpm_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speed_value"
+        android:layout_toEndOf="@+id/rpm_label"
+        android:layout_toRightOf="@+id/rpm_label"
+        android:layout_marginStart="12sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:text="@string/default_value"/>
+
+    <TextView
+        android:id="@+id/mLatitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/default_value" />
+
+    <TextView
+        android:id="@+id/mLongitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mLatitudeText"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/default_value" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvinida"
+        android:textSize="32sp"
+        android:layout_below="@+id/client_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/client_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/off"/>
+<!--
+    <TextView
+        android:id="@+id/center_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/client_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/center_point"
+        android:layout_toEndOf="@+id/center_point"
+        android:layout_margin="20sp"
+        android:textSize="20sp"
+        android:background="@drawable/cute_button"
+        android:text="@string/launch_client_mode"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_label"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp">
+        <TextView
+            android:id="@+id/log_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+    -->
+<!--    android:lyaout_toRightOf="@+id/middle_point"
+        android:lyaout_toEndOf="@+id/middle_point"
+-->
+<!--
+    <TextView
+        android:id="@+id/middle_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/launch_device_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/middle_point"
+        android:layout_toStartOf="@+id/middle_point"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"/>
+-->
+</RelativeLayout>

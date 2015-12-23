@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/bluetooth_activity_menu.xml",
+        "source": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/src/main/res/menu/bluetooth_activity_menu.xml"
+    }
+]
