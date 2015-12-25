@@ -326,8 +326,10 @@
     <string name="accept">Accept</string>
     <string name="action_conectar">Conectar</string>
     <string name="action_console">Go console</string>
+    <string name="action_export">Exportar datos</string>
     <string name="action_limpiar">limpiar</string>
     <string name="action_settings">Settings</string>
+    <string name="action_sync_data">Sync Uncomm Data</string>
     <string name="app_name">EMAG</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
@@ -390,6 +392,7 @@
     <string name="mr_media_route_controller_stop">Stop casting</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="pda_label">PdA</string>
     <string name="rpm_label">RPM:</string>
     <string name="speed_label">Vel:</string>
     <string name="status_bar_notification_info_overflow">999+</string>

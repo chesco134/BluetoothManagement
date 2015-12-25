@@ -2,5 +2,9 @@
     {
         "merged": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jcapiz/git/BluetoothManagement/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/jcapiz/git/BluetoothManagement/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]

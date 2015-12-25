@@ -102,10 +102,18 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 	}
 
 	@Override
-	public void onLocationChanged(Location location) {
-		 	mCurrentLocation = location;
-	        mLastUpdateTime = DateFormat.getTimeInstance().format(new Date());
-	        updateUI();
+	public void onLocationChanged(final Location location) {
+        mCurrentLocation = location;
+        mLastUpdateTime = DateFormat.getTimeInstance().format(new Date());
+		mActivity.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				((CustomBluetoothActivity)mActivity).updateLocationData(
+						String.valueOf(location.getLatitude()),
+						String.valueOf(location.getLongitude()));
+			}
+		});
+	    updateUI();
 	}
 	
 	private void updateUI() {

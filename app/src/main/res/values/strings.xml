@@ -15,4 +15,7 @@
     <string name="action_conectar">Conectar</string>
     <string name="first_message">Aquí es posible enviar comandos directamente al lector obdii. \nPara reiniciar el lector obdii, envíe: atz</string>
     <string name="action_limpiar">limpiar</string>
+    <string name="action_export">Exportar datos</string>
+    <string name="action_sync_data">Sync Uncomm Data</string>
+    <string name="pda_label">PdA</string>
 </resources>

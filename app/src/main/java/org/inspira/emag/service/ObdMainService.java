@@ -9,11 +9,13 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.Binder;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
@@ -22,6 +24,7 @@ import android.widget.Toast;
 import com.github.pires.obd.commands.ObdCommand;
 import com.github.pires.obd.commands.SpeedCommand;
 import com.github.pires.obd.commands.engine.RPMCommand;
+import com.github.pires.obd.commands.engine.ThrottlePositionCommand;
 import com.github.pires.obd.commands.protocol.EchoOffCommand;
 import com.github.pires.obd.commands.protocol.LineFeedOffCommand;
 import com.github.pires.obd.commands.protocol.TimeoutCommand;
@@ -33,9 +36,15 @@ import org.capiz.bluetooth.R;
 import org.inspira.emag.bluetooth.BluetoothManager;
 import org.inspira.emag.bluetooth.CustomBluetoothActivity;
 import org.inspira.emag.gps.MyLocationProvider;
+import org.inspira.emag.networking.CommitTrip;
 import org.inspira.emag.networking.Uploader;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -43,9 +52,11 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 import org.inspira.emag.database.TripsData;
+import org.inspira.emag.shared.Location;
 import org.inspira.emag.shared.RPM;
 import org.inspira.emag.shared.Shareable;
 import org.inspira.emag.shared.Speed;
+import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
 
 public class ObdMainService extends Service {
@@ -55,6 +66,7 @@ public class ObdMainService extends Service {
     private Looper mServiceLooper;
     private ServiceHandler mServiceHandler;
     private static final int SERVICIO_EMAG = 1234;
+    private static final int UPDATING_ID = 21;
     private boolean finishedConnection = false;
     private final IBinder mBinder = new LocalBinder();
     private Activity mActivity;
@@ -118,10 +130,10 @@ public class ObdMainService extends Service {
                 runCommand(new EchoOffCommand());
                 runCommand(new LineFeedOffCommand());
                 runCommand(new TimeoutCommand(1000));
-                runCommand(new AmbientAirTemperatureCommand());
                 while (TRUE) {
                     runCommand(new RPMCommand());
                     runCommand(new SpeedCommand());
+                    runCommand(new ThrottlePositionCommand());
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -160,6 +172,17 @@ public class ObdMainService extends Service {
                     );
                     int lrid = td.insertaRPM(cmd.getFormattedResult(), trip.getIdTrip());
                     value = new RPM(lrid, cmd.getFormattedResult(), new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+                } else if (cmd.getName().equals(AvailableCommandNames.THROTTLE_POS.getValue())) {
+                    mActivity.runOnUiThread(
+                            new Runnable() {
+                                @Override
+                                public void run() {
+                                    ((CustomBluetoothActivity)mActivity).setPdaText(cmd.getFormattedResult());
+                                }
+                            }
+                    );
+                    int lrid = td.insertaThrottlePos(cmd.getFormattedResult(), trip.getIdTrip());
+                    value = new ThrottlePos(lrid, cmd.getFormattedResult(), new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
                 }
                 if (value != null)
                     new Uploader(value).start();
@@ -183,7 +206,7 @@ public class ObdMainService extends Service {
                         @Override
                         public void run() {
                             ((CustomBluetoothActivity) mActivity).turnThingsOff();
-                            Toast.makeText(mActivity,"Servicio detenido",Toast.LENGTH_SHORT).show();
+                            ((CustomBluetoothActivity) mActivity).makeSnackbar("Servicio detenido");
                         }
                     }
             );
@@ -192,17 +215,31 @@ public class ObdMainService extends Service {
     }
 
     public void stopOperations() {
-        mServiceHandler.stopLectures();
+        if(mServiceHandler != null)
+            mServiceHandler.stopLectures();
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        String devAddr;
+        if(intent == null || intent.getExtras() == null){
+            try {
+                BufferedReader bf = new BufferedReader(
+                        new FileReader(
+                                new File(Environment.getExternalStorageDirectory() + "/EMAG/obdii_addr.txt")));
+                devAddr = bf.readLine();
+                bf.close();
+            }catch(IOException e){
+                e.printStackTrace();
+            }
+        }
         // For each start request, send a message to start a job and deliver the
         // start ID so we know which request we're stopping when we finish the
         // job
+        devAddr = intent.getStringExtra("device_addr");
         Message msg = mServiceHandler.obtainMessage();
         msg.arg1 = startId;
-        msg.obj = intent.getStringExtra("device_addr");
+        msg.obj = devAddr;
         mServiceHandler.sendMessage(msg);
         makeNotification();
         // If we get killed, after returning from here, restart (START_STICKY)
@@ -225,14 +262,19 @@ public class ObdMainService extends Service {
 	public void onDestroy() {
 		super.onDestroy();
 		stopOperations();
-        mlp.stopLocationUpdates();
-        mNM.cancel(SERVICIO_EMAG);
+        if(mlp != null)
+            mlp.stopLocationUpdates();
+        if(mNM != null)
+            mNM.cancel(SERVICIO_EMAG);
 	}
 
 	@Override
 	public IBinder onBind(Intent intent) {
-		 return mBinder;
-		//return null;
+        if(mNM != null) {
+            return mBinder;
+        } else {
+            return null;
+        }
 	}
 
     public void makeNotification(){
@@ -259,7 +301,7 @@ public class ObdMainService extends Service {
                         0,
                         PendingIntent.FLAG_UPDATE_CURRENT
                 );
-        mBuilder.setContentIntent(resultPendingIntent);
+        //mBuilder.setContentIntent(resultPendingIntent);
         mBuilder.setVibrate(new long[]{100, 100, 100, 600});
         mNM.notify(SERVICIO_EMAG, mBuilder.build());
     }
@@ -270,7 +312,39 @@ public class ObdMainService extends Service {
         mlp.createService();
     }
 
-	public void hasFinished() {
-		while (!finishedConnection);
-	}
+    public void sendUncommitedData(){
+        updatingNotification();
+    }
+
+    private void updatingNotification(){
+        mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.logo)
+                        .setOngoing(true)
+                        .setContentTitle("Sincronización")
+                        .setContentText("Actualizando datos");
+        new Thread(
+            new Runnable() {
+                @Override
+                public void run() {
+                    int incr=0;
+                        // Sets the progress indicator to a max value, the
+                        // current completion percentage, and "determinate"
+                        // state
+                    //mBuilder.setProgress(uncommitedTrips.length, incr++, false);
+                        // Displays the progress bar for the first time.
+                        mNM.notify(0, mBuilder.build());
+                    // When the loop is finished, updates the notification
+                    mBuilder.setContentText("¡Listo!")
+                            // Removes the progress bar
+                            .setProgress(0,0,false);
+                    mNM.notify(UPDATING_ID, mBuilder.build());
+                }
+            }
+        ).start();
+        //mBuilder.setContentIntent(resultPendingIntent);
+        mBuilder.setVibrate(new long[]{100, 100, 100, 600});
+        mNM.notify(UPDATING_ID, mBuilder.build());
+    }
 }

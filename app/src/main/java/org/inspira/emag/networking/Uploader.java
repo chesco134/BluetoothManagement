@@ -1,7 +1,9 @@
 package org.inspira.emag.networking;
 
+import android.content.Context;
 import android.util.Log;
 
+import org.inspira.emag.gps.MyLocationProvider;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -25,11 +27,15 @@ import org.inspira.emag.shared.Trip;
 public class Uploader extends Thread {
 
     private static final String TAG = "Uploader";
-
     private Shareable[] readings;
+    private Context ctx;
 
     public Uploader(Shareable... params){
         readings = params;
+    }
+
+    public void setContext(Context ctx){
+        this.ctx = ctx;
     }
 
     @Override
@@ -37,7 +43,7 @@ public class Uploader extends Thread {
         Log.d(TAG, "Uploading " + readings.length + " readings..");
         try {
             for (Shareable reading : readings) {
-                HttpURLConnection con = (HttpURLConnection) new URL("http://192.168.1.72:8080/HelloWorldWeb/VehicleDataReceiver").openConnection();
+                HttpURLConnection con = (HttpURLConnection) new URL("http://"+grabServerURL()+":5001/HelloWorldWeb/VehicleDataReceiver").openConnection();
                 con.setDoOutput(true);
                 JSONObject json = new JSONObject();
                 DataOutputStream salida = new DataOutputStream(con.getOutputStream());
@@ -91,7 +97,7 @@ public class Uploader extends Thread {
                 while((length = entrada.read(chunk))!=-1)
                     baos.write(chunk,0,length);
                 if(baos.toString().equals("OK") && ! (reading instanceof Trip) ) {
-//                    readings[0].commitEntry(MyLocationProvider.this);
+                    readings[0].commitEntry(ctx);
                     Log.d("Kivine Maa", "Commiting something // " + baos.toString());
                 }
                 salida.close();
@@ -103,7 +109,7 @@ public class Uploader extends Thread {
         Log.d(TAG, "Done");
     }
 
-    private String grabServerURL(){
+    public static String grabServerURL(){
         String url = "189.232.93.67";
         try{
             URL serverURL = new URL("http://votacionesipn.com/services/?tag=gimmeAddr");

@@ -1,6 +1,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".LaPollaTentra">
+    <item android:id="@+id/action_sync_data"
+        android:title="@string/action_sync_data" android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="100" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@+id/action_export_data"
+        android:title="@string/action_export" android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100" app:showAsAction="ifRoom|collapseActionView" />
     <item android:id="@+id/action_go_console"
         android:title="@string/action_console" android:icon="@drawable/console_logo"
         android:orderInCategory="100" app:showAsAction="ifRoom|collapseActionView" />

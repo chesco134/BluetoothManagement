@@ -54,6 +54,31 @@
         android:text="@string/default_value"/>
 
     <TextView
+        android:id="@+id/pda_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rpm_label"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/pda_label"/>
+
+    <TextView
+        android:id="@+id/pda_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rpm_value"
+        android:layout_toEndOf="@+id/pda_label"
+        android:layout_toRightOf="@+id/pda_label"
+        android:layout_marginStart="12sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:text="@string/default_value"/>
+
+    <TextView
         android:id="@+id/mLatitudeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

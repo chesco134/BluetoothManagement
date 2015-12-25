@@ -8,6 +8,7 @@ import com.github.pires.obd.enums.AvailableCommandNames;
  */
 public class ThrottlePositionCommand extends PercentageObdCommand {
 
+    private float throttle;
     /**
      * Default ctor.
      */
@@ -22,6 +23,22 @@ public class ThrottlePositionCommand extends PercentageObdCommand {
      */
     public ThrottlePositionCommand(ThrottlePositionCommand other) {
         super(other);
+    }
+
+    @Override
+    protected void performCalculations() {
+        // Ignore first two bytes [hh hh] of the response.
+        throttle = (buffer.get(2))*100/255;
+    }
+
+    @Override
+    public String getFormattedResult() {
+        return String.format("%.2f%s", throttle, getResultUnit());
+    }
+
+    @Override
+    public String getResultUnit() {
+        return "%";
     }
 
     /**

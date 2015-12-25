@@ -16,7 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.capiz.bluetooth.R;
 import org.inspira.emag.bluetooth.BluetoothManager;
@@ -31,7 +30,7 @@ import java.util.UUID;
 public class ConsoleActivity extends AppCompatActivity {
 
     private static final int START_CLIENT_ACTION = 45;
-    private boolean isRunning = false;
+    private boolean isRunning;
     private BluetoothSocket btSocket;
     private DataOutputStream salida;
     private DataInputStream entrada;
@@ -66,14 +65,15 @@ public class ConsoleActivity extends AppCompatActivity {
                         e.printStackTrace();
                         isRunning = false;
                         inputCommand.setEnabled(false);
-                        Snackbar.make(view, "Problemas con la conexión, vuelva a conectar",
-                                Snackbar.LENGTH_SHORT).setAction("Null", null).show();
+                        makeSnackbar("Problemas con la conexión, vuelva a conectar");
                     }
                 else
-                    Snackbar.make(view, "Debemos conectarnos primero", Snackbar.LENGTH_SHORT)
-                            .setAction("Aviso", null).show();
+                    makeSnackbar("Debemos conectarnos primero");
             }
         });
+        if(savedInstanceState == null){
+            isRunning = false;
+        }
     }
 
     @Override
@@ -89,7 +89,6 @@ public class ConsoleActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Intent i = new Intent(this, DevicePickerActivity.class);
@@ -98,27 +97,27 @@ public class ConsoleActivity extends AppCompatActivity {
         }else if(id == R.id.action_clear){
             logZone.setText("");
         }
-
         return super.onOptionsItemSelected(item);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
-        outState.putBoolean("iputCommandEnabled", inputCommand.isEnabled());
         outState.putString("logZone", logZone.getText().toString());
         outState.putBoolean("isRunning",isRunning);
+        if(rmDev != null)
+            outState.putString("remote_device",rmDev.getAddress());
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
-        inputCommand.setEnabled(savedInstanceState.getBoolean("inputCommandEnabled"));
         logZone.setText(savedInstanceState.getString("logZone"));
         isRunning = savedInstanceState.getBoolean("isRunning");
+        inputCommand.setEnabled(isRunning);
         if(isRunning) {
+            rmDev = BluetoothAdapter.getDefaultAdapter().getRemoteDevice(savedInstanceState.getString("remote_device"));
             new PerformConnection().execute();
-            Toast.makeText(this,"Reconnecting",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -128,7 +127,6 @@ public class ConsoleActivity extends AppCompatActivity {
         if( isRunning )
         try{
             btSocket.close();
-            Toast.makeText(this,"Disconnected",Toast.LENGTH_SHORT).show();
         }catch(IOException e){
             e.printStackTrace();
         }
@@ -148,6 +146,11 @@ public class ConsoleActivity extends AppCompatActivity {
         }
     }
 
+    private void makeSnackbar(String message){
+        Snackbar.make(inputCommand,message, Snackbar.LENGTH_SHORT)
+                .setAction("Aviso",null).show();
+    }
+
     private class PerformConnection extends AsyncTask<String,String,String> {
 
         @Override
@@ -156,9 +159,7 @@ public class ConsoleActivity extends AppCompatActivity {
             BluetoothSocket temp;
             try{
                 btSocket = rmDev.createRfcommSocketToServiceRecord(UUID.fromString(BluetoothManager.MY_UUID));
-                publishProgress("Connecting...");
                 btSocket.connect();
-                publishProgress("Connected, preparing streams...");
                 tl = "Success";
             }catch(IOException e){
                 Log.e("Tulman", "There was an error while establishing Bluetooth connection. Falling back..", e);
@@ -179,7 +180,7 @@ public class ConsoleActivity extends AppCompatActivity {
                 try{
                     salida = new DataOutputStream(btSocket.getOutputStream());
                     entrada = new DataInputStream(btSocket.getInputStream());
-                }catch(IOException e){
+                }catch(NullPointerException | IOException e){
                     Log.d("Trankos","Pos no pudimos crear los canales tú u.u");
                     tl = null;
                 }
@@ -190,13 +191,14 @@ public class ConsoleActivity extends AppCompatActivity {
         @Override
         public void onPostExecute(String result){
             if(result != null){
+                isRunning = true;
                 inputCommand.setEnabled(true);
                 new InputListener().execute();
+                makeSnackbar("Conectados");
             }else{
                 isRunning = false;
                 inputCommand.setEnabled(false);
-                Snackbar.make(logZone, "Error al conectar", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
+                makeSnackbar("Error al conectar");
             }
         }
     }
@@ -227,7 +229,7 @@ public class ConsoleActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String result){
-            Toast.makeText(ConsoleActivity.this,"Perdimos la conexión",Toast.LENGTH_SHORT).show();
+            makeSnackbar("Perdimos la conexión");
             isRunning = false;
             inputCommand.setEnabled(false);
         }
