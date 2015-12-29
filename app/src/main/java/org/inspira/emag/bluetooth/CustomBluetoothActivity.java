@@ -275,6 +275,7 @@ public class CustomBluetoothActivity extends AppCompatActivity {
 		outState.putInt("backButtonCount", backButtonCount);
 		outState.putBoolean("serverActionInProgress", serverActionInProgress);
         outState.putBoolean("serviceOn", serviceOn);
+        outState.putBoolean("mIsBound",mIsBound);
         outState.putString("button_label", buttonLabel.getText().toString());
         outState.putString("latitud", mLatitudeText.getText().toString());
         outState.putString("longitud", mLongitudeText.getText().toString());
@@ -295,8 +296,9 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         pdaText.setText(savedInstanceState.getString("pda"));
 		serverActionInProgress = savedInstanceState
 				.getBoolean("serverActionInProgress");
+        mIsBound = savedInstanceState.getBoolean("mIsBound",mIsBound);
         serviceOn = savedInstanceState.getBoolean("serviceOn");
-        if(serviceOn){
+        if(mIsBound){
             doBindService();
             clientMode.setBackgroundResource(R.drawable.on_button);
         }else {
@@ -394,6 +396,8 @@ public class CustomBluetoothActivity extends AppCompatActivity {
     private ObdMainService mBoundService;
 
     private ServiceConnection mConnection = new ServiceConnection() {
+
+        @Override
         public void onServiceConnected(ComponentName className, IBinder service) {
             // This is called when the connection with the service has been
             // established, giving us the service object we can use to
@@ -402,14 +406,17 @@ public class CustomBluetoothActivity extends AppCompatActivity {
             // cast its IBinder to a concrete class and directly access it.
             mBoundService = ((ObdMainService.LocalBinder) service).getService();
             mBoundService.setActivity(CustomBluetoothActivity.this);
+            mIsBound = true;
         }
 
+        @Override
         public void onServiceDisconnected(ComponentName className) {
             // This is called when the connection with the service has been
             // unexpectedly disconnected -- that is, its process crashed.
             // Because it is running in our same process, we should never
             // see this happen.
             mBoundService = null;
+            mIsBound = false;
         }
     };
     private boolean mIsBound;
@@ -422,7 +429,6 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         if(!mIsBound) {
             bindService(new Intent(this, ObdMainService.class), mConnection,
                     Context.BIND_AUTO_CREATE);
-            mIsBound = true;
         }
     }
 
@@ -430,7 +436,6 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         if (mIsBound) {
             // Detach our existing connection.
             unbindService(mConnection);
-            mIsBound = false;
         }
     }
 }

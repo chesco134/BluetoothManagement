@@ -186,7 +186,7 @@ public class ObdMainService extends Service {
                 }
                 if (value != null)
                     new Uploader(value).start();
-            } catch (IOException | InterruptedException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
                 stopActions();
             } catch(ResponseException e){
@@ -221,7 +221,7 @@ public class ObdMainService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        String devAddr;
+        String devAddr = null;
         if(intent == null || intent.getExtras() == null){
             try {
                 BufferedReader bf = new BufferedReader(
@@ -232,11 +232,9 @@ public class ObdMainService extends Service {
             }catch(IOException e){
                 e.printStackTrace();
             }
+        }else{
+            devAddr = intent.getStringExtra("device_addr");
         }
-        // For each start request, send a message to start a job and deliver the
-        // start ID so we know which request we're stopping when we finish the
-        // job
-        devAddr = intent.getStringExtra("device_addr");
         Message msg = mServiceHandler.obtainMessage();
         msg.arg1 = startId;
         msg.obj = devAddr;

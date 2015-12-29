@@ -78,8 +78,7 @@ public abstract class ObdCommand {
      * @throws java.io.IOException            if any.
      * @throws java.lang.InterruptedException if any.
      */
-    public void run(InputStream in, OutputStream out) throws IOException,
-            InterruptedException {
+    public void run(InputStream in, OutputStream out) throws IOException {
         start = System.currentTimeMillis();
         sendCommand(out);
         readResult(in);
@@ -96,22 +95,11 @@ public abstract class ObdCommand {
      * @throws java.io.IOException            if any.
      * @throws java.lang.InterruptedException if any.
      */
-    protected void sendCommand(OutputStream out) throws IOException,
-            InterruptedException {
+    protected void sendCommand(OutputStream out) throws IOException {
         // write to OutputStream (i.e.: a BluetoothSocket) with an added
         // Carriage return
         out.write((cmd + "\r").getBytes());
         out.flush();
-
-    /*
-     * HACK GOLDEN HAMMER ahead!!
-     *
-     * Due to the time that some systems may take to respond, let's give it
-     * 200ms.
-     */
-        Date d0 = new Date();
-        /** Isn't it that the {@read} is blocking until we have response? **/
-        Thread.sleep(250);
     }
 
     /**
