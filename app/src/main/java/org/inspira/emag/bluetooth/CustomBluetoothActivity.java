@@ -275,13 +275,16 @@ public class CustomBluetoothActivity extends AppCompatActivity {
 		outState.putInt("backButtonCount", backButtonCount);
 		outState.putBoolean("serverActionInProgress", serverActionInProgress);
         outState.putBoolean("serviceOn", serviceOn);
-        outState.putBoolean("mIsBound",mIsBound);
         outState.putString("button_label", buttonLabel.getText().toString());
         outState.putString("latitud", mLatitudeText.getText().toString());
         outState.putString("longitud", mLongitudeText.getText().toString());
         outState.putString("speed",speedText.getText().toString());
         outState.putString("rpm", rpmText.getText().toString());
         outState.putString("pda",pdaText.getText().toString());
+        if(serviceOn){
+            doUnbindService();
+            clientMode.setBackgroundResource(R.drawable.off);
+        }
 	}
 
 	@Override
@@ -296,9 +299,8 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         pdaText.setText(savedInstanceState.getString("pda"));
 		serverActionInProgress = savedInstanceState
 				.getBoolean("serverActionInProgress");
-        mIsBound = savedInstanceState.getBoolean("mIsBound",mIsBound);
         serviceOn = savedInstanceState.getBoolean("serviceOn");
-        if(mIsBound){
+        if(serviceOn){
             doBindService();
             clientMode.setBackgroundResource(R.drawable.on_button);
         }else {

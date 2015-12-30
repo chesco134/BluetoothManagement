@@ -191,6 +191,8 @@ public class ObdMainService extends Service {
                 stopActions();
             } catch(ResponseException e){
                 e.printStackTrace();
+            } catch (InterruptedException e){
+                e.printStackTrace();
             }
         }
 
@@ -201,6 +203,7 @@ public class ObdMainService extends Service {
                 socket.close();
             } catch (IOException e) {
             }
+            if(mActivity != null)
             mActivity.runOnUiThread(
                     new Runnable() {
                         @Override

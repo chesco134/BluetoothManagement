@@ -42,7 +42,7 @@ public abstract class PersistentCommand extends ObdCommand {
     }
 
     @Override
-    public void run(InputStream in, OutputStream out) throws IOException {
+    public void run(InputStream in, OutputStream out) throws IOException, InterruptedException {
         String key = getClass().getSimpleName();
         if (knownValues.containsKey(key)) {
             rawData = knownValues.get(key);
