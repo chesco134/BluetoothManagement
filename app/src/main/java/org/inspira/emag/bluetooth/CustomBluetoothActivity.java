@@ -280,11 +280,7 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         outState.putString("longitud", mLongitudeText.getText().toString());
         outState.putString("speed",speedText.getText().toString());
         outState.putString("rpm", rpmText.getText().toString());
-        outState.putString("pda",pdaText.getText().toString());
-        if(serviceOn){
-            doUnbindService();
-            clientMode.setBackgroundResource(R.drawable.off);
-        }
+        outState.putString("pda", pdaText.getText().toString());
 	}
 
 	@Override
@@ -307,6 +303,15 @@ public class CustomBluetoothActivity extends AppCompatActivity {
             clientMode.setBackgroundResource(R.drawable.off);
         }
 	}
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+        if(serviceOn){
+            doUnbindService();
+            clientMode.setBackgroundResource(R.drawable.off);
+        }
+    }
 
 	@Override
 	public void onBackPressed() {
@@ -408,7 +413,6 @@ public class CustomBluetoothActivity extends AppCompatActivity {
             // cast its IBinder to a concrete class and directly access it.
             mBoundService = ((ObdMainService.LocalBinder) service).getService();
             mBoundService.setActivity(CustomBluetoothActivity.this);
-            mIsBound = true;
         }
 
         @Override
@@ -418,7 +422,6 @@ public class CustomBluetoothActivity extends AppCompatActivity {
             // Because it is running in our same process, we should never
             // see this happen.
             mBoundService = null;
-            mIsBound = false;
         }
     };
     private boolean mIsBound;
@@ -431,6 +434,8 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         if(!mIsBound) {
             bindService(new Intent(this, ObdMainService.class), mConnection,
                     Context.BIND_AUTO_CREATE);
+            mIsBound = true;
+            Log.d("DBZ","Bounded");
         }
     }
 
@@ -438,6 +443,8 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         if (mIsBound) {
             // Detach our existing connection.
             unbindService(mConnection);
+            mIsBound = false;
+            Log.d("DBZ","unBounded");
         }
     }
 }

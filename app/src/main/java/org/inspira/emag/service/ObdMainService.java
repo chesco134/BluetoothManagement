@@ -198,7 +198,10 @@ public class ObdMainService extends Service {
 
         private void stopActions() {
             mNM.cancel(SERVICIO_EMAG);
+            if(mlp != null && mlp.isConnected())
+                mlp.stopLocationUpdates();
             stopLectures();
+            if(socket != null)
             try {
                 socket.close();
             } catch (IOException e) {

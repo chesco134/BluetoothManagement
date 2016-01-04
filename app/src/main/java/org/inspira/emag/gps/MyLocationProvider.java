@@ -43,6 +43,10 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 		connect();
 		//updateValuesFromBundle(savedInstanceState);
 	}
+
+	public boolean isConnected(){
+		return mGoogleApiClient.isConnected();
+	}
 	
 	private void connect() {
 		mGoogleApiClient.connect();
@@ -91,8 +95,8 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 	
 	protected void createLocationRequest() {
 	    mLocationRequest = new LocationRequest();
-	    mLocationRequest.setInterval(10000);
-	    mLocationRequest.setFastestInterval(5000);
+	    mLocationRequest.setInterval(1000);
+	    mLocationRequest.setFastestInterval(1000);
 	    mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
 	}
 	
