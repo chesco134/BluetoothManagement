@@ -52,7 +52,7 @@ public class CommitTrip extends Thread {
             if(baos.toString().equals("OK")){
                 TripsData tripDB = new TripsData(ctx);
                 tripDB.terminaFechaTrip(idViaje, new Date());
-            }
+                }
             baos.close();
         }catch(IOException e){
             Log.d("Error from Commiter", e.getMessage());

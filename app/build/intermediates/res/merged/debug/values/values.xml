@@ -93,6 +93,7 @@
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
     <color name="my_actionbar_color">#ff008b28</color>
+    <color name="my_actionbar_color_dark">#ff006428</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -407,7 +408,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/my_actionbar_color</item>
-        <item name="colorPrimaryDark">@color/my_actionbar_color</item>
+        <item name="colorPrimaryDark">@color/my_actionbar_color_dark</item>
         <item name="colorAccent">@color/my_actionbar_color</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
