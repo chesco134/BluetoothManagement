@@ -15,11 +15,9 @@ import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.github.pires.obd.commands.ObdCommand;
 import com.github.pires.obd.commands.SpeedCommand;
@@ -28,36 +26,30 @@ import com.github.pires.obd.commands.engine.ThrottlePositionCommand;
 import com.github.pires.obd.commands.protocol.EchoOffCommand;
 import com.github.pires.obd.commands.protocol.LineFeedOffCommand;
 import com.github.pires.obd.commands.protocol.TimeoutCommand;
-import com.github.pires.obd.commands.temperature.AmbientAirTemperatureCommand;
 import com.github.pires.obd.enums.AvailableCommandNames;
 import com.github.pires.obd.exceptions.ResponseException;
 
 import org.capiz.bluetooth.R;
 import org.inspira.emag.bluetooth.BluetoothManager;
 import org.inspira.emag.bluetooth.CustomBluetoothActivity;
-import org.inspira.emag.gps.MyLocationProvider;
-import org.inspira.emag.networking.CommitTrip;
-import org.inspira.emag.networking.Uploader;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.UUID;
-import java.util.concurrent.ConcurrentLinkedQueue;
-
 import org.inspira.emag.database.TripsData;
-import org.inspira.emag.shared.Location;
+import org.inspira.emag.gps.MyLocationProvider;
+import org.inspira.emag.networking.Uploader;
 import org.inspira.emag.shared.RPM;
 import org.inspira.emag.shared.Shareable;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class ObdMainService extends Service {
 

@@ -278,7 +278,7 @@ public class CustomBluetoothActivity extends AppCompatActivity {
         outState.putString("button_label", buttonLabel.getText().toString());
         outState.putString("latitud", mLatitudeText.getText().toString());
         outState.putString("longitud", mLongitudeText.getText().toString());
-        outState.putString("speed",speedText.getText().toString());
+        outState.putString("speed", speedText.getText().toString());
         outState.putString("rpm", rpmText.getText().toString());
         outState.putString("pda", pdaText.getText().toString());
 	}
@@ -368,10 +368,12 @@ public class CustomBluetoothActivity extends AppCompatActivity {
     public void updateLocationData(String latitud, String longitud){
         TripsData db = new TripsData(this);
         Trip trip = db.getUnconcludedTrip();
-        int locId = db.insertaUbicacion(latitud, longitud, trip.getIdTrip());
-        Location cLoc = new Location(locId,latitud,longitud,
-                new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()),trip.getIdTrip());
-        new Uploader(cLoc).start();
+        if( trip != null ) {
+            int locId = db.insertaUbicacion(latitud, longitud, trip.getIdTrip());
+            Location cLoc = new Location(locId, latitud, longitud,
+                    new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+            new Uploader(cLoc).start();
+        }
     }
 
     public void turnThingsOff(){
