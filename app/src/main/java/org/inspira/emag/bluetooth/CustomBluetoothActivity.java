@@ -359,6 +359,7 @@ public class CustomBluetoothActivity extends AppCompatActivity {
                 case START_CLIENT_ACTION:
                     SharedPreferences.Editor editor = getPreferences(Context.MODE_PRIVATE).edit();
                     editor.putString("device_addr", data.getStringExtra("device_addr"));
+                    editor.commit();
                     clientMode.setBackgroundResource(R.drawable.on_button);
                     buttonLabel.setText(getResources().getString(R.string.detener_lectura_datos));
                     makeSnackbar("Lectura de datos iniciada");

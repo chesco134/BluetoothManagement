@@ -66,13 +66,12 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 	@Override
 	public void onConnectionFailed(ConnectionResult arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onConnected(Bundle connectionHint) {
-		mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
-	                mGoogleApiClient);
+		mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
 	        if (mLastLocation != null) {
 				mActivity.runOnUiThread(
 						new Runnable() {
