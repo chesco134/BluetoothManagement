@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
@@ -195,7 +196,7 @@ public class CustomBluetoothActivity extends AppCompatActivity {
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            makeSnackbar("Estamos subiendo los datos...");
+                            makeSnackbar("Estamos exportando los datos...");
                         }
                     });
                     Date cDate = new Date();
@@ -338,16 +339,8 @@ public class CustomBluetoothActivity extends AppCompatActivity {
 		if (resultCode == RESULT_OK) {
 			switch (requestCode) {
                 case START_CLIENT_ACTION:
-                    mService.putExtra("device_addr", data.getStringExtra("device_addr"));
-                    try {
-                        PrintWriter printer = new PrintWriter(
-                                new FileWriter(
-                                        new File(Environment.getExternalStorageDirectory() + "/EMAG/obdii_addr.txt")));
-                        printer.println(data.getStringExtra("device_addr"));
-                        printer.close();
-                    } catch (IOException e){
-                        e.printStackTrace();
-                    }
+                    SharedPreferences.Editor editor = getPreferences(Context.MODE_PRIVATE).edit();
+                    editor.putString("device_addr", data.getStringExtra("device_addr"));
                     clientMode.setBackgroundResource(R.drawable.on_button);
                     buttonLabel.setText(getResources().getString(R.string.detener_lectura_datos));
                     makeSnackbar("Lectura de datos iniciada");

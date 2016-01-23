@@ -7,7 +7,9 @@ import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Binder;
 import android.os.Environment;
 import android.os.Handler;
@@ -219,23 +221,11 @@ public class ObdMainService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        String devAddr = null;
-        if(intent == null || intent.getExtras() == null){
-            try {
-                BufferedReader bf = new BufferedReader(
-                        new FileReader(
-                                new File(Environment.getExternalStorageDirectory() + "/EMAG/obdii_addr.txt")));
-                devAddr = bf.readLine();
-                bf.close();
-            }catch(IOException e){
-                e.printStackTrace();
-            }
-        }else{
-            devAddr = intent.getStringExtra("device_addr");
-        }
+        SharedPreferences sp =
+                getSharedPreferences(CustomBluetoothActivity.class.getName(), Context.MODE_PRIVATE);
         Message msg = mServiceHandler.obtainMessage();
         msg.arg1 = startId;
-        msg.obj = devAddr;
+        msg.obj = sp.getString("device_addr", "NaN");
         mServiceHandler.sendMessage(msg);
         makeNotification();
         // If we get killed, after returning from here, restart (START_STICKY)
