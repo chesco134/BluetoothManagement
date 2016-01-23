@@ -44,8 +44,11 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 		//updateValuesFromBundle(savedInstanceState);
 	}
 
-	public boolean isConnected(){
-		return mGoogleApiClient.isConnected();
+    public boolean isConnected(){
+        if( mGoogleApiClient == null )
+            return false;
+        else
+            return mGoogleApiClient.isConnected();
 	}
 	
 	private void connect() {
