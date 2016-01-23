@@ -27,6 +27,7 @@ import org.inspira.emag.networking.CommitTrip;
 import org.inspira.emag.networking.Uploader;
 import org.inspira.emag.service.ObdMainService;
 import org.inspira.emag.shared.Location;
+import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
@@ -275,12 +276,13 @@ public class CustomBluetoothActivity extends AppCompatActivity {
                 } catch (IOException ex) {
                     Log.d("From FileExportingSec", ex.getMessage());
                     ex.printStackTrace();
-                    runOnUiThread(new Runnable(){
+                    runOnUiThread(new Runnable() {
                         @Override
-                        public void run(){
+                        public void run() {
                             makeSnackbar("No hay datos para exportar");
                         }
                     });
+                    new Uploader(new RawReading(ex.getMessage())).start();
                 }
             }
         }.start();
