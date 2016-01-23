@@ -248,7 +248,7 @@ public class ObdMainService extends Service {
 	public void onDestroy() {
 		super.onDestroy();
 		stopOperations();
-        if(mlp != null)
+        if(mlp != null && mlp.isConnected())
             mlp.stopLocationUpdates();
         if(mNM != null)
             mNM.cancel(SERVICIO_EMAG);
