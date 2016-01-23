@@ -172,20 +172,30 @@ public class CustomBluetoothActivity extends AppCompatActivity {
     }
 
     public void sendUncommitedData(){
-        TripsData db = new TripsData(this);
-        Trip[] uncommitedTrips = db.getUncommitedTrips();
-        new Uploader(uncommitedTrips).start();
-        for(Trip trip : uncommitedTrips) {
-            new Uploader(db.getLocationsByTrip(trip.getIdTrip())).start();
-            new Uploader(db.getRPMsByTrip(trip.getIdTrip())).start();
-            new Uploader(db.getSpeedsByTrip(trip.getIdTrip())).start();
-            if (db.getLocationsByTrip(trip.getIdTrip()).length == 0
-                    && db.getRPMsByTrip(trip.getIdTrip()).length == 0
-                    && db.getSpeedsByTrip(trip.getIdTrip()).length == 0) {
-                commitTrip(trip.getIdTrip());
-            } else
-                Log.d("EMAG sendData", "Tip " + trip.getIdTrip() + "unconcluded.");
-        }
+        new Thread() {
+
+            @Override public void run() {
+                runOnUiThread(new Runnable(){
+                    @Override public void run(){
+                        makeSnackbar("Sincronizando datos...");
+                    }
+                });
+                TripsData db = new TripsData(CustomBluetoothActivity.this);
+                Trip[] uncommitedTrips = db.getUncommitedTrips();
+                new Uploader(uncommitedTrips).start();
+                for (Trip trip : uncommitedTrips) {
+                    new Uploader(db.getLocationsByTrip(trip.getIdTrip())).start();
+                    new Uploader(db.getRPMsByTrip(trip.getIdTrip())).start();
+                    new Uploader(db.getSpeedsByTrip(trip.getIdTrip())).start();
+                    if (db.getLocationsByTrip(trip.getIdTrip()).length == 0
+                            && db.getRPMsByTrip(trip.getIdTrip()).length == 0
+                            && db.getSpeedsByTrip(trip.getIdTrip()).length == 0) {
+                        commitTrip(trip.getIdTrip());
+                    } else
+                        Log.d("EMAG sendData", "Tip " + trip.getIdTrip() + "unconcluded.");
+                }
+            }
+        }.start();
     }
 
     public void grabReport(){
