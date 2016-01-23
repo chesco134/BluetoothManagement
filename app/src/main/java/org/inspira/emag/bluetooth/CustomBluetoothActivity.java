@@ -265,6 +265,12 @@ public class CustomBluetoothActivity extends AppCompatActivity {
                 } catch (IOException ex) {
                     Log.d("From FileExportingSec", ex.getMessage());
                     ex.printStackTrace();
+                    runOnUiThread(new Runnable(){
+                        @Override
+                        public void run(){
+                            makeSnackbar("No hay datos para exportar");
+                        }
+                    });
                 }
             }
         }.start();
