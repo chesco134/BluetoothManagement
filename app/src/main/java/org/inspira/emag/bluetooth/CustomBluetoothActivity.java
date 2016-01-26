@@ -338,7 +338,6 @@ public class CustomBluetoothActivity extends AppCompatActivity {
 			serverActionInProgress = false;
 			backButtonCount++;
             if(serviceOn) {
-                doUnbindService();
                 stopService(mService);
                 clientMode.setBackgroundResource(R.drawable.off);
                 serviceOn = false;

@@ -1,5 +1,6 @@
 package org.inspira.emag.service;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,6 +11,7 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Binder;
 import android.os.Environment;
 import android.os.Handler;
@@ -19,6 +21,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import com.github.pires.obd.commands.ObdCommand;
@@ -183,9 +186,7 @@ public class ObdMainService extends Service {
             } catch (IOException e) {
                 e.printStackTrace();
                 stopActions();
-            } catch(ResponseException e){
-                e.printStackTrace();
-            } catch (InterruptedException e){
+            } catch(ResponseException | InterruptedException e){
                 e.printStackTrace();
             }
         }
@@ -294,8 +295,20 @@ public class ObdMainService extends Service {
 
     public void setActivity(final Activity mActivity){
         this.mActivity = mActivity;
-        mlp.setActivity(this.mActivity);
-        mlp.createService();
+        int permissionCheck = ContextCompat
+                .checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+        if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
+            mlp.setActivity(this.mActivity);
+            mlp.createService();
+        }else{
+            mActivity.runOnUiThread(new Runnable(){
+                @Override
+                public void run(){
+                    ((CustomBluetoothActivity)mActivity).makeSnackbar("Necesitamos permiso de " +
+                            "ubicación");
+                }
+            });
+        }
     }
 
     public void sendUncommitedData(){
