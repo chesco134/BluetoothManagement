@@ -10,4 +10,7 @@
     <item android:id="@+id/action_go_console"
         android:title="@string/action_console" android:icon="@drawable/console_logo"
         android:orderInCategory="100" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
 </menu>

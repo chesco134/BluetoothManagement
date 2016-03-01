@@ -3,7 +3,12 @@ package org.inspira.emag.networking;
 import android.content.Context;
 import android.util.Log;
 
+import org.inspira.emag.actividades.MainActivity;
+import org.inspira.emag.actividades.OrganizarVehiculos;
+import org.inspira.emag.database.TripsData;
 import org.inspira.emag.gps.MyLocationProvider;
+import org.inspira.emag.shared.User;
+import org.inspira.emag.shared.Vehiculo;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -43,13 +48,13 @@ public class Uploader extends Thread {
         Log.d(TAG, "Uploading " + readings.length + " readings..");
         try {
             for (Shareable reading : readings) {
-                HttpURLConnection con = (HttpURLConnection) new URL("http://"+grabServerURL()+":5001/HelloWorldWeb/VehicleDataReceiver").openConnection();
+                HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
                 con.setDoOutput(true);
                 JSONObject json = new JSONObject();
                 DataOutputStream salida = new DataOutputStream(con.getOutputStream());
                 if( reading instanceof Location)
                     try {
-                        json.put("action","4");
+                        json.put("action",4);
                         json.put("Latitud", ((Location) reading).getLatitud());
                         json.put("Longitud", ((Location) reading).getLongitud());
                         json.put("idViaje", String.valueOf(((Location) reading).getIdTrip()));
@@ -58,7 +63,7 @@ public class Uploader extends Thread {
                     }
                 else if(reading instanceof RPM)
                     try {
-                        json.put("action","2");
+                        json.put("action",2);
                         json.put("RPM", ((RPM) reading).getRpmValue());
                         json.put("idViaje", String.valueOf(((RPM) reading).getIdTrip()));
                     } catch (JSONException re) {
@@ -66,7 +71,7 @@ public class Uploader extends Thread {
                     }
                 else if( reading instanceof Speed )
                     try {
-                        json.put("action","3");
+                        json.put("action",3);
                         json.put("SPEED", ((Speed) reading).getSpeed());
                         json.put("idViaje", String.valueOf(((Speed) reading).getIdTrip()));
                     } catch (JSONException re) {
@@ -74,7 +79,7 @@ public class Uploader extends Thread {
                     }
                 else if(reading instanceof Trip )
                     try {
-                        json.put("action","1");
+                        json.put("action",1);
                         json.put("idViaje", String.valueOf(((Trip) reading).getIdTrip()));
                         json.put("fechaInicio", (((Trip) reading).getFechaInicio()));
                         try {
@@ -87,6 +92,10 @@ public class Uploader extends Thread {
                     }
                 else if(reading instanceof RawReading)
                     json = ((RawReading)reading).getJson();
+                try {
+                    json.put("email", new TripsData(ctx).getUserData().getEmail());
+                    json.put("vehiculo", ctx.getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", null));
+                }catch(JSONException ignore){}
                 Log.d("EMAG","Sending something:\n" + json.toString());
                 salida.write(json.toString().getBytes());
                 salida.flush();
@@ -96,8 +105,9 @@ public class Uploader extends Thread {
                 byte[] chunk = new byte[512];
                 while((length = entrada.read(chunk))!=-1)
                     baos.write(chunk,0,length);
-                if(baos.toString().equals("OK") && ! (reading instanceof Trip) ) {
-                    readings[0].commitEntry(ctx);
+                Log.d("Mommonga", baos.toString());
+                if(baos.toString().equals("OK") && ! (reading instanceof Trip || reading instanceof User || reading instanceof Vehiculo) ) {
+                    reading.commitEntry(ctx);
                     Log.d("Kivine Maa", "Commiting something // " + baos.toString());
                 }
                 salida.close();
@@ -107,30 +117,5 @@ public class Uploader extends Thread {
             e.printStackTrace();
         }
         Log.d(TAG, "Done");
-    }
-
-    public static String grabServerURL(){
-        String url = "189.232.93.67";
-        try{
-            URL serverURL = new URL("http://votacionesipn.com/services/?tag=gimmeAddr");
-            HttpURLConnection con = (HttpURLConnection)serverURL.openConnection();
-            DataInputStream entrada = new DataInputStream(con.getInputStream());
-            byte[] bytesChunk = new byte[512];
-            int bytesLeidos;
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            while((bytesLeidos = entrada.read(bytesChunk))!=-1)
-                baos.write(bytesChunk, 0, bytesLeidos);
-            JSONObject json = new JSONObject(baos.toString());
-            con.disconnect();
-            url = json.getString("content");
-        }catch(IOException e){
-            e.printStackTrace();
-            Log.e("GrabServerURL", e.getMessage());
-        } catch (JSONException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            Log.e("GSURL JSON", e.getMessage());
-        }
-        return url;
     }
 }

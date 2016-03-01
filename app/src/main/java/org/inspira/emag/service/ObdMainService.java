@@ -13,7 +13,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Binder;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -35,8 +34,9 @@ import com.github.pires.obd.enums.AvailableCommandNames;
 import com.github.pires.obd.exceptions.ResponseException;
 
 import org.capiz.bluetooth.R;
+import org.inspira.emag.actividades.OrganizarVehiculos;
 import org.inspira.emag.bluetooth.BluetoothManager;
-import org.inspira.emag.bluetooth.CustomBluetoothActivity;
+import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.database.TripsData;
 import org.inspira.emag.gps.MyLocationProvider;
 import org.inspira.emag.networking.Uploader;
@@ -46,9 +46,6 @@ import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
@@ -123,7 +120,12 @@ public class ObdMainService extends Service {
                                 .getRemoteDevice((String) msg.obj)
                 );
                 TripsData db = new TripsData(ObdMainService.this);
-                Log.d("Falchor", "A new trip begins (TRIP_ID: " + db.insertTrip(new Date()) + ")");
+                int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN")), new Date());
+                Trip t = new Trip(rid, new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), null);
+                Uploader u = new Uploader(t);
+                u.setContext(ObdMainService.this);
+                u.start();
+                Log.d("Falchor", "A new trip begins (TRIP_ID: " + rid + ")");
                 runCommand(new EchoOffCommand());
                 runCommand(new LineFeedOffCommand());
                 runCommand(new TimeoutCommand(1000));
@@ -152,7 +154,7 @@ public class ObdMainService extends Service {
                             new Runnable() {
                                 @Override
                                 public void run() {
-                                    ((CustomBluetoothActivity)mActivity).setSpeedText(cmd.getFormattedResult());
+                                    ((MainActivity)mActivity).setSpeedText(cmd.getFormattedResult());
                                 }
                             }
                     );
@@ -163,7 +165,7 @@ public class ObdMainService extends Service {
                             new Runnable() {
                                 @Override
                                 public void run() {
-                                    ((CustomBluetoothActivity)mActivity).setRpmText(cmd.getFormattedResult());
+                                    ((MainActivity)mActivity).setRpmText(cmd.getFormattedResult());
                                 }
                             }
                     );
@@ -174,7 +176,7 @@ public class ObdMainService extends Service {
                             new Runnable() {
                                 @Override
                                 public void run() {
-                                    ((CustomBluetoothActivity)mActivity).setPdaText(cmd.getFormattedResult());
+                                    ((MainActivity)mActivity).setPdaText(cmd.getFormattedResult());
                                 }
                             }
                     );
@@ -206,8 +208,8 @@ public class ObdMainService extends Service {
                     new Runnable() {
                         @Override
                         public void run() {
-                            ((CustomBluetoothActivity) mActivity).turnThingsOff();
-                            ((CustomBluetoothActivity) mActivity).makeSnackbar("Servicio detenido");
+                            ((MainActivity) mActivity).turnThingsOff();
+                            ((MainActivity) mActivity).makeSnackbar("Servicio detenido");
                         }
                     }
             );
@@ -223,7 +225,7 @@ public class ObdMainService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         SharedPreferences sp =
-                getSharedPreferences(CustomBluetoothActivity.class.getName(), Context.MODE_PRIVATE);
+                getSharedPreferences(MainActivity.class.getName(), Context.MODE_PRIVATE);
         Message msg = mServiceHandler.obtainMessage();
         msg.arg1 = startId;
         msg.obj = sp.getString("device_addr", "NaN");
@@ -273,14 +275,14 @@ public class ObdMainService extends Service {
                         .setContentTitle("Servicio EMAG")
                         .setContentText("Estamos tomando lecturas del auto");
         // Creates an explicit intent for an Activity in your app
-        Intent resultIntent = new Intent(this, CustomBluetoothActivity.class);
+        Intent resultIntent = new Intent(this, MainActivity.class);
         // The stack builder object will contain an artificial back stack for the
         // started Activity.
         // This ensures that navigating backward from the Activity leads out of
         // your application to the Home screen.
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
         // Adds the back stack for the Intent (but not the Intent itself)
-        stackBuilder.addParentStack(CustomBluetoothActivity.class);
+        stackBuilder.addParentStack(MainActivity.class);
         // Adds the Intent that starts the Activity to the top of the stack
         stackBuilder.addNextIntent(resultIntent);
         PendingIntent resultPendingIntent =
@@ -304,7 +306,7 @@ public class ObdMainService extends Service {
             mActivity.runOnUiThread(new Runnable(){
                 @Override
                 public void run(){
-                    ((CustomBluetoothActivity)mActivity).makeSnackbar("Necesitamos permiso de " +
+                    ((MainActivity)mActivity).makeSnackbar("Necesitamos permiso de " +
                             "ubicación");
                 }
             });

@@ -1,39 +1,18 @@
 package org.inspira.emag.bluetooth;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.net.URLEncoder;
 import java.util.Set;
-import java.util.UUID;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.inspira.emag.actividades.DevicePickerActivity;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothServerSocket;
-import android.bluetooth.BluetoothSocket;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.util.Log;
 import android.widget.ArrayAdapter;
-
-import com.github.pires.obd.commands.SpeedCommand;
-import com.github.pires.obd.commands.engine.RPMCommand;
-import com.github.pires.obd.commands.protocol.EchoOffCommand;
-import com.github.pires.obd.commands.protocol.LineFeedOffCommand;
-import com.github.pires.obd.commands.protocol.SelectProtocolCommand;
-import com.github.pires.obd.commands.protocol.TimeoutCommand;
-import com.github.pires.obd.commands.temperature.AmbientAirTemperatureCommand;
-import com.github.pires.obd.enums.ObdProtocols;
 
 /**
  * Created by jcapiz on 14/09/15.
@@ -55,7 +34,7 @@ public class BluetoothManager {
             if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                 // Get the BluetoothDevice object from the Intent
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-                Log.d("LAWAFOMECULIAOWEON123: ","Dispositivo descubierto: " + device.getName());
+                Log.d("LAWAFOMECULIAO","Dispositivo descubierto: " + device.getName());
                 // Add the name and address to an array adapter to show in a ListView
                 try{
                     DevicePickerActivity a = (DevicePickerActivity)activity;

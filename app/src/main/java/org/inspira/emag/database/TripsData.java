@@ -12,6 +12,8 @@ import org.inspira.emag.shared.RPM;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
+import org.inspira.emag.shared.User;
+import org.inspira.emag.shared.Vehiculo;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -40,12 +42,127 @@ public class TripsData extends SQLiteOpenHelper{
 
 	@Override
 	public void onCreate(SQLiteDatabase dataBase) {
-		dataBase.execSQL("create table Trip(idTrip INTEGER PRIMARY KEY AUTOINCREMENT, fechaInicio TEXT NOT NULL, fechaFin TEXT, isCommited INTEGER DEFAULT 0)");
+		dataBase.execSQL("create table User(" +
+				"email TEXT NOT NULL PRIMARY KEY," +
+				"nickname TEXT NOT NULL," +
+				"dateOfBirth long not null" +
+				")");
+		dataBase.execSQL("create table Vehiculo(" +
+				"idVehiculo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT," +
+                "nombre TEXT NOT NULL," +
+                "estadoServidorRemoto INTEGER DEFAULT 0," + // 0 es no agregado, 1 es agregado, 2 no borrado
+                "email TEXT NOT NULL," +
+                "FOREIGN KEY(email) REFERENCES User(email)" +
+                ")");
+		dataBase.execSQL("create table Trip(" +
+                "idTrip INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "fechaInicio TEXT NOT NULL, fechaFin TEXT, " +
+                "isCommited INTEGER DEFAULT 0," +
+                "idVehiculo INTEGER NOT NULL," +
+                "FOREIGN KEY(idVehiculo) REFERENCES Vehiculo(idVehiculo)" +
+                ")");
 		dataBase.execSQL("create table RPM(idValue INTEGER PRIMARY KEY AUTOINCREMENT, RPMVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
 		dataBase.execSQL("create table Speed(idValue INTEGER PRIMARY KEY AUTOINCREMENT, SpeedVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
 		dataBase.execSQL("create table ThrottlePos(idValue INTEGER PRIMARY KEY AUTOINCREMENT, ThrottleVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
 		dataBase.execSQL("create table Location(idValue INTEGER PRIMARY KEY AUTOINCREMENT, Latitud TEXT NOT NULL, Longitud TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
 	}
+
+    public boolean addVehiculo(Vehiculo vehiculo){
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("select * from Vehiculo where nombre like ?",
+                new String[]{vehiculo.getNombre()});
+        boolean exists;
+        if(!(exists = c.moveToFirst())) {
+            db = getWritableDatabase();
+            ContentValues values = new ContentValues();
+            values.put("nombre", vehiculo.getNombre());
+            values.put("email", vehiculo.getEmail());
+            db.insert("Vehiculo", "---", values);
+        }
+        c.close();
+        db.close();
+        return !exists;
+    }
+
+    public Vehiculo[] obtenerVehiculosValidos(){
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("select * from Vehiculo where estadoServidorRemoto != 2", null);
+        Vehiculo vehiculo;
+        List<Vehiculo> vehiculos = new ArrayList<>();
+        while(c.moveToNext()){
+            vehiculo = new Vehiculo();
+            vehiculo.setEmail(c.getString(c.getColumnIndex("email")));
+            vehiculo.setNombre(c.getString(c.getColumnIndex("nombre")));
+            vehiculos.add(vehiculo);
+        }
+        c.close();
+        db.close();
+        return vehiculos.toArray(new Vehiculo[0]);
+    }
+
+    public int obtenerIdVehiculoFromNombre(String nombre){
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("select idVehiculo from Vehiculo where nombre like ?",
+                new String[]{nombre});
+        int vid = -1;
+        if(c.moveToFirst()){
+            vid = c.getInt(0);
+        }
+        c.close();
+        db.close();
+        return vid;
+    }
+
+    public void colocarVehiculosEnNoBorrado(String[] nombres){
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("estadoServidorRemoto", 2);
+        String[] whereVals = new String[1];
+        for(String nombre : nombres){
+            whereVals[0] = nombre;
+            db.update("Vehiculo", values, "nombre = ?", whereVals);
+        }
+        db.close();
+    }
+
+    public void removerVehiculo(String nombre){
+        SQLiteDatabase db = getWritableDatabase();
+        db.delete("Vehiculo","nombre = ?", new String[]{nombre});
+        db.close();
+    }
+
+	public void addUser(User user){
+		SQLiteDatabase db = getWritableDatabase();
+		ContentValues values = new ContentValues();
+		values.put("email", user.getEmail());
+        values.put("nickname", user.getNickname());
+        values.put("dateOfBirth", user.getDateOfBirth());
+        db.insert("User", "---", values);
+        db.close();
+	}
+
+    public User getUserData(){
+        User user;
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("select * from User limit 1", null);
+        if(c.moveToFirst()){
+            user = new User();
+            user.setEmail(c.getString(c.getColumnIndex("email")));
+            user.setDateOfBirth(c.getLong(c.getColumnIndex("dateOfBirth")));
+            user.setNickname(c.getString(c.getColumnIndex("nickname")));
+        }else{
+            user = null;
+        }
+        return user;
+    }
+
+    public boolean userCheck(){
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("select * from User", null);
+        boolean exists = c.moveToNext();
+        c.close();
+        return exists;
+    }
 
 	public void setCommited(String table, int idTrip){
 		Log.d("XXXXXXXXXXXXX", "Commiting " + table + ", " + idTrip);
@@ -57,11 +174,20 @@ public class TripsData extends SQLiteOpenHelper{
 		close();
 	}
 
-	public long insertTrip(Date fechaInicio){
+	public int insertTrip(int idVehiculo, Date fechaInicio){
+        SQLiteDatabase db = getWritableDatabase();
 		ContentValues values = new ContentValues();
 		values.put("fechaInicio", new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(fechaInicio));
-		long id = getWritableDatabase().insert("Trip","---",values);
-		close();
+        values.put("idVehiculo", idVehiculo);
+		db.insert("Trip", "---", values);
+        db = getReadableDatabase();
+        Cursor c = db.rawQuery("select last_insert_rowid()", null);
+        int id = -1;
+        if(c.moveToFirst()){
+            id = c.getInt(0);
+        }
+        c.close();
+		db.close();
 		return id;
 	}
 

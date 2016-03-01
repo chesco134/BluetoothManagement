@@ -3,6 +3,7 @@ package org.inspira.emag.networking;
 import android.content.Context;
 import android.util.Log;
 
+import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.database.TripsData;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -32,7 +33,7 @@ public class CommitTrip extends Thread {
     @Override
     public void run(){
         try{
-            HttpURLConnection con = (HttpURLConnection) new URL("http://"+ Uploader.grabServerURL()+":5001/HelloWorldWeb/VehicleDataReceiver").openConnection();
+            HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
             con.setDoOutput(true);
             JSONObject json = new JSONObject();
             DataOutputStream salida;

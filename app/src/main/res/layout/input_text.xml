@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="20sp">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/custom_background"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/piso_input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="1sp"
+        android:layout_below="@+id/input_text"
+        android:layout_alignEnd="@+id/input_text"
+        android:layout_alignRight="@+id/input_text"
+        android:layout_alignStart="@+id/input_text"
+        android:layout_alignLeft="@+id/input_text"
+        android:background="@drawable/piso_1"/>
+</RelativeLayout>

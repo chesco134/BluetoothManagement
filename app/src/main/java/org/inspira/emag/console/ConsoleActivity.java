@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import org.capiz.bluetooth.R;
 import org.inspira.emag.bluetooth.BluetoothManager;
-import org.inspira.emag.bluetooth.DevicePickerActivity;
+import org.inspira.emag.actividades.DevicePickerActivity;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

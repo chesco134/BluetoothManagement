@@ -27,14 +27,22 @@
             android:name="org.inspira.emag.service.ObdMainService"
             android:exported="false" />
         <activity
-            android:name="org.inspira.emag.bluetooth.DevicePickerActivity"
+            android:name="org.inspira.emag.actividades.Espera"/>
+        <activity
+            android:name="org.inspira.emag.actividades.Preparacion"
+            android:label="@string/registro"/>
+        <activity
+            android:name="org.inspira.emag.actividades.OrganizarVehiculos"
+            android:label="@string/organizar_vehiculos"/>
+        <activity
+            android:name="org.inspira.emag.actividades.DevicePickerActivity"
             android:label="@string/app_name" />
         <activity
             android:name="org.inspira.emag.console.ConsoleActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="org.inspira.emag.bluetooth.CustomBluetoothActivity"
+            android:name="org.inspira.emag.actividades.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

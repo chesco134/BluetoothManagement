@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/jcapiz/Descargas/eclipse/BluetoothManagement/app/src/main/res/xml/preferences.xml"
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/xml/preferences.xml"
     },
     {
-        "merged": "/home/jcapiz/git/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/jcapiz/git/BluetoothManagement/app/src/main/res/xml/preferences.xml"
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/xml/preferences.xml"
     }
 ]

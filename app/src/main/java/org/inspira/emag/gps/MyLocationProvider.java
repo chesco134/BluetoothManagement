@@ -14,12 +14,8 @@ import com.google.android.gms.location.LocationServices;
 import android.app.Activity;
 import android.location.Location;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.TextView;
 
-import org.capiz.bluetooth.R;
-import org.inspira.emag.bluetooth.CustomBluetoothActivity;
+import org.inspira.emag.actividades.MainActivity;
 
 public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFailedListener, LocationListener {
 	private static final String REQUESTING_LOCATION_UPDATES_KEY = "true";
@@ -77,8 +73,8 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 						new Runnable() {
 							@Override
 							public void run() {
-								((CustomBluetoothActivity)mActivity).setLatitudeText("Latitud: " + String.valueOf(mLastLocation.getLatitude()));
-                                ((CustomBluetoothActivity)mActivity).setLongitudeText("Longitud: " + String.valueOf(mLastLocation.getLongitude()));
+								((MainActivity)mActivity).setLatitudeText("Latitud: " + String.valueOf(mLastLocation.getLatitude()));
+                                ((MainActivity)mActivity).setLongitudeText("Longitud: " + String.valueOf(mLastLocation.getLongitude()));
 							}
 						}
 				);
@@ -114,7 +110,7 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
 		mActivity.runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				((CustomBluetoothActivity)mActivity).updateLocationData(
+				((MainActivity)mActivity).updateLocationData(
 						String.valueOf(location.getLatitude()),
 						String.valueOf(location.getLongitude()));
 			}
@@ -127,8 +123,8 @@ public class MyLocationProvider implements ConnectionCallbacks, OnConnectionFail
                 new Runnable() {
                     @Override
                     public void run() {
-                        ((CustomBluetoothActivity) mActivity).setLatitudeText("Lat: " + String.valueOf(mCurrentLocation.getLatitude()));
-                        ((CustomBluetoothActivity) mActivity).setLongitudeText("Long: " + String.valueOf(mCurrentLocation.getLongitude()));
+                        ((MainActivity) mActivity).setLatitudeText("Lat: " + String.valueOf(mCurrentLocation.getLatitude()));
+                        ((MainActivity) mActivity).setLongitudeText("Long: " + String.valueOf(mCurrentLocation.getLongitude()));
                     }
                 }
         );
