@@ -23,9 +23,9 @@ import org.inspira.emag.database.TripsData;
 import org.inspira.emag.dialogos.DialogoDeConsultaSimple;
 import org.inspira.emag.dialogos.ObtenerFecha;
 import org.inspira.emag.dialogos.ProveedorSnackBar;
+import org.inspira.emag.networking.AltaVehiculo;
 import org.inspira.emag.seguridad.Hasher;
 import org.inspira.emag.shared.User;
-import org.inspira.emag.shared.Vehiculo;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -38,7 +38,10 @@ import java.net.URL;
 import java.net.URLDecoder;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by jcapiz on 29/02/16.
@@ -53,6 +56,9 @@ public class SignUp extends Fragment {
     private TextView date;
     private long fechaDeNacimiento;
 
+    private MyWatcher myWatcher;
+    private MyMailWatcher mailWatcher;
+
     @Override
     public void onAttach(Context context){
         super.onAttach(context);
@@ -62,10 +68,19 @@ public class SignUp extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
         View rootView = inflater.inflate(R.layout.signup, parent, false);
         email = (EditText) rootView.findViewById(R.id.signup_email);
+        mailWatcher = new MyMailWatcher();
+        email.addTextChangedListener(mailWatcher);
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                email.setBackgroundColor(getActivity().getResources().getColor(R.color.actionbar_text));
+            }
+        });
         nickname = (EditText) rootView.findViewById(R.id.signup_usuario);
         carNickname = (EditText) rootView.findViewById(R.id.signup_car_nickname);
         pass = (EditText) rootView.findViewById(R.id.signup_pass);
-        pass.addTextChangedListener(new MyWatcher());
+        myWatcher = new MyWatcher();
+        pass.addTextChangedListener(myWatcher);
         date = (TextView) rootView.findViewById(R.id.signup_fecha_de_nacimiento);
         date.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +94,12 @@ public class SignUp extends Fragment {
                     @Override
                     public void clickSobreAccionPositiva(DialogFragment dialogo) {
                         fechaDeNacimiento = ((ObtenerFecha) dialogo).getFecha().getTime();
-                        date.setText(new SimpleDateFormat("dd/MM/yyyy").format(new Date(fechaDeNacimiento)));
+                        Calendar c = Calendar.getInstance();
+                        if( c.getTimeInMillis() - fechaDeNacimiento >= 5045760e5 )
+                            date.setText(new SimpleDateFormat("dd/MM/yyyy").format(new Date(fechaDeNacimiento)));
+                        else
+                            ProveedorSnackBar
+                                    .muestraBarraDeBocados(email, "La edad mínima son 16 años");
                     }
 
                     @Override
@@ -115,39 +135,58 @@ public class SignUp extends Fragment {
     }
 
     private void validarInformacion() {
-        Intent i = new Intent(getContext(), Espera.class);
-        i.putExtra("message", "Conectando");
-        //startActivityForResult(i, ESPERA);
-        final String mail = email.getText().toString();
-        final String name = nickname.getText().toString();
-        final String car = carNickname.getText().toString();
-        final User user = new User();
-        user.setEmail(mail);
-        user.setNickname(name);
-        user.setPass(new Hasher().makeHash(pass.getText().toString()));
-        user.setDateOfBirth(fechaDeNacimiento);
-        new Thread(){
-            @Override
-            public void run(){
-                if(!"".equals(mail)
-                        && !"".equals(name)
-                        && !"".equals(car)
-                        && user.getPass().length > 5
-                        && 0 != fechaDeNacimiento
-                        && validarRemotamente(user)){
-                    guardarInformacion(user);
-                    colocarPantallaPrincipal();
-                }else{
-
+        boolean veredicto = true;
+        if( !myWatcher.isEnabled() ){
+            ProveedorSnackBar
+                    .muestraBarraDeBocados(email, "Los campos en rojo son necesarios");
+            veredicto = false;
+        }
+        if( !mailWatcher.isEnabled() ){
+            getActivity().runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    email.setBackgroundColor(getActivity().getResources().getColor(R.color.error));
                 }
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        getActivity().finishActivity(ESPERA);
+            });
+            ProveedorSnackBar
+                    .muestraBarraDeBocados(email, "Los campos en rojo son necesarios");
+            veredicto = false;
+        }
+        if(veredicto) {
+            Intent i = new Intent(getContext(), Espera.class);
+            i.putExtra("message", "Conectando");
+            //startActivityForResult(i, ESPERA);
+            final String mail = email.getText().toString();
+            final String name = nickname.getText().toString();
+            final String car = carNickname.getText().toString();
+            final User user = new User();
+            user.setEmail(mail);
+            user.setNickname(name);
+            user.setPass(new Hasher().makeHash(pass.getText().toString()));
+            user.setDateOfBirth(fechaDeNacimiento);
+            new Thread() {
+                @Override
+                public void run() {
+                    if (!"".equals(mail)
+                            && !"".equals(name)
+                            && !"".equals(car)
+                            && user.getPass().length > 5
+                            && 0 != fechaDeNacimiento
+                            && validarRemotamente(user)) {
+                        guardarInformacion(user);
+                        colocarPantallaPrincipal();
+                    } else {
+
                     }
-                });
-            }
-        }.start();
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            getActivity().finishActivity(ESPERA);
+                        }
+                    });
+                }
+            }.start();
+        }
     }
 
     private void colocarPantallaPrincipal() {
@@ -157,12 +196,10 @@ public class SignUp extends Fragment {
     private void guardarInformacion(User usuario) {
         TripsData db = new TripsData(getContext());
         db.addUser(usuario);
-        Vehiculo v = new Vehiculo();
-        v.setNombre(carNickname.getText().toString());
-        v.setEmail(usuario.getEmail());
-        db.addVehiculo(v);
         SharedPreferences.Editor editor = getActivity().getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
-        editor.putString("vehiculo", v.getNombre());
+        editor.putString("vehiculo", carNickname.getText().toString());
+        editor.apply();
+        new AltaVehiculo(getActivity(), carNickname.getText().toString()).start();
     }
 
     private boolean validarRemotamente(User user) {
@@ -185,7 +222,7 @@ public class SignUp extends Fragment {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             while((length = entrada.read(chunk)) != -1)
                 baos.write(chunk,0,length);
-            Log.d("Momonga", URLDecoder.decode(baos.toString(),"utf8"));
+            Log.d("Momonga", URLDecoder.decode(baos.toString(), "utf8"));
             final JSONObject respuesta = new JSONObject(URLDecoder.decode(baos.toString(), "utf8"));
             baos.close();
             veredicto = respuesta.getBoolean("content");
@@ -209,6 +246,25 @@ public class SignUp extends Fragment {
 
     private class MyWatcher implements TextWatcher{
 
+        private boolean enabled = false;
+        private Pattern pattern;
+        private Matcher matcher;
+        private static final String PASS_PATTERN =
+                "(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{5,}";
+
+        public MyWatcher() {
+            pattern = Pattern.compile(PASS_PATTERN);
+        }
+
+        public boolean validate(final String hex) {
+            matcher = pattern.matcher(hex);
+            return matcher.matches();
+        }
+
+        public boolean isEnabled() {
+            return enabled;
+        }
+
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -221,10 +277,56 @@ public class SignUp extends Fragment {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(pass.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[@!\"\\.\\$#%&/()])(?=.*[A-Z]).{5}$"))
+            if(validate(pass.getText().toString())) {
                 pass.setBackgroundColor(getActivity().getResources().getColor(R.color.actionbar_text));
-            else
+                enabled = true;
+            }else {
                 pass.setBackgroundColor(getActivity().getResources().getColor(R.color.error));
+                enabled = false;
+            }
+        }
+    }
+
+    private class MyMailWatcher implements TextWatcher{
+
+        private boolean enabled = false;
+        private Pattern pattern;
+        private Matcher matcher;
+        private static final String EMAIL_PATTERN =
+                "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+                        + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+
+        public MyMailWatcher() {
+            pattern = Pattern.compile(EMAIL_PATTERN);
+        }
+
+        public boolean isEnabled() {
+            return enabled;
+        }
+
+        public boolean validate(final String hex) {
+            matcher = pattern.matcher(hex);
+            return matcher.matches();
+        }
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if (validate(email.getText().toString())) {
+                email.setBackgroundColor(getActivity().getResources().getColor(R.color.actionbar_text));
+                enabled = true;
+            }else {
+                enabled = false;
+            }
         }
     }
 }

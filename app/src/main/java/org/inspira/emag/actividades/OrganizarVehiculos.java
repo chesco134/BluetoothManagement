@@ -21,6 +21,7 @@ import org.inspira.emag.dialogos.DialogoDeConsultaSimple;
 import org.inspira.emag.dialogos.ObtenerTexto;
 import org.inspira.emag.dialogos.ProveedorSnackBar;
 import org.inspira.emag.dialogos.RemueveElementosDeLista;
+import org.inspira.emag.networking.AltaVehiculo;
 import org.inspira.emag.shared.User;
 import org.inspira.emag.shared.Vehiculo;
 import org.json.JSONException;
@@ -62,16 +63,14 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 info.setAgenteDeInteraccion(new DialogoDeConsultaSimple.AgenteDeInteraccionConResultado() {
                     @Override
                     public void clickSobreAccionPositiva(DialogFragment dialogo) {
-                        SharedPreferences.Editor editor = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
-                        editor.putString("vehiculo", nombreDeVehiculo);
-                        ProveedorSnackBar
-                                .muestraBarraDeBocados(lista, "Hecho");
+                        updateVehiculo(nombreDeVehiculo);
                     }
 
                     @Override
                     public void clickSobreAccionNegativa(DialogFragment dialogo) {
                     }
                 });
+                info.show(getSupportFragmentManager(), "Shark");
             }
         });
         String nombreVehiculo = "Auto actual: " + getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
@@ -104,12 +103,23 @@ public class OrganizarVehiculos extends AppCompatActivity {
         return resolved;
     }
 
+    private void updateVehiculo(String nombreDeVehiculo){
+        SharedPreferences.Editor editor = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
+        editor.putString("vehiculo", nombreDeVehiculo);
+        editor.apply();
+        String nombreVehiculo = "Auto actual: " + nombreDeVehiculo;
+        ((TextView)findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
+        ProveedorSnackBar
+                .muestraBarraDeBocados(lista, "Hecho");
+    }
+
     private void launchDialogoRemoverElementos() {
         RemueveElementosDeLista rm = new RemueveElementosDeLista();
         Bundle args = new Bundle();
         final List<String> elementos = new ArrayList<>();
+        String vActual = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
         for(Vehiculo v : new TripsData(this).obtenerVehiculosValidos())
-            elementos.add(v.getNombre());
+            if(!vActual.equals(v.getNombre())) elementos.add(v.getNombre());
         args.putStringArray("elementos", elementos.toArray(new String[0]));
         rm.setArguments(args);
         rm.setAd(new RemueveElementosDeLista.AccionDialogo() {
@@ -148,7 +158,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
                             baos.close();
                             if(json.getBoolean("content")){
                                 db.removerVehiculo(nombre);
-                                adapter.remove(nombre);
+                                runOnUiThread(new Poster(nombre));
                             }
                         }catch(JSONException | IOException e){
                             e.printStackTrace();
@@ -173,54 +183,8 @@ public class OrganizarVehiculos extends AppCompatActivity {
             public void clickSobreAccionPositiva(DialogFragment dialogo) {
                 ObtenerTexto ot = (ObtenerTexto) dialogo;
                 final String texto = ot.obtenerTexto();
-                startActivityForResult(new Intent(OrganizarVehiculos.this, Espera.class), 1234);
-                new Thread() {
-                    @Override
-                    public void run() {
-                        try {
-                            JSONObject json = new JSONObject();
-                            json.put("action", 8); // Solicitud de agregar un nuevo vehículo
-                            TripsData db = new TripsData(OrganizarVehiculos.this);
-                            User user = db.getUserData();
-                            json.put("email", user.getEmail());
-                            json.put("vehiculo", texto);
-                            HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
-                            con.setDoOutput(true);
-                            DataOutputStream salida = new DataOutputStream(con.getOutputStream());
-                            salida.write(json.toString().getBytes());
-                            salida.flush();
-                            DataInputStream entrada = new DataInputStream(con.getInputStream());
-                            int length;
-                            byte[] chunk = new byte[64];
-                            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                            while ((length = entrada.read(chunk)) != -1)
-                                baos.write(chunk, 0, length);
-                            Log.d("Momonga", baos.toString());
-                            json = new JSONObject(baos.toString());
-                            baos.close();
-                            finishActivity(1234);
-                            if (json.getBoolean("content")) {
-                                Vehiculo vehiculo = new Vehiculo();
-                                vehiculo.setEmail(user.getEmail());
-                                vehiculo.setNombre(texto);
-                                if(new TripsData(OrganizarVehiculos.this).addVehiculo(vehiculo))
-                                    ProveedorSnackBar
-                                            .muestraBarraDeBocados(lista, "Cambio realizado con éxito");
-                                else
-                                    ProveedorSnackBar
-                                            .muestraBarraDeBocados(lista, "El vehículo ya existe");
-                            } else {
-                                ProveedorSnackBar
-                                        .muestraBarraDeBocados(lista, "Por favor revise la información");
-                            }
-                        } catch (JSONException | IOException e) {
-                            e.printStackTrace();
-                            finishActivity(1234);
-                            ProveedorSnackBar
-                                    .muestraBarraDeBocados(lista, "Servicio temporalmente no disponible");
-                        }
-                    }
-                }.start();
+                adapter.add(texto);
+                new AltaVehiculo(OrganizarVehiculos.this, texto).start();
             }
 
             @Override
@@ -240,6 +204,22 @@ public class OrganizarVehiculos extends AppCompatActivity {
                     elements[j] = hold;
                 }
             }
+        }
+    }
+
+    private class Poster implements Runnable{
+
+        private String nombre;
+
+        public Poster(String nombre){
+            this.nombre = nombre;
+        }
+
+        @Override
+        public void run(){
+            adapter.remove(nombre);
+            ProveedorSnackBar
+                    .muestraBarraDeBocados(lista, "Hecho");
         }
     }
 }
