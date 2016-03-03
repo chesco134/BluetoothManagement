@@ -131,39 +131,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 		}
-        if(savedInstanceState == null){
-            new Thread(){
-                @Override
-                public void run(){
-                    try{
-                        JSONObject json = new JSONObject();
-                        json.put("action", 1);
-                        json.put("vehiculo", "Dans");
-                        json.put("email", "jcc@ipn.mx");
-                        json.put("fechaInicio", new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()));
-                        Log.d("Auditor", json.getString("fechaInicio"));
-                        HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
-                        con.setDoOutput(true);
-                        DataOutputStream salida = new DataOutputStream(con.getOutputStream());
-                        salida.write(json.toString().getBytes());
-                        salida.flush();
-                        int length;
-                        byte[] chunk = new byte[64];
-                        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                        DataInputStream entrada = new DataInputStream(con.getInputStream());
-                        while( (length = entrada.read(chunk)) != -1 )
-                            baos.write(chunk,0,length);
-                        Log.d("PHP Tester", baos.toString());
-                        baos.close();
-                        con.disconnect();
-                        salida.close();
-                        entrada.close();
-                    }catch(JSONException | IOException e){
-                        e.printStackTrace();
-                    }
-                }
-            }.start();
-        }
 	}
 
     public void makeSnackbar(String message){
@@ -421,7 +388,7 @@ public class MainActivity extends AppCompatActivity {
                 case START_CLIENT_ACTION:
                     SharedPreferences.Editor editor = getPreferences(Context.MODE_PRIVATE).edit();
                     editor.putString("device_addr", data.getStringExtra("device_addr"));
-                    editor.commit();
+                    editor.apply();
                     clientMode.setBackgroundResource(R.drawable.on_button);
                     buttonLabel.setText(getResources().getString(R.string.detener_lectura_datos));
                     makeSnackbar("Lectura de datos iniciada");
@@ -445,7 +412,7 @@ public class MainActivity extends AppCompatActivity {
         if( trip != null ) {
             int locId = db.insertaUbicacion(latitud, longitud, trip.getIdTrip());
             Location cLoc = new Location(locId, latitud, longitud,
-                    new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
             new Uploader(cLoc).start();
         }
     }
@@ -522,5 +489,38 @@ public class MainActivity extends AppCompatActivity {
             mIsBound = false;
             Log.d("DBZ","unBounded");
         }
+    }
+
+    private void testingUnit(){
+        new Thread(){
+            @Override
+            public void run(){
+                try{
+                    JSONObject json = new JSONObject();
+                    json.put("action", 5);
+                    json.put("fechaFin", new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()));
+                    json.put("vehiculo", getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN"));
+                    json.put("email", "jcc23@ipn.mx");
+                    HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
+                    con.setDoOutput(true);
+                    DataOutputStream salida = new DataOutputStream(con.getOutputStream());
+                    salida.write(json.toString().getBytes());
+                    salida.flush();
+                    int length;
+                    byte[] chunk = new byte[64];
+                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                    DataInputStream entrada = new DataInputStream(con.getInputStream());
+                    while( (length = entrada.read(chunk)) != -1 )
+                        baos.write(chunk,0,length);
+                    Log.d("PHP Tester", baos.toString());
+                    baos.close();
+                    con.disconnect();
+                    salida.close();
+                    entrada.close();
+                }catch(JSONException | IOException e){
+                    e.printStackTrace();
+                }
+            }
+        }.start();
     }
 }
