@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.capiz.bluetooth.test">
+    package="org.emag.bluetooth.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="org.capiz.bluetooth"
+                     android:targetPackage="org.emag.bluetooth"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for org.capiz.bluetooth"/>
+                     android:label="Tests for org.emag.bluetooth"/>
 </manifest>

@@ -33,7 +33,7 @@
             android:background="@color/actionbar_text"
             android:layout_below="@+id/signup_email"
             android:layout_marginTop="20sp"
-            android:inputType="textVisiblePassword"
+            android:inputType="textPassword"
             android:textSize="20sp"/>
         <TextView
             android:id="@+id/signup_piso_pass"

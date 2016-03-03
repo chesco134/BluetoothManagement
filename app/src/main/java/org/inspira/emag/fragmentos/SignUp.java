@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -54,10 +55,12 @@ public class SignUp extends Fragment {
     private EditText carNickname;
     private EditText pass;
     private TextView date;
+    private Button confirm;
     private long fechaDeNacimiento;
 
     private MyWatcher myWatcher;
     private MyMailWatcher mailWatcher;
+    private boolean cStatus;
 
     @Override
     public void onAttach(Context context){
@@ -95,7 +98,7 @@ public class SignUp extends Fragment {
                     public void clickSobreAccionPositiva(DialogFragment dialogo) {
                         fechaDeNacimiento = ((ObtenerFecha) dialogo).getFecha().getTime();
                         Calendar c = Calendar.getInstance();
-                        if( c.getTimeInMillis() - fechaDeNacimiento >= 5045760e5 )
+                        if (c.getTimeInMillis() - fechaDeNacimiento >= 5045760e5)
                             date.setText(new SimpleDateFormat("dd/MM/yyyy").format(new Date(fechaDeNacimiento)));
                         else
                             ProveedorSnackBar
@@ -109,20 +112,26 @@ public class SignUp extends Fragment {
                 of.show(getActivity().getSupportFragmentManager(), "More");
             }
         });
-        rootView.findViewById(R.id.signup_registrar).setOnClickListener(new View.OnClickListener() {
+        confirm = (Button) rootView.findViewById(R.id.signup_registrar);
+        confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                cStatus = false;
+                v.setEnabled(cStatus);
                 validarInformacion();
             }
         });
         if(savedInstanceState == null){
             fechaDeNacimiento = 0;
+            cStatus = true;
         }else{
             fechaDeNacimiento = savedInstanceState.getLong("fecha_de_nacimiento");
             email.setText(savedInstanceState.getString("email"));
             nickname.setText(savedInstanceState.getString("nickname"));
             carNickname.setText(savedInstanceState.getString("car_nickname"));
+            cStatus = savedInstanceState.getBoolean("confirm_status");
         }
+        confirm.setEnabled(cStatus);
         return rootView;
     }
 
@@ -132,6 +141,7 @@ public class SignUp extends Fragment {
         outState.putString("email", email.getText().toString());
         outState.putString("nickname", nickname.getText().toString());
         outState.putString("car_nickname", carNickname.getText().toString());
+        outState.putBoolean("confirm_status", cStatus);
     }
 
     private void validarInformacion() {
@@ -162,7 +172,7 @@ public class SignUp extends Fragment {
             final User user = new User();
             user.setEmail(mail);
             user.setNickname(name);
-            user.setPass(new Hasher().makeHash(pass.getText().toString()));
+            user.setPass(new Hasher().makeHashString(pass.getText().toString()));
             user.setDateOfBirth(fechaDeNacimiento);
             new Thread() {
                 @Override
@@ -170,7 +180,7 @@ public class SignUp extends Fragment {
                     if (!"".equals(mail)
                             && !"".equals(name)
                             && !"".equals(car)
-                            && user.getPass().length > 5
+                            && !"".equals(pass.getText().toString())
                             && 0 != fechaDeNacimiento
                             && validarRemotamente(user)) {
                         guardarInformacion(user);
@@ -178,10 +188,11 @@ public class SignUp extends Fragment {
                     } else {
 
                     }
+                    cStatus = true;
                     getActivity().runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            getActivity().finishActivity(ESPERA);
+                            confirm.setEnabled(cStatus);
                         }
                     });
                 }
@@ -210,7 +221,7 @@ public class SignUp extends Fragment {
             json.put("email", user.getEmail());
             json.put("nickname", user.getNickname());
             json.put("fecha_de_nacimiento", user.getDateOfBirth());
-            json.put("pass", Arrays.toString(user.getPass()));
+            json.put("pass", user.getPass());
             HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
             con.setDoOutput(true);
             DataOutputStream salida = new DataOutputStream(con.getOutputStream());

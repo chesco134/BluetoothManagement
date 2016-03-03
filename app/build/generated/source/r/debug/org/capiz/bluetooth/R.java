@@ -3563,33 +3563,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background org.capiz.bluetooth:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit org.capiz.bluetooth:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked org.capiz.bluetooth:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd org.capiz.bluetooth:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft org.capiz.bluetooth:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight org.capiz.bluetooth:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart org.capiz.bluetooth:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout org.capiz.bluetooth:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions org.capiz.bluetooth:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider org.capiz.bluetooth:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation org.capiz.bluetooth:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height org.capiz.bluetooth:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll org.capiz.bluetooth:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator org.capiz.bluetooth:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout org.capiz.bluetooth:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon org.capiz.bluetooth:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle org.capiz.bluetooth:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding org.capiz.bluetooth:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo org.capiz.bluetooth:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode org.capiz.bluetooth:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme org.capiz.bluetooth:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding org.capiz.bluetooth:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle org.capiz.bluetooth:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle org.capiz.bluetooth:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle org.capiz.bluetooth:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title org.capiz.bluetooth:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle org.capiz.bluetooth:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background org.emag.bluetooth:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit org.emag.bluetooth:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked org.emag.bluetooth:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd org.emag.bluetooth:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft org.emag.bluetooth:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight org.emag.bluetooth:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart org.emag.bluetooth:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout org.emag.bluetooth:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions org.emag.bluetooth:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider org.emag.bluetooth:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation org.emag.bluetooth:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height org.emag.bluetooth:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll org.emag.bluetooth:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator org.emag.bluetooth:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout org.emag.bluetooth:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon org.emag.bluetooth:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle org.emag.bluetooth:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding org.emag.bluetooth:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo org.emag.bluetooth:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode org.emag.bluetooth:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme org.emag.bluetooth:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding org.emag.bluetooth:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle org.emag.bluetooth:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle org.emag.bluetooth:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle org.emag.bluetooth:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title org.emag.bluetooth:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle org.emag.bluetooth:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3629,17 +3629,17 @@ containing a value of this type.
             0x7f010021, 0x7f010022, 0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#background}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:background
+          @attr name org.emag.bluetooth:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3647,11 +3647,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:backgroundSplit
+          @attr name org.emag.bluetooth:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3659,11 +3659,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:backgroundStacked
+          @attr name org.emag.bluetooth:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3675,11 +3675,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetEnd
+          @attr name org.emag.bluetooth:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3691,11 +3691,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetLeft
+          @attr name org.emag.bluetooth:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3707,11 +3707,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetRight
+          @attr name org.emag.bluetooth:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3723,21 +3723,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetStart
+          @attr name org.emag.bluetooth:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:customNavigationLayout
+          @attr name org.emag.bluetooth:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3755,21 +3755,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:displayOptions
+          @attr name org.emag.bluetooth:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#divider}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:divider
+          @attr name org.emag.bluetooth:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#elevation}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3781,11 +3781,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:elevation
+          @attr name org.emag.bluetooth:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#height}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3797,11 +3797,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:height
+          @attr name org.emag.bluetooth:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3811,51 +3811,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:hideOnContentScroll
+          @attr name org.emag.bluetooth:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:homeAsUpIndicator
+          @attr name org.emag.bluetooth:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:homeLayout
+          @attr name org.emag.bluetooth:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#icon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:icon
+          @attr name org.emag.bluetooth:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:indeterminateProgressStyle
+          @attr name org.emag.bluetooth:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3867,21 +3867,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:itemPadding
+          @attr name org.emag.bluetooth:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#logo}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:logo
+          @attr name org.emag.bluetooth:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3895,21 +3895,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:navigationMode
+          @attr name org.emag.bluetooth:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:popupTheme
+          @attr name org.emag.bluetooth:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3921,21 +3921,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:progressBarPadding
+          @attr name org.emag.bluetooth:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:progressBarStyle
+          @attr name org.emag.bluetooth:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3945,21 +3945,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:subtitle
+          @attr name org.emag.bluetooth:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:subtitleTextStyle
+          @attr name org.emag.bluetooth:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#title}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3969,17 +3969,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:title
+          @attr name org.emag.bluetooth:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:titleTextStyle
+          @attr name org.emag.bluetooth:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4031,12 +4031,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background org.capiz.bluetooth:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit org.capiz.bluetooth:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout org.capiz.bluetooth:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height org.capiz.bluetooth:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle org.capiz.bluetooth:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle org.capiz.bluetooth:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background org.emag.bluetooth:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit org.emag.bluetooth:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout org.emag.bluetooth:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height org.emag.bluetooth:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle org.emag.bluetooth:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle org.emag.bluetooth:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4050,17 +4050,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010015, 0x7f010023
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#background}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:background
+          @attr name org.emag.bluetooth:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4068,21 +4068,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:backgroundSplit
+          @attr name org.emag.bluetooth:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:closeItemLayout
+          @attr name org.emag.bluetooth:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#height}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4094,27 +4094,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:height
+          @attr name org.emag.bluetooth:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:subtitleTextStyle
+          @attr name org.emag.bluetooth:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:titleTextStyle
+          @attr name org.emag.bluetooth:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4123,8 +4123,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable org.capiz.bluetooth:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount org.capiz.bluetooth:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable org.emag.bluetooth:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount org.emag.bluetooth:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4133,17 +4133,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010024, 0x7f010025
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:expandActivityOverflowButtonDrawable
+          @attr name org.emag.bluetooth:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4153,7 +4153,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:initialActivityCount
+          @attr name org.emag.bluetooth:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -4162,9 +4162,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize org.capiz.bluetooth:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes org.capiz.bluetooth:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId org.capiz.bluetooth:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize org.emag.bluetooth:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes org.emag.bluetooth:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId org.emag.bluetooth:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -4174,7 +4174,7 @@ containing a value of this type.
             0x7f010026, 0x7f010027, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#adSize}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4184,11 +4184,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:adSize
+          @attr name org.emag.bluetooth:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4198,11 +4198,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:adSizes
+          @attr name org.emag.bluetooth:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4212,7 +4212,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:adUnitId
+          @attr name org.emag.bluetooth:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
@@ -4222,11 +4222,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout org.capiz.bluetooth:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout org.capiz.bluetooth:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout org.capiz.bluetooth:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout org.capiz.bluetooth:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout org.capiz.bluetooth:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout org.emag.bluetooth:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout org.emag.bluetooth:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout org.emag.bluetooth:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout org.emag.bluetooth:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout org.emag.bluetooth:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4246,53 +4246,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonPanelSideLayout
+          @attr name org.emag.bluetooth:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:listItemLayout
+          @attr name org.emag.bluetooth:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:listLayout
+          @attr name org.emag.bluetooth:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:multiChoiceItemLayout
+          @attr name org.emag.bluetooth:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:singleChoiceItemLayout
+          @attr name org.emag.bluetooth:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4302,8 +4302,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation org.capiz.bluetooth:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded org.capiz.bluetooth:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation org.emag.bluetooth:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded org.emag.bluetooth:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4319,7 +4319,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#elevation}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4331,11 +4331,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:elevation
+          @attr name org.emag.bluetooth:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expanded}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4345,7 +4345,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expanded
+          @attr name org.emag.bluetooth:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4354,8 +4354,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags org.capiz.bluetooth:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator org.capiz.bluetooth:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags org.emag.bluetooth:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator org.emag.bluetooth:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -4364,7 +4364,7 @@ containing a value of this type.
             0x7f01002f, 0x7f010030
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4380,17 +4380,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:layout_scrollFlags
+          @attr name org.emag.bluetooth:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:layout_scrollInterpolator
+          @attr name org.emag.bluetooth:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4400,7 +4400,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps org.capiz.bluetooth:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps org.emag.bluetooth:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4415,14 +4415,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name org.capiz.bluetooth:textAllCaps
+          @attr name org.emag.bluetooth:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -4431,7 +4431,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking org.capiz.bluetooth:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking org.emag.bluetooth:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -4439,7 +4439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010032
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -4449,7 +4449,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:allowStacking
+          @attr name org.emag.bluetooth:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -4458,8 +4458,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode org.capiz.bluetooth:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier org.capiz.bluetooth:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode org.emag.bluetooth:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier org.emag.bluetooth:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -4468,7 +4468,7 @@ containing a value of this type.
             0x7f010033, 0x7f010034
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4482,11 +4482,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:layout_collapseMode
+          @attr name org.emag.bluetooth:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4496,7 +4496,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:layout_collapseParallaxMultiplier
+          @attr name org.emag.bluetooth:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -4505,20 +4505,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity org.capiz.bluetooth:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance org.capiz.bluetooth:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim org.capiz.bluetooth:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity org.capiz.bluetooth:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin org.capiz.bluetooth:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom org.capiz.bluetooth:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd org.capiz.bluetooth:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart org.capiz.bluetooth:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop org.capiz.bluetooth:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance org.capiz.bluetooth:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim org.capiz.bluetooth:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title org.capiz.bluetooth:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled org.capiz.bluetooth:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId org.capiz.bluetooth:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity org.emag.bluetooth:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance org.emag.bluetooth:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim org.emag.bluetooth:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity org.emag.bluetooth:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin org.emag.bluetooth:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom org.emag.bluetooth:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd org.emag.bluetooth:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart org.emag.bluetooth:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop org.emag.bluetooth:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance org.emag.bluetooth:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim org.emag.bluetooth:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title org.emag.bluetooth:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled org.emag.bluetooth:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId org.emag.bluetooth:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -4542,7 +4542,7 @@ containing a value of this type.
             0x7f010040, 0x7f010041
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4563,21 +4563,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:collapsedTitleGravity
+          @attr name org.emag.bluetooth:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:collapsedTitleTextAppearance
+          @attr name org.emag.bluetooth:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4588,11 +4588,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentScrim
+          @attr name org.emag.bluetooth:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4613,11 +4613,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:expandedTitleGravity
+          @attr name org.emag.bluetooth:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4629,11 +4629,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expandedTitleMargin
+          @attr name org.emag.bluetooth:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4645,11 +4645,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expandedTitleMarginBottom
+          @attr name org.emag.bluetooth:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4661,11 +4661,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expandedTitleMarginEnd
+          @attr name org.emag.bluetooth:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4677,11 +4677,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expandedTitleMarginStart
+          @attr name org.emag.bluetooth:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4693,21 +4693,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:expandedTitleMarginTop
+          @attr name org.emag.bluetooth:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:expandedTitleTextAppearance
+          @attr name org.emag.bluetooth:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4718,11 +4718,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:statusBarScrim
+          @attr name org.emag.bluetooth:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#title}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4732,11 +4732,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:title
+          @attr name org.emag.bluetooth:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4746,17 +4746,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleEnabled
+          @attr name org.emag.bluetooth:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:toolbarId
+          @attr name org.emag.bluetooth:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -4766,8 +4766,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint org.capiz.bluetooth:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode org.capiz.bluetooth:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint org.emag.bluetooth:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode org.emag.bluetooth:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -4783,7 +4783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4794,11 +4794,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:buttonTint
+          @attr name org.emag.bluetooth:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4814,7 +4814,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buttonTintMode
+          @attr name org.emag.bluetooth:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -4823,8 +4823,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines org.capiz.bluetooth:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground org.capiz.bluetooth:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines org.emag.bluetooth:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground org.emag.bluetooth:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -4833,23 +4833,23 @@ containing a value of this type.
             0x7f010044, 0x7f010045
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#keylines}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:keylines
+          @attr name org.emag.bluetooth:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:statusBarBackground
+          @attr name org.emag.bluetooth:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -4859,10 +4859,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor org.capiz.bluetooth:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity org.capiz.bluetooth:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior org.capiz.bluetooth:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline org.capiz.bluetooth:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor org.emag.bluetooth:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity org.emag.bluetooth:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior org.emag.bluetooth:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline org.emag.bluetooth:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -4881,17 +4881,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:layout_anchor
+          @attr name org.emag.bluetooth:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4916,11 +4916,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:layout_anchorGravity
+          @attr name org.emag.bluetooth:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4930,11 +4930,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:layout_behavior
+          @attr name org.emag.bluetooth:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4944,7 +4944,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:layout_keyline
+          @attr name org.emag.bluetooth:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a CustomWalletTheme.
@@ -4953,7 +4953,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle org.capiz.bluetooth:windowTransitionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle org.emag.bluetooth:windowTransitionStyle}</code></td><td></td></tr>
            </table>
            @see #CustomWalletTheme_windowTransitionStyle
          */
@@ -4961,7 +4961,7 @@ containing a value of this type.
             0x7f01004a
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowTransitionStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowTransitionStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -4974,7 +4974,7 @@ containing a value of this type.
 <tr><td><code>slide</code></td><td>1</td><td></td></tr>
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:windowTransitionStyle
+          @attr name org.emag.bluetooth:windowTransitionStyle
         */
         public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -4983,14 +4983,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength org.capiz.bluetooth:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength org.capiz.bluetooth:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength org.capiz.bluetooth:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color org.capiz.bluetooth:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize org.capiz.bluetooth:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars org.capiz.bluetooth:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars org.capiz.bluetooth:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness org.capiz.bluetooth:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength org.emag.bluetooth:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength org.emag.bluetooth:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength org.emag.bluetooth:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color org.emag.bluetooth:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize org.emag.bluetooth:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars org.emag.bluetooth:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars org.emag.bluetooth:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness org.emag.bluetooth:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -5006,7 +5006,7 @@ containing a value of this type.
             0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5018,11 +5018,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:arrowHeadLength
+          @attr name org.emag.bluetooth:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5034,11 +5034,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:arrowShaftLength
+          @attr name org.emag.bluetooth:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#barLength}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5050,11 +5050,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:barLength
+          @attr name org.emag.bluetooth:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#color}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5065,11 +5065,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:color
+          @attr name org.emag.bluetooth:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5081,11 +5081,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:drawableSize
+          @attr name org.emag.bluetooth:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5097,11 +5097,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:gapBetweenBars
+          @attr name org.emag.bluetooth:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5111,11 +5111,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:spinBars
+          @attr name org.emag.bluetooth:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#thickness}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5127,7 +5127,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:thickness
+          @attr name org.emag.bluetooth:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -5136,13 +5136,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint org.capiz.bluetooth:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode org.capiz.bluetooth:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth org.capiz.bluetooth:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation org.capiz.bluetooth:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize org.capiz.bluetooth:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ org.capiz.bluetooth:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor org.capiz.bluetooth:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint org.emag.bluetooth:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode org.emag.bluetooth:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth org.emag.bluetooth:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation org.emag.bluetooth:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize org.emag.bluetooth:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ org.emag.bluetooth:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor org.emag.bluetooth:rippleColor}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -5157,7 +5157,7 @@ containing a value of this type.
             0x7f010056, 0x7f010131, 0x7f010132
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5168,11 +5168,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:backgroundTint
+          @attr name org.emag.bluetooth:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5188,11 +5188,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:backgroundTintMode
+          @attr name org.emag.bluetooth:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5204,11 +5204,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:borderWidth
+          @attr name org.emag.bluetooth:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#elevation}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5220,11 +5220,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:elevation
+          @attr name org.emag.bluetooth:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5237,11 +5237,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:fabSize
+          @attr name org.emag.bluetooth:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5253,11 +5253,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:pressedTranslationZ
+          @attr name org.emag.bluetooth:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5268,7 +5268,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:rippleColor
+          @attr name org.emag.bluetooth:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -5279,7 +5279,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding org.capiz.bluetooth:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding org.emag.bluetooth:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -5301,7 +5301,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -5311,7 +5311,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:foregroundInsidePadding
+          @attr name org.emag.bluetooth:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5325,10 +5325,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider org.capiz.bluetooth:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding org.capiz.bluetooth:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild org.capiz.bluetooth:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers org.capiz.bluetooth:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider org.emag.bluetooth:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding org.emag.bluetooth:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild org.emag.bluetooth:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers org.emag.bluetooth:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5376,17 +5376,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#divider}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:divider
+          @attr name org.emag.bluetooth:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5398,11 +5398,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:dividerPadding
+          @attr name org.emag.bluetooth:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5412,11 +5412,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:measureWithLargestChild
+          @attr name org.emag.bluetooth:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5431,7 +5431,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:showDividers
+          @attr name org.emag.bluetooth:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5510,9 +5510,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop org.capiz.bluetooth:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio org.capiz.bluetooth:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust org.capiz.bluetooth:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop org.emag.bluetooth:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio org.emag.bluetooth:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust org.emag.bluetooth:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -5522,7 +5522,7 @@ containing a value of this type.
             0x7f01005b, 0x7f01005c, 0x7f01005d
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5532,11 +5532,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:circleCrop
+          @attr name org.emag.bluetooth:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5546,11 +5546,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:imageAspectRatio
+          @attr name org.emag.bluetooth:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5564,7 +5564,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:imageAspectRatioAdjust
+          @attr name org.emag.bluetooth:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -5573,23 +5573,23 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled org.capiz.bluetooth:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing org.capiz.bluetooth:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat org.capiz.bluetooth:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng org.capiz.bluetooth:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt org.capiz.bluetooth:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom org.capiz.bluetooth:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode org.capiz.bluetooth:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType org.capiz.bluetooth:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass org.capiz.bluetooth:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar org.capiz.bluetooth:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures org.capiz.bluetooth:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures org.capiz.bluetooth:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures org.capiz.bluetooth:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls org.capiz.bluetooth:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures org.capiz.bluetooth:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle org.capiz.bluetooth:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop org.capiz.bluetooth:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled org.emag.bluetooth:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing org.emag.bluetooth:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat org.emag.bluetooth:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng org.emag.bluetooth:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt org.emag.bluetooth:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom org.emag.bluetooth:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode org.emag.bluetooth:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType org.emag.bluetooth:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass org.emag.bluetooth:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar org.emag.bluetooth:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures org.emag.bluetooth:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures org.emag.bluetooth:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures org.emag.bluetooth:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls org.emag.bluetooth:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures org.emag.bluetooth:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle org.emag.bluetooth:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop org.emag.bluetooth:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
@@ -5617,7 +5617,7 @@ containing a value of this type.
             0x7f01006e
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#ambientEnabled}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#ambientEnabled}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5627,11 +5627,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:ambientEnabled
+          @attr name org.emag.bluetooth:ambientEnabled
         */
         public static final int MapAttrs_ambientEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5641,11 +5641,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:cameraBearing
+          @attr name org.emag.bluetooth:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5655,11 +5655,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:cameraTargetLat
+          @attr name org.emag.bluetooth:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5669,11 +5669,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:cameraTargetLng
+          @attr name org.emag.bluetooth:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5683,11 +5683,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:cameraTilt
+          @attr name org.emag.bluetooth:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5697,11 +5697,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:cameraZoom
+          @attr name org.emag.bluetooth:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5711,11 +5711,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:liteMode
+          @attr name org.emag.bluetooth:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#mapType}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5731,11 +5731,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:mapType
+          @attr name org.emag.bluetooth:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5745,11 +5745,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiCompass
+          @attr name org.emag.bluetooth:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5759,11 +5759,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiMapToolbar
+          @attr name org.emag.bluetooth:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5773,11 +5773,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiRotateGestures
+          @attr name org.emag.bluetooth:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5787,11 +5787,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiScrollGestures
+          @attr name org.emag.bluetooth:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5801,11 +5801,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiTiltGestures
+          @attr name org.emag.bluetooth:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5815,11 +5815,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiZoomControls
+          @attr name org.emag.bluetooth:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5829,11 +5829,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:uiZoomGestures
+          @attr name org.emag.bluetooth:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5843,11 +5843,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:useViewLifecycle
+          @attr name org.emag.bluetooth:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5857,7 +5857,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:zOrderOnTop
+          @attr name org.emag.bluetooth:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MediaRouteButton.
@@ -5868,7 +5868,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable org.capiz.bluetooth:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable org.emag.bluetooth:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
@@ -5890,13 +5890,13 @@ containing a value of this type.
         */
         public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#externalRouteEnabledDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#externalRouteEnabledDrawable}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:externalRouteEnabledDrawable
+          @attr name org.emag.bluetooth:externalRouteEnabledDrawable
         */
         public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
@@ -5965,9 +5965,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout org.capiz.bluetooth:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass org.capiz.bluetooth:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass org.capiz.bluetooth:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout org.emag.bluetooth:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass org.emag.bluetooth:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass org.emag.bluetooth:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5981,7 +5981,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction org.capiz.bluetooth:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction org.emag.bluetooth:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -6009,17 +6009,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010073
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionLayout
+          @attr name org.emag.bluetooth:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -6029,11 +6029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:actionProviderClass
+          @attr name org.emag.bluetooth:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -6043,7 +6043,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:actionViewClass
+          @attr name org.emag.bluetooth:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -6125,7 +6125,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -6141,7 +6141,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:showAsAction
+          @attr name org.emag.bluetooth:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -6157,7 +6157,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing org.capiz.bluetooth:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing org.emag.bluetooth:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -6215,7 +6215,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -6225,7 +6225,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:preserveIconSpacing
+          @attr name org.emag.bluetooth:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -6237,13 +6237,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation org.capiz.bluetooth:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout org.capiz.bluetooth:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground org.capiz.bluetooth:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint org.capiz.bluetooth:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance org.capiz.bluetooth:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor org.capiz.bluetooth:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu org.capiz.bluetooth:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation org.emag.bluetooth:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout org.emag.bluetooth:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground org.emag.bluetooth:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint org.emag.bluetooth:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance org.emag.bluetooth:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor org.emag.bluetooth:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu org.emag.bluetooth:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -6280,7 +6280,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#elevation}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -6292,31 +6292,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:elevation
+          @attr name org.emag.bluetooth:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:headerLayout
+          @attr name org.emag.bluetooth:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:itemBackground
+          @attr name org.emag.bluetooth:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -6327,21 +6327,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:itemIconTint
+          @attr name org.emag.bluetooth:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:itemTextAppearance
+          @attr name org.emag.bluetooth:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -6352,17 +6352,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:itemTextColor
+          @attr name org.emag.bluetooth:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#menu}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:menu
+          @attr name org.emag.bluetooth:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -6372,7 +6372,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor org.capiz.bluetooth:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor org.emag.bluetooth:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -6387,7 +6387,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -6397,7 +6397,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:overlapAnchor
+          @attr name org.emag.bluetooth:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -6406,7 +6406,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor org.capiz.bluetooth:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor org.emag.bluetooth:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -6414,7 +6414,7 @@ containing a value of this type.
             0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -6424,7 +6424,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:state_above_anchor
+          @attr name org.emag.bluetooth:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -6434,10 +6434,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager org.capiz.bluetooth:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout org.capiz.bluetooth:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount org.capiz.bluetooth:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd org.capiz.bluetooth:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager org.emag.bluetooth:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout org.emag.bluetooth:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount org.emag.bluetooth:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd org.emag.bluetooth:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -6456,7 +6456,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6466,11 +6466,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:layoutManager
+          @attr name org.emag.bluetooth:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6480,11 +6480,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:reverseLayout
+          @attr name org.emag.bluetooth:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6494,11 +6494,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:spanCount
+          @attr name org.emag.bluetooth:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6508,7 +6508,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:stackFromEnd
+          @attr name org.emag.bluetooth:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -6517,7 +6517,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground org.capiz.bluetooth:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground org.emag.bluetooth:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -6525,7 +6525,7 @@ containing a value of this type.
             0x7f010081
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -6533,7 +6533,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:insetForeground
+          @attr name org.emag.bluetooth:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -6542,7 +6542,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop org.capiz.bluetooth:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop org.emag.bluetooth:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -6550,7 +6550,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010082
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -6562,7 +6562,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:behavior_overlapTop
+          @attr name org.emag.bluetooth:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -6575,19 +6575,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon org.capiz.bluetooth:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon org.capiz.bluetooth:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint org.capiz.bluetooth:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon org.capiz.bluetooth:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault org.capiz.bluetooth:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout org.capiz.bluetooth:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground org.capiz.bluetooth:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint org.capiz.bluetooth:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon org.capiz.bluetooth:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon org.capiz.bluetooth:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground org.capiz.bluetooth:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout org.capiz.bluetooth:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon org.capiz.bluetooth:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon org.emag.bluetooth:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon org.emag.bluetooth:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint org.emag.bluetooth:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon org.emag.bluetooth:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault org.emag.bluetooth:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout org.emag.bluetooth:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground org.emag.bluetooth:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint org.emag.bluetooth:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon org.emag.bluetooth:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon org.emag.bluetooth:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground org.emag.bluetooth:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout org.emag.bluetooth:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon org.emag.bluetooth:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6639,27 +6639,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:closeIcon
+          @attr name org.emag.bluetooth:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:commitIcon
+          @attr name org.emag.bluetooth:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6669,21 +6669,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:defaultQueryHint
+          @attr name org.emag.bluetooth:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:goIcon
+          @attr name org.emag.bluetooth:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6693,31 +6693,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:iconifiedByDefault
+          @attr name org.emag.bluetooth:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#layout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:layout
+          @attr name org.emag.bluetooth:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:queryBackground
+          @attr name org.emag.bluetooth:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6727,57 +6727,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:queryHint
+          @attr name org.emag.bluetooth:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:searchHintIcon
+          @attr name org.emag.bluetooth:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:searchIcon
+          @attr name org.emag.bluetooth:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:submitBackground
+          @attr name org.emag.bluetooth:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:suggestionRowLayout
+          @attr name org.emag.bluetooth:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:voiceIcon
+          @attr name org.emag.bluetooth:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
@@ -6786,9 +6786,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize org.capiz.bluetooth:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme org.capiz.bluetooth:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris org.capiz.bluetooth:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize org.emag.bluetooth:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme org.emag.bluetooth:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris org.emag.bluetooth:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -6798,7 +6798,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010090, 0x7f010091, 0x7f010092
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -6814,11 +6814,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buttonSize
+          @attr name org.emag.bluetooth:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -6834,18 +6834,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:colorScheme
+          @attr name org.emag.bluetooth:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name org.capiz.bluetooth:scopeUris
+          @attr name org.emag.bluetooth:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -6855,8 +6855,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation org.capiz.bluetooth:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth org.capiz.bluetooth:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation org.emag.bluetooth:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth org.emag.bluetooth:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -6872,7 +6872,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#elevation}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6884,11 +6884,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:elevation
+          @attr name org.emag.bluetooth:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6900,7 +6900,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:maxActionInlineWidth
+          @attr name org.emag.bluetooth:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -6912,7 +6912,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme org.capiz.bluetooth:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme org.emag.bluetooth:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_popupBackground
@@ -6941,13 +6941,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:popupTheme
+          @attr name org.emag.bluetooth:popupTheme
         */
         public static final int Spinner_popupTheme = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -6959,13 +6959,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText org.capiz.bluetooth:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack org.capiz.bluetooth:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth org.capiz.bluetooth:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding org.capiz.bluetooth:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance org.capiz.bluetooth:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding org.capiz.bluetooth:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track org.capiz.bluetooth:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText org.emag.bluetooth:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack org.emag.bluetooth:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth org.emag.bluetooth:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding org.emag.bluetooth:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance org.emag.bluetooth:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding org.emag.bluetooth:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track org.emag.bluetooth:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -7002,7 +7002,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#showText}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7012,11 +7012,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:showText
+          @attr name org.emag.bluetooth:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7026,11 +7026,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:splitTrack
+          @attr name org.emag.bluetooth:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7042,11 +7042,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:switchMinWidth
+          @attr name org.emag.bluetooth:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7058,21 +7058,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:switchPadding
+          @attr name org.emag.bluetooth:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:switchTextAppearance
+          @attr name org.emag.bluetooth:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7084,17 +7084,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:thumbTextPadding
+          @attr name org.emag.bluetooth:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#track}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:track
+          @attr name org.emag.bluetooth:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabLayout.
@@ -7103,22 +7103,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground org.capiz.bluetooth:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart org.capiz.bluetooth:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity org.capiz.bluetooth:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor org.capiz.bluetooth:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight org.capiz.bluetooth:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth org.capiz.bluetooth:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth org.capiz.bluetooth:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode org.capiz.bluetooth:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding org.capiz.bluetooth:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom org.capiz.bluetooth:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd org.capiz.bluetooth:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart org.capiz.bluetooth:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop org.capiz.bluetooth:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor org.capiz.bluetooth:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance org.capiz.bluetooth:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor org.capiz.bluetooth:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground org.emag.bluetooth:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart org.emag.bluetooth:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity org.emag.bluetooth:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor org.emag.bluetooth:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight org.emag.bluetooth:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth org.emag.bluetooth:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth org.emag.bluetooth:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode org.emag.bluetooth:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding org.emag.bluetooth:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom org.emag.bluetooth:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd org.emag.bluetooth:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart org.emag.bluetooth:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop org.emag.bluetooth:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor org.emag.bluetooth:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance org.emag.bluetooth:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor org.emag.bluetooth:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -7144,17 +7144,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a7, 0x7f0100a8, 0x7f0100a9, 0x7f0100aa
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:tabBackground
+          @attr name org.emag.bluetooth:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7166,11 +7166,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabContentStart
+          @attr name org.emag.bluetooth:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7183,11 +7183,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:tabGravity
+          @attr name org.emag.bluetooth:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7198,11 +7198,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabIndicatorColor
+          @attr name org.emag.bluetooth:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7214,11 +7214,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabIndicatorHeight
+          @attr name org.emag.bluetooth:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7230,11 +7230,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabMaxWidth
+          @attr name org.emag.bluetooth:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7246,11 +7246,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabMinWidth
+          @attr name org.emag.bluetooth:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7263,11 +7263,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:tabMode
+          @attr name org.emag.bluetooth:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7279,11 +7279,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabPadding
+          @attr name org.emag.bluetooth:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7295,11 +7295,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabPaddingBottom
+          @attr name org.emag.bluetooth:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7311,11 +7311,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabPaddingEnd
+          @attr name org.emag.bluetooth:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7327,11 +7327,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabPaddingStart
+          @attr name org.emag.bluetooth:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7343,11 +7343,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabPaddingTop
+          @attr name org.emag.bluetooth:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7358,21 +7358,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabSelectedTextColor
+          @attr name org.emag.bluetooth:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:tabTextAppearance
+          @attr name org.emag.bluetooth:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7383,7 +7383,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:tabTextColor
+          @attr name org.emag.bluetooth:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -7400,7 +7400,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps org.capiz.bluetooth:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps org.emag.bluetooth:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -7466,14 +7466,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name org.capiz.bluetooth:textAllCaps
+          @attr name org.emag.bluetooth:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -7484,14 +7484,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled org.capiz.bluetooth:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength org.capiz.bluetooth:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance org.capiz.bluetooth:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance org.capiz.bluetooth:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled org.capiz.bluetooth:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance org.capiz.bluetooth:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled org.capiz.bluetooth:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance org.capiz.bluetooth:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled org.emag.bluetooth:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength org.emag.bluetooth:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance org.emag.bluetooth:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance org.emag.bluetooth:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled org.emag.bluetooth:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance org.emag.bluetooth:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled org.emag.bluetooth:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance org.emag.bluetooth:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -7522,7 +7522,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7532,11 +7532,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:counterEnabled
+          @attr name org.emag.bluetooth:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7546,31 +7546,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:counterMaxLength
+          @attr name org.emag.bluetooth:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:counterOverflowTextAppearance
+          @attr name org.emag.bluetooth:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:counterTextAppearance
+          @attr name org.emag.bluetooth:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7580,21 +7580,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:errorEnabled
+          @attr name org.emag.bluetooth:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:errorTextAppearance
+          @attr name org.emag.bluetooth:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7604,17 +7604,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:hintAnimationEnabled
+          @attr name org.emag.bluetooth:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:hintTextAppearance
+          @attr name org.emag.bluetooth:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Theme.
@@ -7623,116 +7623,116 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider org.capiz.bluetooth:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground org.capiz.bluetooth:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme org.capiz.bluetooth:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize org.capiz.bluetooth:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle org.capiz.bluetooth:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle org.capiz.bluetooth:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle org.capiz.bluetooth:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle org.capiz.bluetooth:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle org.capiz.bluetooth:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme org.capiz.bluetooth:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme org.capiz.bluetooth:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle org.capiz.bluetooth:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle org.capiz.bluetooth:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance org.capiz.bluetooth:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor org.capiz.bluetooth:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground org.capiz.bluetooth:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle org.capiz.bluetooth:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable org.capiz.bluetooth:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable org.capiz.bluetooth:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable org.capiz.bluetooth:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable org.capiz.bluetooth:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable org.capiz.bluetooth:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle org.capiz.bluetooth:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable org.capiz.bluetooth:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable org.capiz.bluetooth:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground org.capiz.bluetooth:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle org.capiz.bluetooth:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable org.capiz.bluetooth:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle org.capiz.bluetooth:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle org.capiz.bluetooth:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle org.capiz.bluetooth:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle org.capiz.bluetooth:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons org.capiz.bluetooth:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle org.capiz.bluetooth:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme org.capiz.bluetooth:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider org.emag.bluetooth:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground org.emag.bluetooth:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme org.emag.bluetooth:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize org.emag.bluetooth:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle org.emag.bluetooth:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle org.emag.bluetooth:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle org.emag.bluetooth:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle org.emag.bluetooth:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle org.emag.bluetooth:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme org.emag.bluetooth:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme org.emag.bluetooth:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle org.emag.bluetooth:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle org.emag.bluetooth:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance org.emag.bluetooth:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor org.emag.bluetooth:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground org.emag.bluetooth:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle org.emag.bluetooth:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable org.emag.bluetooth:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable org.emag.bluetooth:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable org.emag.bluetooth:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable org.emag.bluetooth:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable org.emag.bluetooth:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle org.emag.bluetooth:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable org.emag.bluetooth:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable org.emag.bluetooth:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground org.emag.bluetooth:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle org.emag.bluetooth:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable org.emag.bluetooth:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle org.emag.bluetooth:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle org.emag.bluetooth:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle org.emag.bluetooth:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle org.emag.bluetooth:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons org.emag.bluetooth:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle org.emag.bluetooth:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme org.emag.bluetooth:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle org.capiz.bluetooth:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle org.capiz.bluetooth:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle org.capiz.bluetooth:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle org.capiz.bluetooth:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle org.capiz.bluetooth:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle org.capiz.bluetooth:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle org.capiz.bluetooth:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle org.capiz.bluetooth:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall org.capiz.bluetooth:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle org.capiz.bluetooth:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle org.capiz.bluetooth:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent org.capiz.bluetooth:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal org.capiz.bluetooth:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated org.capiz.bluetooth:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight org.capiz.bluetooth:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal org.capiz.bluetooth:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary org.capiz.bluetooth:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark org.capiz.bluetooth:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal org.capiz.bluetooth:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground org.capiz.bluetooth:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding org.capiz.bluetooth:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme org.capiz.bluetooth:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal org.capiz.bluetooth:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical org.capiz.bluetooth:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle org.capiz.bluetooth:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight org.capiz.bluetooth:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground org.capiz.bluetooth:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor org.capiz.bluetooth:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle org.capiz.bluetooth:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator org.capiz.bluetooth:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle org.capiz.bluetooth:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator org.capiz.bluetooth:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog org.capiz.bluetooth:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle org.capiz.bluetooth:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight org.capiz.bluetooth:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge org.capiz.bluetooth:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall org.capiz.bluetooth:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft org.capiz.bluetooth:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight org.capiz.bluetooth:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground org.capiz.bluetooth:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme org.capiz.bluetooth:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth org.capiz.bluetooth:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle org.capiz.bluetooth:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle org.capiz.bluetooth:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle org.capiz.bluetooth:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle org.capiz.bluetooth:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle org.capiz.bluetooth:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle org.capiz.bluetooth:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground org.capiz.bluetooth:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless org.capiz.bluetooth:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle org.capiz.bluetooth:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle org.capiz.bluetooth:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle org.capiz.bluetooth:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu org.capiz.bluetooth:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem org.capiz.bluetooth:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall org.capiz.bluetooth:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle org.capiz.bluetooth:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle org.capiz.bluetooth:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu org.capiz.bluetooth:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem org.capiz.bluetooth:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl org.capiz.bluetooth:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle org.capiz.bluetooth:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle org.capiz.bluetooth:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar org.capiz.bluetooth:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay org.capiz.bluetooth:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay org.capiz.bluetooth:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor org.capiz.bluetooth:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor org.capiz.bluetooth:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor org.capiz.bluetooth:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor org.capiz.bluetooth:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor org.capiz.bluetooth:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor org.capiz.bluetooth:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle org.capiz.bluetooth:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle org.emag.bluetooth:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle org.emag.bluetooth:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle org.emag.bluetooth:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle org.emag.bluetooth:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle org.emag.bluetooth:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle org.emag.bluetooth:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle org.emag.bluetooth:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle org.emag.bluetooth:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall org.emag.bluetooth:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle org.emag.bluetooth:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle org.emag.bluetooth:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent org.emag.bluetooth:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal org.emag.bluetooth:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated org.emag.bluetooth:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight org.emag.bluetooth:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal org.emag.bluetooth:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary org.emag.bluetooth:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark org.emag.bluetooth:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal org.emag.bluetooth:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground org.emag.bluetooth:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding org.emag.bluetooth:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme org.emag.bluetooth:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal org.emag.bluetooth:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical org.emag.bluetooth:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle org.emag.bluetooth:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight org.emag.bluetooth:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground org.emag.bluetooth:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor org.emag.bluetooth:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle org.emag.bluetooth:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator org.emag.bluetooth:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle org.emag.bluetooth:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator org.emag.bluetooth:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog org.emag.bluetooth:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle org.emag.bluetooth:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight org.emag.bluetooth:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge org.emag.bluetooth:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall org.emag.bluetooth:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft org.emag.bluetooth:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight org.emag.bluetooth:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground org.emag.bluetooth:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme org.emag.bluetooth:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth org.emag.bluetooth:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle org.emag.bluetooth:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle org.emag.bluetooth:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle org.emag.bluetooth:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle org.emag.bluetooth:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle org.emag.bluetooth:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle org.emag.bluetooth:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground org.emag.bluetooth:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless org.emag.bluetooth:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle org.emag.bluetooth:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle org.emag.bluetooth:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle org.emag.bluetooth:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu org.emag.bluetooth:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem org.emag.bluetooth:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall org.emag.bluetooth:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle org.emag.bluetooth:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle org.emag.bluetooth:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu org.emag.bluetooth:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem org.emag.bluetooth:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl org.emag.bluetooth:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle org.emag.bluetooth:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle org.emag.bluetooth:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar org.emag.bluetooth:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay org.emag.bluetooth:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay org.emag.bluetooth:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor org.emag.bluetooth:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor org.emag.bluetooth:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor org.emag.bluetooth:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor org.emag.bluetooth:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor org.emag.bluetooth:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor org.emag.bluetooth:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle org.emag.bluetooth:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -7876,37 +7876,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01011d, 0x7f01011e
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarDivider
+          @attr name org.emag.bluetooth:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarItemBackground
+          @attr name org.emag.bluetooth:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarPopupTheme
+          @attr name org.emag.bluetooth:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7926,111 +7926,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:actionBarSize
+          @attr name org.emag.bluetooth:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarSplitStyle
+          @attr name org.emag.bluetooth:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarStyle
+          @attr name org.emag.bluetooth:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarTabBarStyle
+          @attr name org.emag.bluetooth:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarTabStyle
+          @attr name org.emag.bluetooth:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarTabTextStyle
+          @attr name org.emag.bluetooth:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarTheme
+          @attr name org.emag.bluetooth:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionBarWidgetTheme
+          @attr name org.emag.bluetooth:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionButtonStyle
+          @attr name org.emag.bluetooth:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionDropDownStyle
+          @attr name org.emag.bluetooth:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionMenuTextAppearance
+          @attr name org.emag.bluetooth:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8038,181 +8038,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:actionMenuTextColor
+          @attr name org.emag.bluetooth:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeBackground
+          @attr name org.emag.bluetooth:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeCloseButtonStyle
+          @attr name org.emag.bluetooth:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeCloseDrawable
+          @attr name org.emag.bluetooth:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeCopyDrawable
+          @attr name org.emag.bluetooth:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeCutDrawable
+          @attr name org.emag.bluetooth:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeFindDrawable
+          @attr name org.emag.bluetooth:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModePasteDrawable
+          @attr name org.emag.bluetooth:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModePopupWindowStyle
+          @attr name org.emag.bluetooth:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeSelectAllDrawable
+          @attr name org.emag.bluetooth:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeShareDrawable
+          @attr name org.emag.bluetooth:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeSplitBackground
+          @attr name org.emag.bluetooth:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeStyle
+          @attr name org.emag.bluetooth:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionModeWebSearchDrawable
+          @attr name org.emag.bluetooth:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionOverflowButtonStyle
+          @attr name org.emag.bluetooth:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:actionOverflowMenuStyle
+          @attr name org.emag.bluetooth:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:activityChooserViewStyle
+          @attr name org.emag.bluetooth:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:alertDialogButtonGroupStyle
+          @attr name org.emag.bluetooth:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8222,27 +8222,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:alertDialogCenterButtons
+          @attr name org.emag.bluetooth:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:alertDialogStyle
+          @attr name org.emag.bluetooth:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:alertDialogTheme
+          @attr name org.emag.bluetooth:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 94;
         /**
@@ -8258,117 +8258,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:autoCompleteTextViewStyle
+          @attr name org.emag.bluetooth:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:borderlessButtonStyle
+          @attr name org.emag.bluetooth:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonBarButtonStyle
+          @attr name org.emag.bluetooth:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonBarNegativeButtonStyle
+          @attr name org.emag.bluetooth:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonBarNeutralButtonStyle
+          @attr name org.emag.bluetooth:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonBarPositiveButtonStyle
+          @attr name org.emag.bluetooth:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonBarStyle
+          @attr name org.emag.bluetooth:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonStyle
+          @attr name org.emag.bluetooth:buttonStyle
         */
         public static final int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:buttonStyleSmall
+          @attr name org.emag.bluetooth:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:checkboxStyle
+          @attr name org.emag.bluetooth:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:checkedTextViewStyle
+          @attr name org.emag.bluetooth:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8379,11 +8379,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorAccent
+          @attr name org.emag.bluetooth:colorAccent
         */
         public static final int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8394,11 +8394,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorButtonNormal
+          @attr name org.emag.bluetooth:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8409,11 +8409,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorControlActivated
+          @attr name org.emag.bluetooth:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8424,11 +8424,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorControlHighlight
+          @attr name org.emag.bluetooth:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8439,11 +8439,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorControlNormal
+          @attr name org.emag.bluetooth:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8454,11 +8454,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorPrimary
+          @attr name org.emag.bluetooth:colorPrimary
         */
         public static final int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8469,11 +8469,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorPrimaryDark
+          @attr name org.emag.bluetooth:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8484,21 +8484,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:colorSwitchThumbNormal
+          @attr name org.emag.bluetooth:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:controlBackground
+          @attr name org.emag.bluetooth:controlBackground
         */
         public static final int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8510,51 +8510,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:dialogPreferredPadding
+          @attr name org.emag.bluetooth:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:dialogTheme
+          @attr name org.emag.bluetooth:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:dividerHorizontal
+          @attr name org.emag.bluetooth:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:dividerVertical
+          @attr name org.emag.bluetooth:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:dropDownListViewStyle
+          @attr name org.emag.bluetooth:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8566,21 +8566,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:dropdownListPreferredItemHeight
+          @attr name org.emag.bluetooth:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:editTextBackground
+          @attr name org.emag.bluetooth:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8588,71 +8588,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:editTextColor
+          @attr name org.emag.bluetooth:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:editTextStyle
+          @attr name org.emag.bluetooth:editTextStyle
         */
         public static final int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:homeAsUpIndicator
+          @attr name org.emag.bluetooth:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:imageButtonStyle
+          @attr name org.emag.bluetooth:imageButtonStyle
         */
         public static final int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:listChoiceBackgroundIndicator
+          @attr name org.emag.bluetooth:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:listDividerAlertDialog
+          @attr name org.emag.bluetooth:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:listPopupWindowStyle
+          @attr name org.emag.bluetooth:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8664,11 +8664,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:listPreferredItemHeight
+          @attr name org.emag.bluetooth:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8680,11 +8680,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:listPreferredItemHeightLarge
+          @attr name org.emag.bluetooth:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8696,11 +8696,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:listPreferredItemHeightSmall
+          @attr name org.emag.bluetooth:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8712,11 +8712,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:listPreferredItemPaddingLeft
+          @attr name org.emag.bluetooth:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8728,31 +8728,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:listPreferredItemPaddingRight
+          @attr name org.emag.bluetooth:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:panelBackground
+          @attr name org.emag.bluetooth:panelBackground
         */
         public static final int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:panelMenuListTheme
+          @attr name org.emag.bluetooth:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8764,181 +8764,181 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:panelMenuListWidth
+          @attr name org.emag.bluetooth:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:popupMenuStyle
+          @attr name org.emag.bluetooth:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:popupWindowStyle
+          @attr name org.emag.bluetooth:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:radioButtonStyle
+          @attr name org.emag.bluetooth:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:ratingBarStyle
+          @attr name org.emag.bluetooth:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:searchViewStyle
+          @attr name org.emag.bluetooth:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:seekBarStyle
+          @attr name org.emag.bluetooth:seekBarStyle
         */
         public static final int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:selectableItemBackground
+          @attr name org.emag.bluetooth:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:selectableItemBackgroundBorderless
+          @attr name org.emag.bluetooth:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:spinnerDropDownItemStyle
+          @attr name org.emag.bluetooth:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:spinnerStyle
+          @attr name org.emag.bluetooth:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:switchStyle
+          @attr name org.emag.bluetooth:switchStyle
         */
         public static final int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceLargePopupMenu
+          @attr name org.emag.bluetooth:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceListItem
+          @attr name org.emag.bluetooth:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceListItemSmall
+          @attr name org.emag.bluetooth:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceSearchResultSubtitle
+          @attr name org.emag.bluetooth:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceSearchResultTitle
+          @attr name org.emag.bluetooth:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:textAppearanceSmallPopupMenu
+          @attr name org.emag.bluetooth:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8946,11 +8946,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:textColorAlertDialogListItem
+          @attr name org.emag.bluetooth:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8958,31 +8958,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:textColorSearchUrl
+          @attr name org.emag.bluetooth:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:toolbarNavigationButtonStyle
+          @attr name org.emag.bluetooth:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:toolbarStyle
+          @attr name org.emag.bluetooth:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8992,11 +8992,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowActionBar
+          @attr name org.emag.bluetooth:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9006,11 +9006,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowActionBarOverlay
+          @attr name org.emag.bluetooth:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9020,11 +9020,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowActionModeOverlay
+          @attr name org.emag.bluetooth:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9039,11 +9039,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowFixedHeightMajor
+          @attr name org.emag.bluetooth:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9058,11 +9058,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowFixedHeightMinor
+          @attr name org.emag.bluetooth:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9077,11 +9077,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowFixedWidthMajor
+          @attr name org.emag.bluetooth:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9096,11 +9096,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowFixedWidthMinor
+          @attr name org.emag.bluetooth:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9115,11 +9115,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowMinWidthMajor
+          @attr name org.emag.bluetooth:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9134,11 +9134,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowMinWidthMinor
+          @attr name org.emag.bluetooth:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -9148,7 +9148,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:windowNoTitle
+          @attr name org.emag.bluetooth:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -9159,29 +9159,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription org.capiz.bluetooth:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon org.capiz.bluetooth:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd org.capiz.bluetooth:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft org.capiz.bluetooth:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight org.capiz.bluetooth:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart org.capiz.bluetooth:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo org.capiz.bluetooth:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription org.capiz.bluetooth:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight org.capiz.bluetooth:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription org.capiz.bluetooth:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon org.capiz.bluetooth:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme org.capiz.bluetooth:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle org.capiz.bluetooth:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance org.capiz.bluetooth:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor org.capiz.bluetooth:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title org.capiz.bluetooth:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom org.capiz.bluetooth:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd org.capiz.bluetooth:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart org.capiz.bluetooth:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop org.capiz.bluetooth:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins org.capiz.bluetooth:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance org.capiz.bluetooth:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor org.capiz.bluetooth:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription org.emag.bluetooth:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon org.emag.bluetooth:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd org.emag.bluetooth:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft org.emag.bluetooth:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight org.emag.bluetooth:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart org.emag.bluetooth:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo org.emag.bluetooth:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription org.emag.bluetooth:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight org.emag.bluetooth:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription org.emag.bluetooth:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon org.emag.bluetooth:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme org.emag.bluetooth:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle org.emag.bluetooth:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance org.emag.bluetooth:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor org.emag.bluetooth:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title org.emag.bluetooth:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom org.emag.bluetooth:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd org.emag.bluetooth:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart org.emag.bluetooth:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop org.emag.bluetooth:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins org.emag.bluetooth:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance org.emag.bluetooth:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor org.emag.bluetooth:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -9231,7 +9231,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9241,21 +9241,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:collapseContentDescription
+          @attr name org.emag.bluetooth:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:collapseIcon
+          @attr name org.emag.bluetooth:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9267,11 +9267,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetEnd
+          @attr name org.emag.bluetooth:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9283,11 +9283,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetLeft
+          @attr name org.emag.bluetooth:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9299,11 +9299,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetRight
+          @attr name org.emag.bluetooth:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9315,21 +9315,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:contentInsetStart
+          @attr name org.emag.bluetooth:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#logo}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:logo
+          @attr name org.emag.bluetooth:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9339,11 +9339,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:logoDescription
+          @attr name org.emag.bluetooth:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9355,11 +9355,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:maxButtonHeight
+          @attr name org.emag.bluetooth:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9369,31 +9369,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:navigationContentDescription
+          @attr name org.emag.bluetooth:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:navigationIcon
+          @attr name org.emag.bluetooth:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:popupTheme
+          @attr name org.emag.bluetooth:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9403,21 +9403,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:subtitle
+          @attr name org.emag.bluetooth:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:subtitleTextAppearance
+          @attr name org.emag.bluetooth:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9428,11 +9428,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:subtitleTextColor
+          @attr name org.emag.bluetooth:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#title}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9442,11 +9442,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:title
+          @attr name org.emag.bluetooth:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9458,11 +9458,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleMarginBottom
+          @attr name org.emag.bluetooth:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9474,11 +9474,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleMarginEnd
+          @attr name org.emag.bluetooth:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9490,11 +9490,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleMarginStart
+          @attr name org.emag.bluetooth:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9506,11 +9506,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleMarginTop
+          @attr name org.emag.bluetooth:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9522,21 +9522,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleMargins
+          @attr name org.emag.bluetooth:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:titleTextAppearance
+          @attr name org.emag.bluetooth:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9547,7 +9547,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:titleTextColor
+          @attr name org.emag.bluetooth:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9558,9 +9558,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd org.capiz.bluetooth:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart org.capiz.bluetooth:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme org.capiz.bluetooth:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd org.emag.bluetooth:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart org.emag.bluetooth:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme org.emag.bluetooth:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9585,7 +9585,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9597,11 +9597,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:paddingEnd
+          @attr name org.emag.bluetooth:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9613,17 +9613,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:paddingStart
+          @attr name org.emag.bluetooth:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#theme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:theme
+          @attr name org.emag.bluetooth:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9633,8 +9633,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint org.capiz.bluetooth:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode org.capiz.bluetooth:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint org.emag.bluetooth:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode org.emag.bluetooth:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -9650,7 +9650,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9661,11 +9661,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:backgroundTint
+          @attr name org.emag.bluetooth:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9681,7 +9681,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:backgroundTintMode
+          @attr name org.emag.bluetooth:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -9725,10 +9725,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme org.capiz.bluetooth:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment org.capiz.bluetooth:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode org.capiz.bluetooth:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle org.capiz.bluetooth:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme org.emag.bluetooth:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment org.emag.bluetooth:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode org.emag.bluetooth:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle org.emag.bluetooth:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -9739,7 +9739,7 @@ containing a value of this type.
             0x7f010133, 0x7f010134, 0x7f010135, 0x7f010136
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9752,11 +9752,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:appTheme
+          @attr name org.emag.bluetooth:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#environment}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9771,11 +9771,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:environment
+          @attr name org.emag.bluetooth:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9788,17 +9788,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:fragmentMode
+          @attr name org.emag.bluetooth:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:fragmentStyle
+          @attr name org.emag.bluetooth:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -9807,17 +9807,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance org.capiz.bluetooth:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight org.capiz.bluetooth:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText org.capiz.bluetooth:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth org.capiz.bluetooth:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground org.capiz.bluetooth:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground org.capiz.bluetooth:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance org.capiz.bluetooth:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance org.capiz.bluetooth:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType org.capiz.bluetooth:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor org.capiz.bluetooth:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance org.capiz.bluetooth:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance org.emag.bluetooth:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight org.emag.bluetooth:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText org.emag.bluetooth:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth org.emag.bluetooth:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground org.emag.bluetooth:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground org.emag.bluetooth:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance org.emag.bluetooth:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance org.emag.bluetooth:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType org.emag.bluetooth:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor org.emag.bluetooth:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance org.emag.bluetooth:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -9837,7 +9837,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01013f, 0x7f010140, 0x7f010141
         };
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9857,11 +9857,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buyButtonAppearance
+          @attr name org.emag.bluetooth:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9882,11 +9882,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buyButtonHeight
+          @attr name org.emag.bluetooth:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9904,11 +9904,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buyButtonText
+          @attr name org.emag.bluetooth:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9929,11 +9929,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:buyButtonWidth
+          @attr name org.emag.bluetooth:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9941,11 +9941,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:maskedWalletDetailsBackground
+          @attr name org.emag.bluetooth:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9953,31 +9953,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name org.capiz.bluetooth:maskedWalletDetailsButtonBackground
+          @attr name org.emag.bluetooth:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:maskedWalletDetailsButtonTextAppearance
+          @attr name org.emag.bluetooth:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:maskedWalletDetailsHeaderTextAppearance
+          @attr name org.emag.bluetooth:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9993,11 +9993,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name org.capiz.bluetooth:maskedWalletDetailsLogoImageType
+          @attr name org.emag.bluetooth:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -10008,17 +10008,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name org.capiz.bluetooth:maskedWalletDetailsLogoTextColor
+          @attr name org.emag.bluetooth:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link org.capiz.bluetooth.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link org.emag.bluetooth.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name org.capiz.bluetooth:maskedWalletDetailsTextAppearance
+          @attr name org.emag.bluetooth:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };

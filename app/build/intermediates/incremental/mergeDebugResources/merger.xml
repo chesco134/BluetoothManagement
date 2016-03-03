@@ -1667,7 +1667,7 @@
     </style><style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-    </style><style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+    </style><style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarStyle">@style/MyActionBar</item>
         <item name="actionBarTabTextStyle">@style/TabTextStyle</item>
         <item name="actionMenuTextColor">@color/actionbar_text</item>

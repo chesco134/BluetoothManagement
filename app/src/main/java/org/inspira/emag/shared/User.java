@@ -9,14 +9,14 @@ public class User implements Shareable {
 
     private String email;
     private String nickname;
-    private byte[] pass;
+    private String pass;
     private long dateOfBirth;
 
-    public byte[] getPass() {
+    public String getPass() {
         return pass;
     }
 
-    public void setPass(byte[] pass) {
+    public void setPass(String pass) {
         this.pass = pass;
     }
 

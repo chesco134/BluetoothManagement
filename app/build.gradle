@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
     defaultConfig {
-        applicationId "org.capiz.bluetooth"
+        applicationId "org.emag.bluetooth"
         minSdkVersion 9
         targetSdkVersion 23
         compileOptions {

@@ -31,11 +31,17 @@ import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -125,6 +131,39 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 		}
+        if(savedInstanceState == null){
+            new Thread(){
+                @Override
+                public void run(){
+                    try{
+                        JSONObject json = new JSONObject();
+                        json.put("action", 1);
+                        json.put("vehiculo", "Dans");
+                        json.put("email", "jcc@ipn.mx");
+                        json.put("fechaInicio", new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()));
+                        Log.d("Auditor", json.getString("fechaInicio"));
+                        HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
+                        con.setDoOutput(true);
+                        DataOutputStream salida = new DataOutputStream(con.getOutputStream());
+                        salida.write(json.toString().getBytes());
+                        salida.flush();
+                        int length;
+                        byte[] chunk = new byte[64];
+                        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                        DataInputStream entrada = new DataInputStream(con.getInputStream());
+                        while( (length = entrada.read(chunk)) != -1 )
+                            baos.write(chunk,0,length);
+                        Log.d("PHP Tester", baos.toString());
+                        baos.close();
+                        con.disconnect();
+                        salida.close();
+                        entrada.close();
+                    }catch(JSONException | IOException e){
+                        e.printStackTrace();
+                    }
+                }
+            }.start();
+        }
 	}
 
     public void makeSnackbar(String message){

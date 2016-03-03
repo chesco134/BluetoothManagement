@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.capiz.bluetooth"
+    package="org.emag.bluetooth"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -77,7 +77,7 @@
 
         <provider
             android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
-            android:authorities="org.capiz.bluetooth.google_measurement_service"
+            android:authorities="org.emag.bluetooth.google_measurement_service"
             android:exported="false" />
 
         <receiver

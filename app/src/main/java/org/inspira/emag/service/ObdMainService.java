@@ -121,7 +121,7 @@ public class ObdMainService extends Service {
                 );
                 TripsData db = new TripsData(ObdMainService.this);
                 int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN")), new Date());
-                Trip t = new Trip(rid, new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), null);
+                Trip t = new Trip(rid, new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), null);
                 Uploader u = new Uploader(t);
                 u.setContext(ObdMainService.this);
                 u.start();
@@ -159,7 +159,7 @@ public class ObdMainService extends Service {
                             }
                     );
                     int lrid = td.insertaVelocidad(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new Speed(lrid, cmd.getFormattedResult(), new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    value = new Speed(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.ENGINE_RPM.getValue())) {
                     mActivity.runOnUiThread(
                             new Runnable() {
@@ -170,7 +170,7 @@ public class ObdMainService extends Service {
                             }
                     );
                     int lrid = td.insertaRPM(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new RPM(lrid, cmd.getFormattedResult(), new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    value = new RPM(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.THROTTLE_POS.getValue())) {
                     mActivity.runOnUiThread(
                             new Runnable() {
@@ -181,7 +181,7 @@ public class ObdMainService extends Service {
                             }
                     );
                     int lrid = td.insertaThrottlePos(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new ThrottlePos(lrid, cmd.getFormattedResult(), new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    value = new ThrottlePos(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 }
                 if (value != null)
                     new Uploader(value).start();
