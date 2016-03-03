@@ -17,8 +17,10 @@ public class Preparacion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startup);
-        signUp = new SignUp();
-        colocaFragmento();
+        if(savedInstanceState == null) {
+            signUp = new SignUp();
+            colocaFragmento();
+        }
     }
 
     private void colocaFragmento() {
