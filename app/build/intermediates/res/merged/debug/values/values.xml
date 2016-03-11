@@ -40,9 +40,9 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="chartreuse">#ffb6e9b5</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff008b28</color>
+    <color name="colorPrimary">#ff008b28</color>
+    <color name="colorPrimaryDark">#ff006428</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -128,6 +128,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
+    <color name="white">#ffffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -331,6 +332,8 @@
     <string name="action_export">Guardar a archivos</string>
     <string name="action_limpiar">limpiar</string>
     <string name="action_settings">Organizar Vehiculos</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
     <string name="action_sync_data">Sincronizar datos</string>
     <string name="app_name">EMAG</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -382,11 +385,18 @@
     <string name="dialogo_entrada_texto_aceptar">Aceptar</string>
     <string name="dialogo_entrada_texto_cancelar">Cancelar</string>
     <string name="dialogo_remocion_elementos_titulo">Seleccione elementos a remover</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
     <string name="esperando">Esperando validación</string>
     <string name="first_message">Aquí es posible enviar comandos directamente al lector obdii. \nPara reiniciar el lector obdii, envíe: atz</string>
     <string name="hello_world">Hello world!</string>
     <string name="launch_client_mode">Cliente</string>
     <string name="launch_server_mode">Servidor</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_iniciar_sesion">Iniciar sesión</string>
+    <string name="login_registrar">Registrar</string>
     <string name="mLatitudeText">Latitud</string>
     <string name="mLongitudeText">Longitud</string>
     <string name="menu_principal_agregar">Agregar</string>
@@ -403,6 +413,11 @@
     <string name="mr_user_route_category_name">Devices</string>
     <string name="organizar_vehiculos">Vehiculos</string>
     <string name="pda_label">PdA</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
     <string name="registro">Registro</string>
     <string name="rpm_label">RPM:</string>
     <string name="signup_car_nickname">Apodo del coche</string>
@@ -416,6 +431,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="title_activity_login">Sign in</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

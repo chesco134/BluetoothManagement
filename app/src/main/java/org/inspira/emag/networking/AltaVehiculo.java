@@ -58,13 +58,14 @@ public class AltaVehiculo extends Thread {
                 Vehiculo vehiculo = new Vehiculo();
                 vehiculo.setEmail(user.getEmail());
                 vehiculo.setNombre(texto);
+                vehiculo.setIdVehiculo(json.getInt("idVehiculo"));
                 if(new TripsData(context).addVehiculo(vehiculo))
                     ProveedorToast
                             .showToastOnUIThread(context, "Cambio realizado con éxito");
                 else
                     ProveedorToast.showToastOnUIThread(context, "El vehículo ya existe");
             } else {
-                ProveedorToast.showToastOnUIThread(context, "Por favor revise la información");
+                ProveedorToast.showToastOnUIThread(context, json.getString("mensaje"));
             }
         } catch (JSONException | IOException e) {
             e.printStackTrace();

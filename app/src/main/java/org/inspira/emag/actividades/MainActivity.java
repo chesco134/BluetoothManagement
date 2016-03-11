@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String UBICACION = "EMAG_Ubicaciones.csv";
 	private static final int START_CLIENT_ACTION = 2;
     public static final String SERVER_URL = "http://www.zooropa.com.mx/services/";
+    private static final int PREPARACION = 324;
     private Button clientMode;
 	private TextView buttonLabel;
     private TextView mLatitudeText;
@@ -196,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void iniciaRegistro() {
-        startActivity(new Intent(this, Preparacion.class));
+        startActivityForResult(new Intent(this, Preparacion.class), PREPARACION);
     }
 
     private void commitTrip(int idTrip){
@@ -402,8 +403,12 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
 		} else {
-			clientMode.setBackgroundResource(R.drawable.off);
-            serviceOn = false;
+            if(requestCode == PREPARACION){
+                finish();
+            }else {
+                clientMode.setBackgroundResource(R.drawable.off);
+                serviceOn = false;
+            }
 		}
 	}
 

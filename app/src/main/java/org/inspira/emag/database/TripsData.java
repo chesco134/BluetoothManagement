@@ -77,6 +77,7 @@ public class TripsData extends SQLiteOpenHelper{
             ContentValues values = new ContentValues();
             values.put("nombre", vehiculo.getNombre());
             values.put("email", vehiculo.getEmail());
+			values.put("idVehiculo", vehiculo.getIdVehiculo());
             db.insert("Vehiculo", "---", values);
         }
         c.close();
@@ -93,6 +94,7 @@ public class TripsData extends SQLiteOpenHelper{
             vehiculo = new Vehiculo();
             vehiculo.setEmail(c.getString(c.getColumnIndex("email")));
             vehiculo.setNombre(c.getString(c.getColumnIndex("nombre")));
+			vehiculo.setIdVehiculo(c.getInt(c.getColumnIndex("idVehiculo")));
             vehiculos.add(vehiculo);
         }
         c.close();

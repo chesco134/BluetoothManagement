@@ -32,6 +32,10 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
     },

@@ -8,24 +8,24 @@
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/car.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/car.png"
-    },
-    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/car.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/car.png"
     },
     {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/my_split_action_bar.png",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/drawable/my_split_action_bar.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/on_button.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/on_button.png"
-    },
-    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/on_button.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/on_button.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/piso_1.png",
@@ -60,12 +60,12 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/drawable/mpg.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/cute_button.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/cute_button.png"
-    },
-    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/cute_button.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/cute_button.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -116,24 +116,24 @@
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_media_route_mono_dark.xml"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/on_off_button.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/drawable/on_off_button.xml"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
@@ -164,12 +164,12 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
@@ -196,12 +196,12 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_pause_dark.xml"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/accel_gauge.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/drawable/accel_gauge.xml"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_pause_dark.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/custom_background.png",
@@ -280,20 +280,20 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/my_action_bar.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/drawable/my_action_bar.png"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/my_action_bar.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/drawable/my_action_bar.png"
     },
     {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
@@ -312,12 +312,12 @@
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/drawable/pump.gif"
     },
     {
-        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
-        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_settings_light.xml"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable/mr_ic_settings_light.xml"
     },
     {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",

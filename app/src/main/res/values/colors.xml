@@ -14,6 +14,7 @@
 -->
 
 <resources>
+    <color name="white">#ffffffff</color>
     <color name="actionbar_text">#ffffffff</color>
     <color name="chartreuse">#ffb6e9b5</color>
     <color name="emerald">#ffa6d9b5</color>
@@ -22,8 +23,8 @@
     <color name="slate">#ff76a9b5</color>
     <color name="my_actionbar_color">#ff008b28</color>
     <color name="my_actionbar_color_dark">#ff006428</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ff008b28</color>
+    <color name="colorPrimaryDark">#ff006428</color>
+    <color name="colorAccent">#ff008b28</color>
     <color name="error">#FFda1200</color>
 </resources>

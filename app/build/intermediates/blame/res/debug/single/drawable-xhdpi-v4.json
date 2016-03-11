@@ -840,6 +840,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_states.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/drawable-xhdpi/button_states.xml"
+    },
+    {
         "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
         "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-xhdpi/common_plus_signin_btn_text_dark_normal.9.png"
     },

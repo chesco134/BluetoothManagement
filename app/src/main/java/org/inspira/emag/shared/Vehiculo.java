@@ -9,6 +9,15 @@ public class Vehiculo implements Shareable {
 
     private String nombre;
     private String email;
+    private int idVehiculo;
+
+    public int getIdVehiculo() {
+        return idVehiculo;
+    }
+
+    public void setIdVehiculo(int idVehiculo) {
+        this.idVehiculo = idVehiculo;
+    }
 
     public String getEmail() {
         return email;
