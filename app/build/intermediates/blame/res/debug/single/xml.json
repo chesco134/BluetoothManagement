@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/xml/preferences.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/xml/preferences.xml"
     },

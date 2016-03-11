@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/configuracion_de_perfiles.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/menu/configuracion_de_perfiles.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/configuracion_de_perfiles.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/menu/configuracion_de_perfiles.xml"
     },
@@ -18,6 +22,14 @@
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/configuracion_de_perfiles.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/menu/configuracion_de_perfiles.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/bluetooth_activity_menu.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/menu/bluetooth_activity_menu.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/menu/bluetooth_activity_menu.xml",

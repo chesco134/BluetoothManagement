@@ -4,7 +4,9 @@ import org.capiz.bluetooth.R;
 import org.inspira.emag.bluetooth.BluetoothManager;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,7 +34,10 @@ public class DevicePickerActivity extends Activity {
         setContentView(R.layout.device_chooser);
         manager = new BluetoothManager(this);
         if( manager.getBluetoothAdapter() != null ) {
-            devicesList = (ListView)findViewById(R.id.devices_list);
+            manager.registerReceiver();
+            manager.loadPairedDevices();
+            manager.justTryToEnableBluetooth();
+            devicesList = (ListView) findViewById(R.id.devices_list);
             arrAdapter = manager.getmArrayAdapter();
             devicesList.setAdapter(arrAdapter);
             devicesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -46,9 +51,7 @@ public class DevicePickerActivity extends Activity {
                     finish();
                 }
             });
-            manager.registerReceiver();
-            manager.loadPairedDevices();
-            manager.justTryToEnableBluetooth();
+
         }
     }
 
@@ -56,5 +59,18 @@ public class DevicePickerActivity extends Activity {
     protected void onDestroy(){
         super.onDestroy();
         manager.unregisterReceiver();
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case BluetoothManager.REQUEST_ENABLE_BT:
+                    manager.registerReceiver();
+                    manager.loadPairedDevices();
+                    arrAdapter.notifyDataSetChanged();
+                    break;
+            }
+        }
     }
 }

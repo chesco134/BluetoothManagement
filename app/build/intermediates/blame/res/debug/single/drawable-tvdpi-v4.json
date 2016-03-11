@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
@@ -16,28 +12,12 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_full_open_on_phone.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-tvdpi/common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
@@ -48,136 +28,60 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_normal.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
@@ -192,24 +96,8 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
@@ -220,48 +108,48 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_full_open_on_phone.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-tvdpi/common_full_open_on_phone.png"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_normal.9.png",
@@ -290,6 +178,266 @@
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_full_open_on_phone.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-tvdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_full_open_on_phone.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-tvdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-tvdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-tvdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-tvdpi/common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/common_plus_signin_btn_text_light_normal.9.png",

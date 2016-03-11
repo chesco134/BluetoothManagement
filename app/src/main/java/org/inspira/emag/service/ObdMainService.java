@@ -34,9 +34,9 @@ import com.github.pires.obd.enums.AvailableCommandNames;
 import com.github.pires.obd.exceptions.ResponseException;
 
 import org.capiz.bluetooth.R;
+import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.actividades.OrganizarVehiculos;
 import org.inspira.emag.bluetooth.BluetoothManager;
-import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.database.TripsData;
 import org.inspira.emag.gps.MyLocationProvider;
 import org.inspira.emag.networking.Uploader;
@@ -66,6 +66,7 @@ public class ObdMainService extends Service {
     private Activity mActivity;
     private NotificationCompat.Builder mBuilder;
     private ConcurrentLinkedQueue<Runnable> updates;
+    private int startId;
 
     public class LocalBinder extends Binder {
         public ObdMainService getService() {
@@ -183,13 +184,18 @@ public class ObdMainService extends Service {
                     int lrid = td.insertaThrottlePos(cmd.getFormattedResult(), trip.getIdTrip());
                     value = new ThrottlePos(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 }
-                if (value != null)
-                    new Uploader(value).start();
+                if (value != null) {
+                    Uploader up = new Uploader(value);
+                    up.setContext(ObdMainService.this);
+                    up.start();
+                }
             } catch (IOException e) {
                 e.printStackTrace();
                 stopActions();
-            } catch(ResponseException | InterruptedException e){
+            } catch(ResponseException e){
                 e.printStackTrace();
+            } catch(InterruptedException e){
+
             }
         }
 
@@ -224,12 +230,7 @@ public class ObdMainService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        SharedPreferences sp =
-                getSharedPreferences(MainActivity.class.getName(), Context.MODE_PRIVATE);
-        Message msg = mServiceHandler.obtainMessage();
-        msg.arg1 = startId;
-        msg.obj = sp.getString("device_addr", "NaN");
-        mServiceHandler.sendMessage(msg);
+        this.startId = startId;
         makeNotification();
         // If we get killed, after returning from here, restart (START_STICKY)
         return START_STICKY;
@@ -295,7 +296,7 @@ public class ObdMainService extends Service {
         mNM.notify(SERVICIO_EMAG, mBuilder.build());
     }
 
-    public void setActivity(final Activity mActivity){
+    public void setActivity(Activity mActivity){
         this.mActivity = mActivity;
         int permissionCheck = ContextCompat
                 .checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
@@ -306,11 +307,17 @@ public class ObdMainService extends Service {
             mActivity.runOnUiThread(new Runnable(){
                 @Override
                 public void run(){
-                    ((MainActivity)mActivity).makeSnackbar("Necesitamos permiso de " +
+                    ((MainActivity)ObdMainService.this.mActivity).makeSnackbar("Necesitamos permiso de " +
                             "ubicación");
                 }
             });
         }
+        SharedPreferences sp =
+                getSharedPreferences(MainActivity.class.getName(), Context.MODE_PRIVATE);
+        Message msg = mServiceHandler.obtainMessage();
+        msg.arg1 = startId;
+        msg.obj = sp.getString("device_addr", "NaN");
+        mServiceHandler.sendMessage(msg);
     }
 
     public void sendUncommitedData(){

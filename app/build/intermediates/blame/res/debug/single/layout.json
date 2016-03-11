@@ -12,6 +12,14 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
     },
@@ -32,6 +40,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/waiting_for_participant.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/waiting_for_participant.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
     },
@@ -40,48 +52,60 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/deice_row.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/deice_row.xml"
-    },
-    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/deice_row.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/deice_row.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_chooser_dialog.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -108,6 +132,10 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
     },
@@ -116,12 +144,36 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
@@ -146,6 +198,10 @@
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -180,6 +236,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/perfiles_de_autos.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/perfiles_de_autos.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_chooser_dialog.xml"
     },
@@ -192,8 +252,16 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/content_main.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
@@ -202,6 +270,10 @@
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -216,8 +288,20 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
@@ -228,8 +312,16 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/perfiles_de_autos.xml",
@@ -240,6 +332,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
@@ -248,8 +344,16 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/layout/content_main.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/content_main.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -262,6 +366,10 @@
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/bluetooth_activity.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/bluetooth_activity.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -284,6 +392,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/input_text.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/layout/input_text.xml"
     },
@@ -300,8 +412,16 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/signup.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
@@ -344,8 +464,28 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/waiting_for_participant.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/layout/waiting_for_participant.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -360,8 +500,16 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/startup.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -380,12 +528,48 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/startup.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/startup.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/prueba_uno.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/prueba_uno.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -412,6 +596,14 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/input_text.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/input_text.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
     },
@@ -436,12 +628,24 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_chooser_dialog.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -452,6 +656,10 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/signup.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/signup.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -460,12 +668,28 @@
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
@@ -476,12 +700,24 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item.xml"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/perfiles_de_autos.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/layout/perfiles_de_autos.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -498,6 +734,22 @@
     {
         "merged": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/device_chooser.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/device_chooser.xml"
+    },
+    {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/deice_row.xml",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/layout/deice_row.xml"
     },
     {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/layout/prueba_uno.xml",

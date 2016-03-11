@@ -4,6 +4,10 @@
         "source": "/Users/jcapiz/StudioProjects/BluetoothManagement/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/jcapiz/Develops/Android/StudioProjects/BluetoothManagement/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/home/jcapiz/AndroidStudioProjects/BluetoothManagement/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }

@@ -31,6 +31,7 @@ import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
+import org.inspira.emag.shared.User;
 import org.json.JSONException;
 import org.json.JSONObject;
 
