@@ -37,13 +37,14 @@ public class LoginConnection extends AsyncTask<String,String,JSONObject> {
         String user = params[0];
         String password = params[1];
         try {
+            Log.d("Logger", password);
             URL url = new URL(MainActivity.SERVER_URL); // la url del ws
             HttpURLConnection urlCon = (HttpURLConnection) url.openConnection();
             urlCon.setDoOutput(true);//to upload data
             //urlCon.setRequestMethod("POST");
             //to send
             json = new JSONObject();
-            json.put("action", 1);
+            json.put("action", 11);
             json.put("user", user);
             json.put("password", password);
             DataOutputStream salida = new DataOutputStream(urlCon.getOutputStream());

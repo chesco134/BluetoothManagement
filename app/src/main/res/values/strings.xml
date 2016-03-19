@@ -26,8 +26,8 @@
     <string name="barra_de_bocados_aviso">Aviso</string>
     <string name="dialogo_remocion_elementos_titulo">Seleccione elementos a remover</string>
     <string name="esperando">Esperando validación</string>
-    <string name="startup_pass">Password</string>
-    <string name="signup_pista_password">La contraseña debe tener al menos 5 caracteres, incluir una mayúscula, un número y un caracter no alfanumérico</string>
+    <string name="startup_pass">Contraseña</string>
+    <string name="signup_pista_password">La contraseña debe tener al menos 5 caracteres</string>
     <string name="pda_label">PdA</string>
     <string name="action_sync_data">Sincronizar datos</string>
     <string name="action_export">Guardar a archivos</string>
@@ -51,4 +51,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="perfiles_de_autos_texto_fijo_auto_actual">Auto actual:</string>
 </resources>

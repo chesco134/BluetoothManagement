@@ -1,7 +1,9 @@
 package org.inspira.emag.fragmentos;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -34,6 +36,11 @@ public class SignIn extends Fragment {
     EditText user, password;
     Button start;
     String userString, pwString;
+    SignUp.Acciones acciones;
+
+    public void setAcciones(SignUp.Acciones acciones) {
+        this.acciones = acciones;
+    }
 
     @Override
     public void onAttach(Context context){
@@ -47,6 +54,7 @@ public class SignIn extends Fragment {
         user = (EditText)rootView.findViewById(R.id.usuario);
         password = (EditText)rootView.findViewById(R.id.pw);
         start = (Button)rootView.findViewById(R.id.iniciar);
+        password.setTypeface(Typeface.createFromAsset(getActivity().getAssets(),"Roboto-Regular.ttf"));
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +68,7 @@ public class SignIn extends Fragment {
                         LoginConnection lc = new LoginConnection(new LoginConnection.OnConnectionAction() {
                             @Override
                             public void validationSucceded(JSONObject json) {
-                                obtencionDeConvocatorias(json);
+                                obtencionDeAutos(json);
                             }
 
                             @Override
@@ -82,10 +90,11 @@ public class SignIn extends Fragment {
         rootView.findViewById(R.id.registrarse).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Nuevo registro");
+                SignUp signUp =  new SignUp();
+                signUp.setAcciones(acciones);
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.preparacion_main_container, new SignUp())
+                        .replace(R.id.preparacion_main_container, signUp)
                         .addToBackStack("login")
                         .commit();
             }
@@ -99,7 +108,7 @@ public class SignIn extends Fragment {
         return rootView;
     }
 
-    private void obtencionDeConvocatorias(JSONObject json) {
+    private void obtencionDeAutos(JSONObject json) {
         try {
             ObtencionDeAutos obt = new ObtencionDeAutos(json.getString("email"));
             obt.setAcciones(new RespuestaObtencionDeConvocatorias(json));
@@ -111,6 +120,12 @@ public class SignIn extends Fragment {
     public void onSaveInstanceState(Bundle outState){
         outState.putString("pass", pwString);
         outState.putString("user", userString);
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Ingreso");
     }
 
     private void setUserInfo(JSONObject json){
@@ -149,6 +164,7 @@ public class SignIn extends Fragment {
         public void obtencionCorrecta(JSONObject json) {
             setUserInfo(usrInfo);
             setAutos(json);
+            getActivity().setResult(Activity.RESULT_OK);
             getActivity().finish();
         }
 
@@ -174,7 +190,13 @@ public class SignIn extends Fragment {
                 Vehiculo vehiculo = new Vehiculo();
                 vehiculo.setEmail(email);
                 vehiculo.setNombre(json.getString("nombre"));
+                vehiculo.setIdVehiculo(json.getInt("idVehiculo"));
                 db.addVehiculo(vehiculo);
+                if(json.getInt("es_principal") > 0){
+                    SharedPreferences.Editor editor = getActivity().getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
+                    editor.putString("vehiculo", vehiculo.getNombre());
+                    editor.apply();
+                }
             }
         }catch(JSONException e){
             e.printStackTrace();

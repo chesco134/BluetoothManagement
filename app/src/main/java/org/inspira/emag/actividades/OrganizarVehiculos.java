@@ -1,7 +1,6 @@
 package org.inspira.emag.actividades;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -21,8 +20,9 @@ import org.inspira.emag.dialogos.DialogoDeConsultaSimple;
 import org.inspira.emag.dialogos.ObtenerTexto;
 import org.inspira.emag.dialogos.ProveedorSnackBar;
 import org.inspira.emag.dialogos.RemueveElementosDeLista;
+import org.inspira.emag.networking.ActualizaVehiculoPrincipal;
 import org.inspira.emag.networking.AltaVehiculo;
-import org.inspira.emag.shared.User;
+import org.inspira.emag.networking.ObtencionDeAutos;
 import org.inspira.emag.shared.Vehiculo;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -73,7 +73,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 info.show(getSupportFragmentManager(), "Shark");
             }
         });
-        String nombreVehiculo = "Auto actual: " + getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
+        String nombreVehiculo = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
         ((TextView)findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
         Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
         List<String> nombres = new ArrayList<>();
@@ -103,14 +103,37 @@ public class OrganizarVehiculos extends AppCompatActivity {
         return resolved;
     }
 
-    private void updateVehiculo(String nombreDeVehiculo){
+    private void updateVehiculo(String nombreDeVehiculo) {
         SharedPreferences.Editor editor = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
         editor.putString("vehiculo", nombreDeVehiculo);
         editor.apply();
-        String nombreVehiculo = "Auto actual: " + nombreDeVehiculo;
-        ((TextView)findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
-        ProveedorSnackBar
-                .muestraBarraDeBocados(lista, "Hecho");
+        String nombreVehiculo = nombreDeVehiculo;
+        ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
+        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("email","NaN"),nombreDeVehiculo);
+        avp.setAcciones(new ObtencionDeAutos.AccionesObtencionDeConvocatorias() {
+            @Override
+            public void obtencionCorrecta(JSONObject json) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        ProveedorSnackBar
+                                .muestraBarraDeBocados(lista, "Hecho");
+                    }
+                });
+            }
+
+            @Override
+            public void obtencionIncorrecta(final String mensaje) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        ProveedorSnackBar
+                                .muestraBarraDeBocados(lista, mensaje);
+                    }
+                });
+            }
+        });
+        avp.start();
     }
 
     private void launchDialogoRemoverElementos() {

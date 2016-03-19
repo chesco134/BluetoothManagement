@@ -29,8 +29,10 @@ import com.github.pires.obd.commands.engine.RPMCommand;
 import com.github.pires.obd.commands.engine.ThrottlePositionCommand;
 import com.github.pires.obd.commands.protocol.EchoOffCommand;
 import com.github.pires.obd.commands.protocol.LineFeedOffCommand;
+import com.github.pires.obd.commands.protocol.SelectProtocolCommand;
 import com.github.pires.obd.commands.protocol.TimeoutCommand;
 import com.github.pires.obd.enums.AvailableCommandNames;
+import com.github.pires.obd.enums.ObdProtocols;
 import com.github.pires.obd.exceptions.ResponseException;
 
 import org.capiz.bluetooth.R;
@@ -129,7 +131,9 @@ public class ObdMainService extends Service {
                 Log.d("Falchor", "A new trip begins (TRIP_ID: " + rid + ")");
                 runCommand(new EchoOffCommand());
                 runCommand(new LineFeedOffCommand());
-                runCommand(new TimeoutCommand(1000));
+                runCommand(new TimeoutCommand(1500));
+                runCommand(new SelectProtocolCommand(ObdProtocols.AUTO));
+                Log.d("Surrender", "SUCCESS");
                 while (TRUE) {
                     runCommand(new RPMCommand());
                     runCommand(new SpeedCommand());
@@ -151,7 +155,7 @@ public class ObdMainService extends Service {
                 Trip trip = td.getUnconcludedTrip();
                 Shareable value = null;
                 if (cmd.getName().equals(AvailableCommandNames.SPEED.getValue())) {
-                    mActivity.runOnUiThread(
+                    if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
                                 @Override
                                 public void run() {
@@ -162,7 +166,7 @@ public class ObdMainService extends Service {
                     int lrid = td.insertaVelocidad(cmd.getFormattedResult(), trip.getIdTrip());
                     value = new Speed(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.ENGINE_RPM.getValue())) {
-                    mActivity.runOnUiThread(
+                    if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
                                 @Override
                                 public void run() {
@@ -173,7 +177,7 @@ public class ObdMainService extends Service {
                     int lrid = td.insertaRPM(cmd.getFormattedResult(), trip.getIdTrip());
                     value = new RPM(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.THROTTLE_POS.getValue())) {
-                    mActivity.runOnUiThread(
+                    if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
                                 @Override
                                 public void run() {
@@ -195,7 +199,7 @@ public class ObdMainService extends Service {
             } catch(ResponseException e){
                 e.printStackTrace();
             } catch(InterruptedException e){
-
+                e.printStackTrace();
             }
         }
 
@@ -231,7 +235,6 @@ public class ObdMainService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         this.startId = startId;
-        makeNotification();
         // If we get killed, after returning from here, restart (START_STICKY)
         return START_STICKY;
     }
@@ -246,6 +249,7 @@ public class ObdMainService extends Service {
         // Get the HandlerThread's Looper and use it for our Handler
         mServiceLooper = thread.getLooper();
         mServiceHandler = new ServiceHandler(mServiceLooper);
+        mActivity = null;
     }
 
 	@Override
@@ -260,11 +264,7 @@ public class ObdMainService extends Service {
 
 	@Override
 	public IBinder onBind(Intent intent) {
-        if(mNM != null) {
-            return mBinder;
-        } else {
-            return null;
-        }
+        return mBinder;
 	}
 
     public void makeNotification(){
@@ -298,6 +298,13 @@ public class ObdMainService extends Service {
 
     public void setActivity(Activity mActivity){
         this.mActivity = mActivity;
+        makeNotification();
+        SharedPreferences sp =
+                getSharedPreferences(MainActivity.class.getName(), Context.MODE_PRIVATE);
+        Message msg = mServiceHandler.obtainMessage();
+        msg.arg1 = startId;
+        msg.obj = sp.getString("device_addr", "NaN");
+        mServiceHandler.sendMessage(msg);
         int permissionCheck = ContextCompat
                 .checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
         if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
@@ -312,12 +319,7 @@ public class ObdMainService extends Service {
                 }
             });
         }
-        SharedPreferences sp =
-                getSharedPreferences(MainActivity.class.getName(), Context.MODE_PRIVATE);
-        Message msg = mServiceHandler.obtainMessage();
-        msg.arg1 = startId;
-        msg.obj = sp.getString("device_addr", "NaN");
-        mServiceHandler.sendMessage(msg);
+        Log.d("Savior", "Stupid human!!!!");
     }
 
     public void sendUncommitedData(){

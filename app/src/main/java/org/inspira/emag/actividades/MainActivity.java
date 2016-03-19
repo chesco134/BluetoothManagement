@@ -215,11 +215,19 @@ public class MainActivity extends AppCompatActivity {
                 });
                 TripsData db = new TripsData(MainActivity.this);
                 Trip[] uncommitedTrips = db.getUncommitedTrips();
-                new Uploader(uncommitedTrips).start();
+                Uploader up = new Uploader(uncommitedTrips);
+                up.setContext(MainActivity.this);
+                up.start();
                 for (Trip trip : uncommitedTrips) {
-                    new Uploader(db.getLocationsByTrip(trip.getIdTrip())).start();
-                    new Uploader(db.getRPMsByTrip(trip.getIdTrip())).start();
-                    new Uploader(db.getSpeedsByTrip(trip.getIdTrip())).start();
+                    Uploader upl = new Uploader(db.getLocationsByTrip(trip.getIdTrip()));
+                    upl.setContext(MainActivity.this);
+                    upl.start();
+                    Uploader upt = new Uploader(db.getRPMsByTrip(trip.getIdTrip()));
+                    upt.setContext(MainActivity.this);
+                    upt.start();
+                    Uploader ups = new Uploader(db.getSpeedsByTrip(trip.getIdTrip()));
+                    ups.setContext(MainActivity.this);
+                    ups.start();
                     if (db.getLocationsByTrip(trip.getIdTrip()).length == 0
                             && db.getRPMsByTrip(trip.getIdTrip()).length == 0
                             && db.getSpeedsByTrip(trip.getIdTrip()).length == 0) {
@@ -314,7 +322,9 @@ public class MainActivity extends AppCompatActivity {
                             makeSnackbar("No hay datos para exportar");
                         }
                     });
-                    new Uploader(new RawReading(ex.getMessage())).start();
+                    Uploader up = new Uploader(new RawReading(ex.getMessage()));
+                    up.setContext(MainActivity.this);
+                    up.start();
                 }
             }
         }.start();
@@ -419,7 +429,9 @@ public class MainActivity extends AppCompatActivity {
             int locId = db.insertaUbicacion(latitud, longitud, trip.getIdTrip());
             Location cLoc = new Location(locId, latitud, longitud,
                     new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
-            new Uploader(cLoc).start();
+            Uploader up = new Uploader(cLoc);
+            up.setContext(this);
+            up.start();
         }
     }
 
@@ -460,8 +472,13 @@ public class MainActivity extends AppCompatActivity {
             // interact with the service. Because we have bound to a explicit
             // service that we know is running in our own process, we can
             // cast its IBinder to a concrete class and directly access it.
+            mIsBound = true;
+            serviceOn = true;
             mBoundService = ((ObdMainService.LocalBinder) service).getService();
             mBoundService.setActivity(MainActivity.this);
+            Uploader up = new Uploader(new RawReading("Acabamos de ponerle algo aquí " + new SimpleDateFormat().format(new Date())));
+            up.setContext(MainActivity.this);
+            up.start();
         }
 
         @Override
@@ -481,9 +498,8 @@ public class MainActivity extends AppCompatActivity {
         // we know will be running in our own process (and thus won't be
         // supporting component replacement by other applications).
         if(!mIsBound) {
-            bindService(new Intent(this, ObdMainService.class), mConnection,
+            bindService(mService, mConnection,
                     Context.BIND_AUTO_CREATE);
-            mIsBound = true;
             Log.d("DBZ","Bounded");
         }
     }

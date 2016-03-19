@@ -35,6 +35,7 @@ import java.util.List;
 
 import org.capiz.bluetooth.R;
 import org.inspira.emag.fragmentos.SignIn;
+import org.inspira.emag.fragmentos.SignUp;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -52,10 +53,17 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void colocaFragmento() {
-        getSupportActionBar().setTitle("Ingreso");
+        SignIn signIn = new SignIn();
+        signIn.setAcciones(new SignUp.Acciones() {
+            @Override
+            public void onResume(String mensaje) {
+                getSupportActionBar()
+                        .setTitle(mensaje);
+            }
+        });
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.preparacion_main_container, new SignIn())
+                .add(R.id.preparacion_main_container, signIn)
                 .commit();
     }
 }

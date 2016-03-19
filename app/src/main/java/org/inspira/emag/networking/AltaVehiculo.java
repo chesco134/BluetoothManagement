@@ -25,10 +25,16 @@ public class AltaVehiculo extends Thread {
 
     private String texto;
     private Activity context;
+    private boolean esPrincipal;
 
     public AltaVehiculo(Activity context, String texto){
         this.texto = texto;
         this.context = context;
+        esPrincipal = false;
+    }
+
+    public void setEsPrincipal(boolean esPrincipal) {
+        this.esPrincipal = esPrincipal;
     }
 
     @Override
@@ -40,6 +46,7 @@ public class AltaVehiculo extends Thread {
             User user = db.getUserData();
             json.put("email", user.getEmail());
             json.put("vehiculo", texto);
+            json.put("es_principal", esPrincipal ? 1 : 0);
             HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
             con.setDoOutput(true);
             DataOutputStream salida = new DataOutputStream(con.getOutputStream());

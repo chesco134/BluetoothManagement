@@ -103,11 +103,12 @@ public class Uploader extends Thread {
                         Log.e(TAG, e.getMessage());
                     }
                 else if(reading instanceof RawReading)
-                    json = ((RawReading)reading).getJson();
-                try {
-                    json.put("email", new TripsData(ctx).getUserData().getEmail());
-                    json.put("vehiculo", ctx.getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", null));
-                }catch(JSONException ignore){}
+                    try {
+                        json = ((RawReading) reading).getJson();
+                        json.put("action", -3);
+                    }catch(JSONException e){
+                        e.printStackTrace();
+                    }
                 Log.d(TAG,"Sending something:\n" + json.toString());
                 salida.write(json.toString().getBytes());
                 salida.flush();

@@ -1,11 +1,14 @@
 package org.inspira.emag.fragmentos;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -61,6 +64,15 @@ public class SignUp extends Fragment {
     private MyWatcher myWatcher;
     private MyMailWatcher mailWatcher;
     private boolean cStatus;
+    private Acciones acciones;
+
+    public void setAcciones(Acciones acciones) {
+        this.acciones = acciones;
+    }
+
+    public interface Acciones{
+        void onResume(String mensaje);
+    }
 
     @Override
     public void onAttach(Context context){
@@ -82,6 +94,7 @@ public class SignUp extends Fragment {
         nickname = (EditText) rootView.findViewById(R.id.signup_usuario);
         carNickname = (EditText) rootView.findViewById(R.id.signup_car_nickname);
         pass = (EditText) rootView.findViewById(R.id.signup_pass);
+        pass.setTypeface(Typeface.createFromAsset(getActivity().getAssets(),"Roboto-Regular.ttf"));
         myWatcher = new MyWatcher();
         pass.addTextChangedListener(myWatcher);
         date = (TextView) rootView.findViewById(R.id.signup_fecha_de_nacimiento);
@@ -144,6 +157,12 @@ public class SignUp extends Fragment {
         outState.putBoolean("confirm_status", cStatus);
     }
 
+    @Override
+    public void onResume(){
+        super.onResume();
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Registro");
+    }
+
     private void validarInformacion() {
         boolean veredicto = true;
         if( !myWatcher.isEnabled() ){
@@ -201,6 +220,7 @@ public class SignUp extends Fragment {
     }
 
     private void colocarPantallaPrincipal() {
+        getActivity().setResult(Activity.RESULT_OK);
         getActivity().finish();
     }
 
@@ -209,6 +229,7 @@ public class SignUp extends Fragment {
         db.addUser(usuario);
         SharedPreferences.Editor editor = getActivity().getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
         editor.putString("vehiculo", carNickname.getText().toString());
+        editor.putString("email", usuario.getEmail());
         editor.apply();
         new AltaVehiculo(getActivity(), carNickname.getText().toString()).start();
     }
@@ -217,7 +238,7 @@ public class SignUp extends Fragment {
         boolean veredicto = false;
         try{
             JSONObject json = new JSONObject();
-            json.put("action",7); // La acción 5 es para solicitar una validación de datos.
+            json.put("action",7); // La acción 7 es para solicitar una validación de datos.
             json.put("email", user.getEmail());
             json.put("nickname", user.getNickname());
             json.put("fecha_de_nacimiento", user.getDateOfBirth());
@@ -288,7 +309,7 @@ public class SignUp extends Fragment {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(validate(pass.getText().toString())) {
+            if((pass.getText().toString().length() > 5)) {
                 pass.setBackgroundColor(getActivity().getResources().getColor(R.color.actionbar_text));
                 enabled = true;
             }else {

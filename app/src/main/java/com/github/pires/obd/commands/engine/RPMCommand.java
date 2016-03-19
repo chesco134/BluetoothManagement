@@ -29,7 +29,12 @@ public class RPMCommand extends ObdCommand {
     @Override
     protected void performCalculations() {
         // ignore first two bytes [41 0C] of the response((A*256)+B)/4
-        rpm = (buffer.get(2) * 256 + buffer.get(3)) / 4;
+        try {
+            rpm = (buffer.get(2) * 256 + buffer.get(3)) / 4;
+        }catch(ArrayIndexOutOfBoundsException e){
+            e.printStackTrace();
+            rpm = 0;
+        }
     }
 
     /**

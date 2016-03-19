@@ -413,6 +413,7 @@
     <string name="mr_user_route_category_name">Devices</string>
     <string name="organizar_vehiculos">Vehiculos</string>
     <string name="pda_label">PdA</string>
+    <string name="perfiles_de_autos_texto_fijo_auto_actual">Auto actual:</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -422,12 +423,12 @@
     <string name="rpm_label">RPM:</string>
     <string name="signup_car_nickname">Apodo del coche</string>
     <string name="signup_date_of_birth">Fecha de nacimiento</string>
-    <string name="signup_pista_password">La contraseña debe tener al menos 5 caracteres, incluir una mayúscula, un número y un caracter no alfanumérico</string>
+    <string name="signup_pista_password">La contraseña debe tener al menos 5 caracteres</string>
     <string name="signup_registrar">Registrar</string>
     <string name="signup_usuario">Nombre de usuario</string>
     <string name="speed_label">Vel:</string>
     <string name="startup_email">E-mail</string>
-    <string name="startup_pass">Password</string>
+    <string name="startup_pass">Contraseña</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
