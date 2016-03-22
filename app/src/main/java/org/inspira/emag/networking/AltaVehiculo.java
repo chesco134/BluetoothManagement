@@ -66,10 +66,11 @@ public class AltaVehiculo extends Thread {
                 vehiculo.setEmail(user.getEmail());
                 vehiculo.setNombre(texto);
                 vehiculo.setIdVehiculo(json.getInt("idVehiculo"));
-                if(new TripsData(context).addVehiculo(vehiculo))
+                if(db.addVehiculo(vehiculo)) {
+                    db.hacerVehiculoValido(vehiculo);
                     ProveedorToast
                             .showToastOnUIThread(context, "Cambio realizado con éxito");
-                else
+                }else
                     ProveedorToast.showToastOnUIThread(context, "El vehículo ya existe");
             } else {
                 ProveedorToast.showToastOnUIThread(context, json.getString("mensaje"));

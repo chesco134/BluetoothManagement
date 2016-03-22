@@ -306,7 +306,7 @@ public class MainActivity extends AppCompatActivity {
                     throttlePosWriter.close();
                     speedsWriter.close();
                     locationWriter.close();
-                    db.clearTables();
+                    // db.clearTables();
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {

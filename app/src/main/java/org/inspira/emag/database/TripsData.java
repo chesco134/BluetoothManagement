@@ -87,7 +87,7 @@ public class TripsData extends SQLiteOpenHelper{
 
     public Vehiculo[] obtenerVehiculosValidos(){
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("select * from Vehiculo where estadoServidorRemoto != 2", null);
+        Cursor c = db.rawQuery("select * from Vehiculo where estadoServidorRemoto != 1", null);
         Vehiculo vehiculo;
         List<Vehiculo> vehiculos = new ArrayList<>();
         while(c.moveToNext()){
@@ -99,7 +99,7 @@ public class TripsData extends SQLiteOpenHelper{
         }
         c.close();
         db.close();
-        return vehiculos.toArray(new Vehiculo[0]);
+        return vehiculos.toArray(new Vehiculo[1]);
     }
 
     public int obtenerIdVehiculoFromNombre(String nombre){
@@ -115,23 +115,23 @@ public class TripsData extends SQLiteOpenHelper{
         return vid;
     }
 
-    public void colocarVehiculosEnNoBorrado(String[] nombres){
+    public void colocarVehiculosEnNoBorrado(Vehiculo[] vehiculos){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("estadoServidorRemoto", 2);
         String[] whereVals = new String[1];
-        for(String nombre : nombres){
-            whereVals[0] = nombre;
-            db.update("Vehiculo", values, "nombre = ?", whereVals);
+        for(Vehiculo vehiculo : vehiculos){
+            whereVals[0] = String.valueOf(vehiculo.getIdVehiculo());
+            db.update("Vehiculo", values, "idVehiculo = CAST(? as INTEGER)", whereVals);
         }
         db.close();
     }
 
-    public void removerVehiculo(String nombre){
-        SQLiteDatabase db = getWritableDatabase();
-        db.delete("Vehiculo","nombre = ?", new String[]{nombre});
-        db.close();
-    }
+	public void removerVehiculo(int idVehiculo){
+		SQLiteDatabase db = getWritableDatabase();
+		db.delete("Vehiculo", "idVehiculo = CAST(? as INTEGER)", new String[]{String.valueOf(idVehiculo)});
+		db.close();
+	}
 
 	public void addUser(User user){
 		SQLiteDatabase db = getWritableDatabase();
@@ -155,6 +155,8 @@ public class TripsData extends SQLiteOpenHelper{
         }else{
             user = null;
         }
+		c.close();
+		db.close();
         return user;
     }
 
@@ -163,17 +165,19 @@ public class TripsData extends SQLiteOpenHelper{
         Cursor c = db.rawQuery("select * from User", null);
         boolean exists = c.moveToNext();
         c.close();
+		db.close();
         return exists;
     }
 
 	public void setCommited(String table, int idTrip){
 		Log.d("XXXXXXXXXXXXX", "Commiting " + table + ", " + idTrip);
 		ContentValues val = new ContentValues();
-		val.put("isCommited", "1");
-		String where = "idTrip=?";
+		val.put("isCommited", 1);
+		String where = "idTrip= CAST(? as INTEGER)";
 		String whereArgs[] = {String.valueOf(idTrip)};
-		getWritableDatabase().update(table, val, where, whereArgs);
-		close();
+		SQLiteDatabase db = getWritableDatabase();
+		db.update(table, val, where, whereArgs);
+		db.close();
 	}
 
 	public int insertTrip(int idVehiculo, Date fechaInicio){
@@ -182,6 +186,7 @@ public class TripsData extends SQLiteOpenHelper{
 		values.put("fechaInicio", new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(fechaInicio));
         values.put("idVehiculo", idVehiculo);
 		db.insert("Trip", "---", values);
+		db.close();
         db = getReadableDatabase();
         Cursor c = db.rawQuery("select last_insert_rowid()", null);
         int id = -1;
@@ -196,11 +201,12 @@ public class TripsData extends SQLiteOpenHelper{
 	public void terminaFechaTrip(int idTrip, Date fechaFin){
 		ContentValues values = new ContentValues();
 		values.put("fechaFin", new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(fechaFin));
-		values.put("isCommited","1");
+		values.put("isCommited",1);
 		String[] whereArgs = {String.valueOf(idTrip)};
-		getWritableDatabase().update("Trip",values,"idTrip = ?",whereArgs);
-		Log.d("TripsData", "Trip " + idTrip + "commited.");
-		close();
+		SQLiteDatabase db = getWritableDatabase();
+		db.update("Trip", values, "idTrip = CAST(? as INTEGER)", whereArgs);
+		Log.d("TripsData", "Trip #" + idTrip + "commited.");
+		db.close();
 	}
 
 	public int insertaRPM(String rpm, int idTrip){
@@ -208,14 +214,18 @@ public class TripsData extends SQLiteOpenHelper{
 		values.put("RPMVal",rpm);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
-		long id = getWritableDatabase().insert("RPM", "---", values);
+		SQLiteDatabase db = getWritableDatabase();
+		long id = db.insert("RPM", "---", values);
 		if(id > -1) {
-			Cursor c = getReadableDatabase().rawQuery("select last_insert_rowid()", null);
+			db.close();
+			db = getReadableDatabase();
+			Cursor c = db.rawQuery("select last_insert_rowid()", null);
 			if (c.moveToFirst())
 				lrid = c.getInt(0);
 			c.close();
-		}
-		close();
+			db.close();
+		}else
+			db.close();
 		return lrid;
 	}
 
@@ -224,14 +234,18 @@ public class TripsData extends SQLiteOpenHelper{
 		values.put("SpeedVal",velocidad);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
-		long id = getWritableDatabase().insert("Speed", "---", values);
+		SQLiteDatabase db = getWritableDatabase();
+		long id = db.insert("Speed", "---", values);
 		if(id > -1) {
-			Cursor c = getReadableDatabase().rawQuery("select last_insert_rowid()", null);
+			db.close();
+			db = getReadableDatabase();
+			Cursor c = db.rawQuery("select last_insert_rowid()", null);
 			if (c.moveToFirst())
 				lrid = c.getInt(0);
 			c.close();
-		}
-		close();
+			db.close();
+		}else
+			db.close();
 		return lrid;
 	}
 
@@ -240,14 +254,18 @@ public class TripsData extends SQLiteOpenHelper{
 		values.put("ThrottleVal",throttleVal);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
-		long id = getWritableDatabase().insert("ThrottlePos", "---", values);
+		SQLiteDatabase db = getWritableDatabase();
+		long id = db.insert("ThrottlePos", "---", values);
 		if(id > -1) {
-			Cursor c = getReadableDatabase().rawQuery("select last_insert_rowid()", null);
+			db.close();
+			db = getReadableDatabase();
+			Cursor c = db.rawQuery("select last_insert_rowid()", null);
 			if (c.moveToFirst())
 				lrid = c.getInt(0);
 			c.close();
-		}
-		close();
+			db.close();
+		}else
+			db.close();
 		return lrid;
 	}
 
@@ -257,34 +275,41 @@ public class TripsData extends SQLiteOpenHelper{
 		values.put("Longitud", longitud);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
-		long id = getWritableDatabase().insert("Location","---",values);
+		SQLiteDatabase db = getWritableDatabase();
+		long id = db.insert("Location","---",values);
 		if(id > -1) {
-			Cursor c = getReadableDatabase().rawQuery("select last_insert_rowid()", null);
+			db.close();
+			db = getReadableDatabase();
+			Cursor c = db.rawQuery("select last_insert_rowid()", null);
 			if (c.moveToFirst())
 				lrid = c.getInt(0);
 			c.close();
-		}
-		close();
+			db.close();
+		}else
+			db.close();
 		return lrid;
 	}
 
 	public Trip[] getTrips(){
-		Cursor c = getReadableDatabase().rawQuery("select * from Trip",null);
+		SQLiteDatabase db = getReadableDatabase();
+		Cursor c = db.rawQuery("select * from Trip",null);
 		List<Trip> trips = new ArrayList<Trip>();
 		while(c.moveToNext())
 			trips.add(new Trip(c.getInt(c.getColumnIndex("idTrip")), (c.getString(c.getColumnIndex("fechaInicio"))),(c.getString(c.getColumnIndex("fechaFin")))));
 		c.close();
-		close();
-		return trips.toArray(new Trip[0]);
+		db.close();
+		return trips.toArray(new Trip[1]);
 	}
 
 	public Trip getUnconcludedTrip(){
 		Trip lastTrip = null;
-		Cursor c = getReadableDatabase().rawQuery("select * from Trip where fechaFin = '---' or fechaFin is null",null);
-		if(c.getCount() > 0){
-			c.moveToLast();
+		SQLiteDatabase db = getReadableDatabase();
+		Cursor c = db.rawQuery("select * from Trip where fechaFin = '---' or fechaFin is null",null);
+		if(c.moveToLast()){
 			lastTrip = new Trip(c.getInt(c.getColumnIndex("idTrip")),(c.getString(c.getColumnIndex("fechaInicio"))),(c.getString(c.getColumnIndex("fechaFin"))));
 		}
+		c.close();
+		db.close();
 		return lastTrip;
 	}
 
@@ -297,7 +322,7 @@ public class TripsData extends SQLiteOpenHelper{
 		}
 		c.close();
 		close();
-		return trips.toArray(new Trip[0]);
+		return trips.toArray(new Trip[1]);
 	}
 
 	public RPM[] getRPMsByTrip(int idTrip){
@@ -308,7 +333,7 @@ public class TripsData extends SQLiteOpenHelper{
 		}
 		c.close();
 		close();
-		return rpms.toArray(new RPM[0]);
+		return rpms.toArray(new RPM[1]);
 	}
 
 	public Speed[] getSpeedsByTrip(int idTrip){
@@ -349,7 +374,16 @@ public class TripsData extends SQLiteOpenHelper{
 		db.delete("RPM",null,null);
 		db.delete("Location",null,null);
 		db.delete("Speed",null,null);
-		db.delete("ThrottlePos",null,null);
-		db.delete("Trip",null,null);
+		db.delete("ThrottlePos", null, null);
+		db.delete("Trip", null, null);
+		db.close();
+	}
+
+	public void hacerVehiculoValido(Vehiculo vehiculo) {
+		SQLiteDatabase db = getWritableDatabase();
+		ContentValues values = new ContentValues();
+		values.put("estadoServidorRemoto", 1);
+		db.update("Vehiculo", values, "idVehiculo = CAST(? as INTEGER)", new String[]{String.valueOf(vehiculo.getIdVehiculo())});
+		db.close();
 	}
 }

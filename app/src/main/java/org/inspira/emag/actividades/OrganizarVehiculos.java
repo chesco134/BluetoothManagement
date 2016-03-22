@@ -107,8 +107,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
         SharedPreferences.Editor editor = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
         editor.putString("vehiculo", nombreDeVehiculo);
         editor.apply();
-        String nombreVehiculo = nombreDeVehiculo;
-        ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
+        ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreDeVehiculo);
         ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("email","NaN"),nombreDeVehiculo);
         avp.setAcciones(new ObtencionDeAutos.AccionesObtencionDeConvocatorias() {
             @Override
@@ -140,31 +139,31 @@ public class OrganizarVehiculos extends AppCompatActivity {
         RemueveElementosDeLista rm = new RemueveElementosDeLista();
         Bundle args = new Bundle();
         final List<String> elementos = new ArrayList<>();
-        String vActual = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
-        for(Vehiculo v : new TripsData(this).obtenerVehiculosValidos())
+        final String vActual = ProveedorDeRecursos.obtenerRecursoString(this, "vehiculo");
+        final Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
+        for(Vehiculo v : vehiculos)
             if(!vActual.equals(v.getNombre())) elementos.add(v.getNombre());
-        args.putStringArray("elementos", elementos.toArray(new String[0]));
+        args.putStringArray("elementos", elementos.toArray(new String[1]));
         rm.setArguments(args);
         rm.setAd(new RemueveElementosDeLista.AccionDialogo() {
             @Override
             public void accionPositiva(DialogFragment fragment) {
                 Integer[] indices = ((RemueveElementosDeLista) fragment).getElementosSeleccionados();
                 prepareElements(indices);
-                final List<String> sublist = new ArrayList<>();
+                final List<Vehiculo> sublist = new ArrayList<>();
                 for(Integer index : indices){
-                    sublist.add(elementos.get(index));
+                    sublist.add(vehiculos[index]);
                 }
                 final TripsData db = new TripsData(OrganizarVehiculos.this);
-                db.colocarVehiculosEnNoBorrado(sublist.toArray(new String[0]));
+                db.colocarVehiculosEnNoBorrado(sublist.toArray(new Vehiculo[1]));
                 new Thread(){
                     @Override
                     public void run(){
-                        for( String nombre : sublist )
+                        for( Vehiculo vehiculo : sublist )
                         try{
                             JSONObject json = new JSONObject();
                             json.put("action", 9); // Solicitud de borrar vehículo para el usuario.
-                            json.put("nombre", nombre);
-                            json.put("email", db.getUserData().getEmail());
+                            json.put("idVehiculo", vehiculo.getIdVehiculo());
                             HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
                             con.setDoOutput(true);
                             DataOutputStream salida = new DataOutputStream(con.getOutputStream());
@@ -176,12 +175,12 @@ public class OrganizarVehiculos extends AppCompatActivity {
                             DataInputStream entrada = new DataInputStream(con.getInputStream());
                             while((length = entrada.read(chunk)) != -1)
                                 baos.write(chunk, 0, length);
-                            Log.d("Momonga", baos.toString());
+                            Log.d("Momonga", "Vehiculo eliminado: " + baos.toString());
                             json = new JSONObject(baos.toString());
                             baos.close();
                             if(json.getBoolean("content")){
-                                db.removerVehiculo(nombre);
-                                runOnUiThread(new Poster(nombre));
+                                db.removerVehiculo(vehiculo.getIdVehiculo());
+                                runOnUiThread(new Poster(vehiculo.getNombre()));
                             }
                         }catch(JSONException | IOException e){
                             e.printStackTrace();

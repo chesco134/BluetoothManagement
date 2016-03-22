@@ -22,7 +22,7 @@ public class RemueveElementosDeLista extends DialogFragment {
     private List<Integer> elementosSeleccionados;
 
     public Integer[] getElementosSeleccionados() {
-        return elementosSeleccionados.toArray(new Integer[0]);
+        return elementosSeleccionados.toArray(new Integer[1]);
     }
 
     public interface AccionDialogo extends Serializable {
@@ -81,7 +81,7 @@ public class RemueveElementosDeLista extends DialogFragment {
 
     @Override
     public void onSaveInstanceState(Bundle outState){
-        outState.putStringArrayList("elementos_seleccionados",(ArrayList)elementosSeleccionados);
+        outState.putIntegerArrayList("elementos_seleccionados",(ArrayList<Integer>)elementosSeleccionados);
         outState.putStringArray("elementos", elementos);
         outState.putSerializable("acciones_dialogo",ad);
     }

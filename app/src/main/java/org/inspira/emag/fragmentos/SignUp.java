@@ -231,7 +231,9 @@ public class SignUp extends Fragment {
         editor.putString("vehiculo", carNickname.getText().toString());
         editor.putString("email", usuario.getEmail());
         editor.apply();
-        new AltaVehiculo(getActivity(), carNickname.getText().toString()).start();
+        AltaVehiculo alta = new AltaVehiculo(getActivity(), carNickname.getText().toString());
+        alta.setEsPrincipal(true);
+        alta.start();
     }
 
     private boolean validarRemotamente(User user) {
