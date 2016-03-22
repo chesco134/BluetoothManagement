@@ -22,7 +22,7 @@ public class RemueveElementosDeLista extends DialogFragment {
     private List<Integer> elementosSeleccionados;
 
     public Integer[] getElementosSeleccionados() {
-        return elementosSeleccionados.toArray(new Integer[1]);
+        return elementosSeleccionados.toArray(new Integer[]{});
     }
 
     public interface AccionDialogo extends Serializable {

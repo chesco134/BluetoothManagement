@@ -20,12 +20,12 @@ import java.net.URLDecoder;
 public class ActualizaVehiculoPrincipal extends Thread {
 
     private String email;
-    private String vehiculo;
+    private int idVehiculo;
     private ObtencionDeAutos.AccionesObtencionDeConvocatorias acciones;
 
-    public ActualizaVehiculoPrincipal(String email, String vehiculo) {
+    public ActualizaVehiculoPrincipal(String email, int idVehiculo) {
         this.email = email;
-        this.vehiculo = vehiculo;
+        this.idVehiculo = idVehiculo;
     }
 
     public void setAcciones(ObtencionDeAutos.AccionesObtencionDeConvocatorias acciones) {
@@ -38,7 +38,7 @@ public class ActualizaVehiculoPrincipal extends Thread {
             JSONObject json = new JSONObject();
             json.put("action", 12);
             json.put("email", email);
-            json.put("nombre", vehiculo);
+            json.put("idVehiculo", idVehiculo);
             Log.d("Restructer", json.toString());
             HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
             con.setDoOutput(true);
@@ -51,7 +51,7 @@ public class ActualizaVehiculoPrincipal extends Thread {
             DataInputStream entrada = new DataInputStream(con.getInputStream());
             while ((length = entrada.read(chunk)) != -1)
                 baos.write(chunk, 0, length);
-            Log.d("CHEWBACCA", "Let's say something puto: " + URLDecoder.decode(baos.toString(), "utf8"));
+            Log.d("CHEWBACCA", "Let's say something: " + URLDecoder.decode(baos.toString(), "utf8"));
             json = new JSONObject(URLDecoder.decode(baos.toString(), "utf8"));
             baos.close();
             if(json.getBoolean("content"))

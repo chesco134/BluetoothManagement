@@ -27,12 +27,10 @@ import org.inspira.emag.networking.CommitTrip;
 import org.inspira.emag.networking.Uploader;
 import org.inspira.emag.service.ObdMainService;
 import org.inspira.emag.shared.Location;
-import org.inspira.emag.shared.RPM;
 import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
 import org.inspira.emag.shared.Trip;
-import org.inspira.emag.shared.User;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -219,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
                 Uploader up = new Uploader(uncommitedTrips);
                 up.setContext(MainActivity.this);
                 up.start();
+                Log.d("Syncer", "-->" + uncommitedTrips.length);
                 for (Trip trip : uncommitedTrips) {
                     Uploader upl = new Uploader(db.getLocationsByTrip(trip.getIdTrip()));
                     upl.setContext(MainActivity.this);

@@ -87,7 +87,7 @@ public class TripsData extends SQLiteOpenHelper{
 
     public Vehiculo[] obtenerVehiculosValidos(){
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("select * from Vehiculo where estadoServidorRemoto != 1", null);
+        Cursor c = db.rawQuery("select * from Vehiculo where estadoServidorRemoto != 2", null);
         Vehiculo vehiculo;
         List<Vehiculo> vehiculos = new ArrayList<>();
         while(c.moveToNext()){
@@ -99,7 +99,7 @@ public class TripsData extends SQLiteOpenHelper{
         }
         c.close();
         db.close();
-        return vehiculos.toArray(new Vehiculo[1]);
+        return vehiculos.toArray(new Vehiculo[]{});
     }
 
     public int obtenerIdVehiculoFromNombre(String nombre){
@@ -298,7 +298,7 @@ public class TripsData extends SQLiteOpenHelper{
 			trips.add(new Trip(c.getInt(c.getColumnIndex("idTrip")), (c.getString(c.getColumnIndex("fechaInicio"))),(c.getString(c.getColumnIndex("fechaFin")))));
 		c.close();
 		db.close();
-		return trips.toArray(new Trip[1]);
+		return trips.toArray(new Trip[0]);
 	}
 
 	public Trip getUnconcludedTrip(){
@@ -322,18 +322,18 @@ public class TripsData extends SQLiteOpenHelper{
 		}
 		c.close();
 		close();
-		return trips.toArray(new Trip[1]);
+		return trips.toArray(new Trip[0]);
 	}
 
 	public RPM[] getRPMsByTrip(int idTrip){
 		Cursor c = getReadableDatabase().rawQuery("select * from RPM where idTrip = ? and isCommited = 0", new String[]{String.valueOf(idTrip)});
-		List<RPM> rpms = new ArrayList<RPM>();
+		List<RPM> rpms = new ArrayList<>();
 		while(c.moveToNext()){
 			rpms.add(new RPM(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("RPMVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip"))));
 		}
 		c.close();
 		close();
-		return rpms.toArray(new RPM[1]);
+		return rpms.toArray(new RPM[0]);
 	}
 
 	public Speed[] getSpeedsByTrip(int idTrip){

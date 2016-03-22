@@ -108,7 +108,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
         editor.putString("vehiculo", nombreDeVehiculo);
         editor.apply();
         ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreDeVehiculo);
-        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("email","NaN"),nombreDeVehiculo);
+        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("email","NaN"), new TripsData(this).obtenerIdVehiculoFromNombre(nombreDeVehiculo));
         avp.setAcciones(new ObtencionDeAutos.AccionesObtencionDeConvocatorias() {
             @Override
             public void obtencionCorrecta(JSONObject json) {
@@ -143,7 +143,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
         final Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
         for(Vehiculo v : vehiculos)
             if(!vActual.equals(v.getNombre())) elementos.add(v.getNombre());
-        args.putStringArray("elementos", elementos.toArray(new String[1]));
+        args.putStringArray("elementos", elementos.toArray(new String[]{}));
         rm.setArguments(args);
         rm.setAd(new RemueveElementosDeLista.AccionDialogo() {
             @Override
@@ -155,7 +155,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
                     sublist.add(vehiculos[index]);
                 }
                 final TripsData db = new TripsData(OrganizarVehiculos.this);
-                db.colocarVehiculosEnNoBorrado(sublist.toArray(new Vehiculo[1]));
+                db.colocarVehiculosEnNoBorrado(sublist.toArray(new Vehiculo[]{}));
                 new Thread(){
                     @Override
                     public void run(){
