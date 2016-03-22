@@ -151,46 +151,47 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 Integer[] indices = ((RemueveElementosDeLista) fragment).getElementosSeleccionados();
                 prepareElements(indices);
                 final List<Vehiculo> sublist = new ArrayList<>();
-                for(Integer index : indices){
+                for (Integer index : indices) {
                     sublist.add(vehiculos[index]);
                 }
                 final TripsData db = new TripsData(OrganizarVehiculos.this);
                 db.colocarVehiculosEnNoBorrado(sublist.toArray(new Vehiculo[]{}));
-                new Thread(){
+                new Thread() {
                     @Override
-                    public void run(){
-                        for( Vehiculo vehiculo : sublist )
-                        try{
-                            JSONObject json = new JSONObject();
-                            json.put("action", 9); // Solicitud de borrar vehículo para el usuario.
-                            json.put("idVehiculo", vehiculo.getIdVehiculo());
-                            HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
-                            con.setDoOutput(true);
-                            DataOutputStream salida = new DataOutputStream(con.getOutputStream());
-                            salida.write(json.toString().getBytes());
-                            salida.flush();
-                            int length;
-                            byte[] chunk = new byte[64];
-                            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                            DataInputStream entrada = new DataInputStream(con.getInputStream());
-                            while((length = entrada.read(chunk)) != -1)
-                                baos.write(chunk, 0, length);
-                            Log.d("Momonga", "Vehiculo eliminado: " + baos.toString());
-                            json = new JSONObject(baos.toString());
-                            baos.close();
-                            if(json.getBoolean("content")){
-                                db.removerVehiculo(vehiculo.getIdVehiculo());
-                                runOnUiThread(new Poster(vehiculo.getNombre()));
+                    public void run() {
+                        for (Vehiculo vehiculo : sublist)
+                            try {
+                                JSONObject json = new JSONObject();
+                                json.put("action", 9); // Solicitud de borrar vehículo para el usuario.
+                                json.put("idVehiculo", vehiculo.getIdVehiculo());
+                                HttpURLConnection con = (HttpURLConnection) new URL(MainActivity.SERVER_URL).openConnection();
+                                con.setDoOutput(true);
+                                DataOutputStream salida = new DataOutputStream(con.getOutputStream());
+                                salida.write(json.toString().getBytes());
+                                salida.flush();
+                                int length;
+                                byte[] chunk = new byte[64];
+                                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                DataInputStream entrada = new DataInputStream(con.getInputStream());
+                                while ((length = entrada.read(chunk)) != -1)
+                                    baos.write(chunk, 0, length);
+                                Log.d("Momonga", "Vehiculo eliminado: " + baos.toString());
+                                json = new JSONObject(baos.toString());
+                                baos.close();
+                                if (json.getBoolean("content")) {
+                                    db.removerVehiculo(vehiculo.getIdVehiculo());
+                                    runOnUiThread(new Poster(vehiculo.getNombre()));
+                                }
+                            } catch (JSONException | IOException e) {
+                                e.printStackTrace();
                             }
-                        }catch(JSONException | IOException e){
-                            e.printStackTrace();
-                        }
                     }
                 }.start();
             }
 
             @Override
-            public void accionNegativa(DialogFragment fragment) {}
+            public void accionNegativa(DialogFragment fragment) {
+            }
         });
         rm.show(getSupportFragmentManager(), "Remover elementos");
     }
@@ -205,8 +206,13 @@ public class OrganizarVehiculos extends AppCompatActivity {
             public void clickSobreAccionPositiva(DialogFragment dialogo) {
                 ObtenerTexto ot = (ObtenerTexto) dialogo;
                 final String texto = ot.obtenerTexto();
-                adapter.add(texto);
-                new AltaVehiculo(OrganizarVehiculos.this, texto).start();
+                if(!"".equals(texto.trim())) {
+                    adapter.add(texto);
+                    new AltaVehiculo(OrganizarVehiculos.this, texto).start();
+                }else{
+                    ProveedorSnackBar
+                            .muestraBarraDeBocados(lista, "Es necesario un nombre");
+                }
             }
 
             @Override
