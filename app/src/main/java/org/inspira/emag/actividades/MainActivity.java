@@ -27,6 +27,7 @@ import org.inspira.emag.networking.CommitTrip;
 import org.inspira.emag.networking.Uploader;
 import org.inspira.emag.service.ObdMainService;
 import org.inspira.emag.shared.Location;
+import org.inspira.emag.shared.RPM;
 import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
 import org.inspira.emag.shared.ThrottlePos;
@@ -288,6 +289,10 @@ public class MainActivity extends AppCompatActivity {
                     PrintWriter locationWriter = new PrintWriter(new FileWriter(new File(DIR_UBICACION + "/" + cDate + "_" + UBICACION), true));
                     for (Trip trip : trips) {
                         tripsWriter.println(trip.getIdTrip() + "," + trip.getFechaInicio() + "," + trip.getFechaFin());
+                        rpmWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        throttlePosWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        speedsWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        locationWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         rpmsViaje = db.getRPMsByTrip(trip.getIdTrip());
                         for (org.inspira.emag.shared.RPM rpm : rpmsViaje)
                             rpmWriter.println(rpm.getIdValue() + "," + rpm.getRpmValue() + "," + rpm.getTimeStamp() + "," + rpm.getIdTrip());
@@ -300,6 +305,10 @@ public class MainActivity extends AppCompatActivity {
                         locationsViaje = db.getLocationsByTrip(trip.getIdTrip());
                         for (Location location : locationsViaje)
                             locationWriter.println(location.getIdValue() + "," + location.getLatitud() + "," + location.getLongitud() + "," + location.getTimestamp() + "," + location.getIdTrip());
+                        rpmWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        speedsWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        throttlePosWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        locationWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                     }
                     tripsWriter.close();
                     rpmWriter.close();
