@@ -38,6 +38,7 @@ import com.github.pires.obd.exceptions.ResponseException;
 import org.capiz.bluetooth.R;
 import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.actividades.OrganizarVehiculos;
+import org.inspira.emag.actividades.ProveedorDeRecursos;
 import org.inspira.emag.bluetooth.BluetoothManager;
 import org.inspira.emag.database.TripsData;
 import org.inspira.emag.gps.MyLocationProvider;
@@ -123,7 +124,7 @@ public class ObdMainService extends Service {
                                 .getRemoteDevice((String) msg.obj)
                 );
                 TripsData db = new TripsData(ObdMainService.this);
-                int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN")), new Date());
+                int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(ProveedorDeRecursos.obtenerRecursoString(ObdMainService.this, "vehiculo")), new Date());
                 Trip t = new Trip(rid, new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), null);
                 Uploader u = new Uploader(t);
                 u.setContext(ObdMainService.this);
@@ -154,6 +155,7 @@ public class ObdMainService extends Service {
                 TripsData td = new TripsData(ObdMainService.this);
                 Trip trip = td.getUnconcludedTrip();
                 Shareable value = null;
+                String time = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
                 if (cmd.getName().equals(AvailableCommandNames.SPEED.getValue())) {
                     if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
@@ -163,8 +165,8 @@ public class ObdMainService extends Service {
                                 }
                             }
                     );
-                    int lrid = td.insertaVelocidad(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new Speed(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    int lrid = td.insertaVelocidad(cmd.getFormattedResult(), time, trip.getIdTrip());
+                    value = new Speed(lrid, cmd.getFormattedResult(), time, trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.ENGINE_RPM.getValue())) {
                     if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
@@ -174,8 +176,8 @@ public class ObdMainService extends Service {
                                 }
                             }
                     );
-                    int lrid = td.insertaRPM(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new RPM(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    int lrid = td.insertaRPM(cmd.getFormattedResult(), time, trip.getIdTrip());
+                    value = new RPM(lrid, cmd.getFormattedResult(), time, trip.getIdTrip());
                 } else if (cmd.getName().equals(AvailableCommandNames.THROTTLE_POS.getValue())) {
                     if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
@@ -185,8 +187,8 @@ public class ObdMainService extends Service {
                                 }
                             }
                     );
-                    int lrid = td.insertaThrottlePos(cmd.getFormattedResult(), trip.getIdTrip());
-                    value = new ThrottlePos(lrid, cmd.getFormattedResult(), new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
+                    int lrid = td.insertaThrottlePos(cmd.getFormattedResult(), time, trip.getIdTrip());
+                    value = new ThrottlePos(lrid, cmd.getFormattedResult(), time, trip.getIdTrip());
                 }
                 if (value != null) {
                     Uploader up = new Uploader(value);

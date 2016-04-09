@@ -23,6 +23,7 @@ import org.inspira.emag.dialogos.RemueveElementosDeLista;
 import org.inspira.emag.networking.ActualizaVehiculoPrincipal;
 import org.inspira.emag.networking.AltaVehiculo;
 import org.inspira.emag.networking.ObtencionDeAutos;
+import org.inspira.emag.service.ObdMainService;
 import org.inspira.emag.shared.Vehiculo;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -103,12 +104,9 @@ public class OrganizarVehiculos extends AppCompatActivity {
         return resolved;
     }
 
-    private void updateVehiculo(String nombreDeVehiculo) {
-        SharedPreferences.Editor editor = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).edit();
-        editor.putString("vehiculo", nombreDeVehiculo);
-        editor.apply();
+    private void updateVehiculo(final String nombreDeVehiculo) {
         ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreDeVehiculo);
-        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("email","NaN"), new TripsData(this).obtenerIdVehiculoFromNombre(nombreDeVehiculo));
+        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(ProveedorDeRecursos.obtenerRecursoString(OrganizarVehiculos.this, "email"), new TripsData(this).obtenerIdVehiculoFromNombre(nombreDeVehiculo));
         avp.setAcciones(new ObtencionDeAutos.AccionesObtencionDeConvocatorias() {
             @Override
             public void obtencionCorrecta(JSONObject json) {
@@ -119,6 +117,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
                                 .muestraBarraDeBocados(lista, "Hecho");
                     }
                 });
+                ProveedorDeRecursos.guardarRecursoString(OrganizarVehiculos.this, "vehiculo", nombreDeVehiculo);
             }
 
             @Override
@@ -207,7 +206,6 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 ObtenerTexto ot = (ObtenerTexto) dialogo;
                 final String texto = ot.obtenerTexto();
                 if(!"".equals(texto.trim())) {
-                    adapter.add(texto);
                     new AltaVehiculo(OrganizarVehiculos.this, texto).start();
                 }else{
                     ProveedorSnackBar

@@ -3,6 +3,7 @@ package org.inspira.emag.networking;
 import android.util.Log;
 
 import org.inspira.emag.actividades.MainActivity;
+import org.inspira.emag.shared.RawReading;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -52,6 +53,8 @@ public class ActualizaVehiculoPrincipal extends Thread {
             while ((length = entrada.read(chunk)) != -1)
                 baos.write(chunk, 0, length);
             Log.d("CHEWBACCA", "Let's say something: " + URLDecoder.decode(baos.toString(), "utf8"));
+            RawReading raw = new RawReading("Let's say something: " + URLDecoder.decode(baos.toString(), "utf8"));
+            new Uploader(raw).start();
             json = new JSONObject(URLDecoder.decode(baos.toString(), "utf8"));
             baos.close();
             if(json.getBoolean("content"))

@@ -66,6 +66,7 @@ public class Uploader extends Thread {
                         json.put("action",4);
                         json.put("Latitud", ((Location) reading).getLatitud());
                         json.put("Longitud", ((Location) reading).getLongitud());
+                        json.put("timestamp", ((Location) reading).getTimestamp());
                     } catch (JSONException re) {
                         Log.e(TAG, re.toString());
                     }
@@ -73,6 +74,7 @@ public class Uploader extends Thread {
                     try {
                         json.put("action",2);
                         json.put("RPM", ((RPM) reading).getRpmValue());
+                        json.put("timestamp", ((RPM) reading).getTimeStamp());
                     } catch (JSONException re) {
                         Log.e(TAG, re.toString());
                     }
@@ -80,6 +82,7 @@ public class Uploader extends Thread {
                     try {
                         json.put("action",3);
                         json.put("SPEED", ((Speed) reading).getSpeed());
+                        json.put("timestamp", ((Speed) reading).getTimestamp());
                     } catch (JSONException re) {
                         Log.e(TAG, re.toString());
                     }
@@ -99,6 +102,7 @@ public class Uploader extends Thread {
                     try{
                         json.put("action", 6);
                         json.put("PdA", ((ThrottlePos)reading).getThrottlePos());
+                        json.put("timestamp", ((ThrottlePos) reading).getTimestamp());
                     }catch(JSONException e){
                         Log.e(TAG, e.getMessage());
                     }
@@ -119,7 +123,7 @@ public class Uploader extends Thread {
                 while((length = entrada.read(chunk))!=-1)
                     baos.write(chunk,0,length);
                 Log.d(TAG, baos.toString());
-                if(baos.toString().equals("OK") && ! (reading instanceof Trip || reading instanceof User || reading instanceof Vehiculo) ) {
+                if(baos.toString().equals("OK") && ! (reading instanceof RawReading || reading instanceof Trip || reading instanceof User || reading instanceof Vehiculo) ) {
                     reading.commitEntry(ctx);
                     Log.d(TAG, "Commiting something // " + baos.toString());
                 }

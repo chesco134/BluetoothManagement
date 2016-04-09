@@ -286,6 +286,8 @@ public class MainActivity extends AppCompatActivity {
                     PrintWriter speedsWriter = new PrintWriter(new FileWriter(new File(DIR_VELOCIDAD + "/" + cDate + "_" + VELOCIDAD), true));
                     PrintWriter throttlePosWriter = new PrintWriter(new FileWriter(new File(DIR_THROTTLE_POS + "/" + cDate + "_" + THROTTLE_POS), true));
                     PrintWriter locationWriter = new PrintWriter(new FileWriter(new File(DIR_UBICACION + "/" + cDate + "_" + UBICACION), true));
+                    String vehiculo = ProveedorDeRecursos.obtenerRecursoString(MainActivity.this, "vehiculo");
+                    int idVehiculo = db.obtenerIdVehiculoFromNombre(vehiculo);
                     for (Trip trip : trips) {
                         tripsWriter.println(trip.getIdTrip() + "," + trip.getFechaInicio() + "," + trip.getFechaFin());
                         rpmWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -294,20 +296,20 @@ public class MainActivity extends AppCompatActivity {
                         locationWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         rpmsViaje = db.getRPMsByTrip(trip.getIdTrip());
                         for (org.inspira.emag.shared.RPM rpm : rpmsViaje)
-                            rpmWriter.println(rpm.getIdValue() + "," + rpm.getRpmValue() + "," + rpm.getTimeStamp() + "," + rpm.getIdTrip());
+                            rpmWriter.println(idVehiculo + rpm.getIdValue() + "," + rpm.getRpmValue() + "," + rpm.getTimeStamp() + "," + rpm.getIdTrip());
                         throttlePosViaje = db.getThrottlePosByTrip(trip.getIdTrip());
                         for (ThrottlePos throttlePos : throttlePosViaje)
-                            throttlePosWriter.println(throttlePos.getIdValue() + "," + throttlePos.getThrottlePos() + "," + throttlePos.getTimestamp() + "," + throttlePos.getIdTrip());
+                            throttlePosWriter.println(idVehiculo + throttlePos.getIdValue() + "," + throttlePos.getThrottlePos() + "," + throttlePos.getTimestamp() + "," + throttlePos.getIdTrip());
                         speedsViaje = db.getSpeedsByTrip(trip.getIdTrip());
                         for (Speed speed : speedsViaje)
-                            speedsWriter.println(speed.getIdValue() + "," + speed.getSpeed() + "," + speed.getTimestamp() + "," + speed.getIdTrip());
+                            speedsWriter.println(idVehiculo + speed.getIdValue() + "," + speed.getSpeed() + "," + speed.getTimestamp() + "," + speed.getIdTrip());
                         locationsViaje = db.getLocationsByTrip(trip.getIdTrip());
                         for (Location location : locationsViaje)
-                            locationWriter.println(location.getIdValue() + "," + location.getLatitud() + "," + location.getLongitud() + "," + location.getTimestamp() + "," + location.getIdTrip());
-                        rpmWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        speedsWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        throttlePosWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        locationWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                            locationWriter.println(idVehiculo + location.getIdValue() + "," + location.getLatitud() + "," + location.getLongitud() + "," + location.getTimestamp() + "," + location.getIdTrip());
+                        rpmWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        speedsWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        throttlePosWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                        locationWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                     }
                     tripsWriter.close();
                     rpmWriter.close();
@@ -433,10 +435,10 @@ public class MainActivity extends AppCompatActivity {
     public void updateLocationData(String latitud, String longitud){
         TripsData db = new TripsData(this);
         Trip trip = db.getUnconcludedTrip();
+        String date = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
         if( trip != null ) {
-            int locId = db.insertaUbicacion(latitud, longitud, trip.getIdTrip());
-            Location cLoc = new Location(locId, latitud, longitud,
-                    new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), trip.getIdTrip());
+            int locId = db.insertaUbicacion(latitud, longitud, date, trip.getIdTrip());
+            Location cLoc = new Location(locId, latitud, longitud, date, trip.getIdTrip());
             Uploader up = new Uploader(cLoc);
             up.setContext(this);
             up.start();

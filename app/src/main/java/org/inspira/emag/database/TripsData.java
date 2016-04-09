@@ -209,9 +209,10 @@ public class TripsData extends SQLiteOpenHelper{
 		db.close();
 	}
 
-	public int insertaRPM(String rpm, int idTrip){
+	public int insertaRPM(String rpm, String time, int idTrip){
 		ContentValues values = new ContentValues();
-		values.put("RPMVal",rpm);
+		values.put("RPMVal", rpm);
+		values.put("Timestamp", time);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
 		SQLiteDatabase db = getWritableDatabase();
@@ -229,9 +230,10 @@ public class TripsData extends SQLiteOpenHelper{
 		return lrid;
 	}
 
-	public int insertaVelocidad(String velocidad, int idTrip){
+	public int insertaVelocidad(String velocidad, String time, int idTrip){
 		ContentValues values = new ContentValues();
-		values.put("SpeedVal",velocidad);
+		values.put("SpeedVal", velocidad);
+		values.put("Timestamp", time);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
 		SQLiteDatabase db = getWritableDatabase();
@@ -249,9 +251,10 @@ public class TripsData extends SQLiteOpenHelper{
 		return lrid;
 	}
 
-	public int insertaThrottlePos(String throttleVal, int idTrip){
+	public int insertaThrottlePos(String throttleVal, String time, int idTrip){
 		ContentValues values = new ContentValues();
 		values.put("ThrottleVal",throttleVal);
+		values.put("Timestamp", time);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
 		SQLiteDatabase db = getWritableDatabase();
@@ -269,10 +272,11 @@ public class TripsData extends SQLiteOpenHelper{
 		return lrid;
 	}
 
-	public int insertaUbicacion(String latitud,String longitud, int idTrip){
+	public int insertaUbicacion(String latitud,String longitud, String time, int idTrip){
 		ContentValues values = new ContentValues();
 		values.put("Latitud",latitud);
 		values.put("Longitud", longitud);
+		values.put("Timestamp", time);
 		values.put("idTrip", idTrip);
 		int lrid = -1;
 		SQLiteDatabase db = getWritableDatabase();
