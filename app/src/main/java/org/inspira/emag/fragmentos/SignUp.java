@@ -205,15 +205,20 @@ public class SignUp extends Fragment {
                         guardarInformacion(user);
                         colocarPantallaPrincipal();
                     } else {
-
+                        ProveedorSnackBar
+                                .muestraBarraDeBocados(email, "Es necesario llenar todos los campos");
                     }
                     cStatus = true;
-                    getActivity().runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            confirm.setEnabled(cStatus);
-                        }
-                    });
+                    try {
+                        getActivity().runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                confirm.setEnabled(cStatus);
+                            }
+                        });
+                    }catch(NullPointerException e){
+                        e.printStackTrace();
+                    }
                 }
             }.start();
         }

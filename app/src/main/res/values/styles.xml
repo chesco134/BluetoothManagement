@@ -38,5 +38,11 @@
            parent="@style/Widget.AppCompat.ActionBar.TabText">
         <item name="android:textColor">@color/actionbar_text</item>
     </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/shadowColor</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
     
 </resources>

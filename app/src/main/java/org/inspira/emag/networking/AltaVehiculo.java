@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.util.Log;
 
 import org.inspira.emag.actividades.MainActivity;
+import org.inspira.emag.actividades.OrganizarVehiculos;
 import org.inspira.emag.database.TripsData;
 import org.inspira.emag.dialogos.ProveedorToast;
 import org.inspira.emag.shared.User;
@@ -68,6 +69,7 @@ public class AltaVehiculo extends Thread {
                 vehiculo.setIdVehiculo(json.getInt("idVehiculo"));
                 if(db.addVehiculo(vehiculo)) {
                     db.hacerVehiculoValido(vehiculo);
+                    ((OrganizarVehiculos)context).agregarElemento(texto);
                     ProveedorToast
                             .showToastOnUIThread(context, "Cambio realizado con éxito");
                 }else

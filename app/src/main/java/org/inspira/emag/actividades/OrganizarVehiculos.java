@@ -1,6 +1,7 @@
 package org.inspira.emag.actividades;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -16,6 +17,7 @@ import android.widget.TextView;
 
 import org.capiz.bluetooth.R;
 import org.inspira.emag.database.TripsData;
+import org.inspira.emag.dialogos.ActividadDeEspera;
 import org.inspira.emag.dialogos.DialogoDeConsultaSimple;
 import org.inspira.emag.dialogos.ObtenerTexto;
 import org.inspira.emag.dialogos.ProveedorSnackBar;
@@ -74,8 +76,8 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 info.show(getSupportFragmentManager(), "Shark");
             }
         });
-        String nombreVehiculo = getSharedPreferences(OrganizarVehiculos.class.getName(), Context.MODE_PRIVATE).getString("vehiculo", "NaN");
-        ((TextView)findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
+        String nombreVehiculo = ProveedorDeRecursos.obtenerRecursoString(this, "vehiculo");
+                ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreVehiculo);
         Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
         List<String> nombres = new ArrayList<>();
         for(Vehiculo v : vehiculos)
@@ -105,8 +107,9 @@ public class OrganizarVehiculos extends AppCompatActivity {
     }
 
     private void updateVehiculo(final String nombreDeVehiculo) {
-        ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nombreDeVehiculo);
-        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(ProveedorDeRecursos.obtenerRecursoString(OrganizarVehiculos.this, "email"), new TripsData(this).obtenerIdVehiculoFromNombre(nombreDeVehiculo));
+        final String email = ProveedorDeRecursos.obtenerRecursoString(OrganizarVehiculos.this, "email");
+        final int idVehiculo = new TripsData(this).obtenerIdVehiculoFromNombre(nombreDeVehiculo);
+        ActualizaVehiculoPrincipal avp = new ActualizaVehiculoPrincipal(this, email, idVehiculo);
         avp.setAcciones(new ObtencionDeAutos.AccionesObtencionDeConvocatorias() {
             @Override
             public void obtencionCorrecta(JSONObject json) {
@@ -118,6 +121,8 @@ public class OrganizarVehiculos extends AppCompatActivity {
                     }
                 });
                 ProveedorDeRecursos.guardarRecursoString(OrganizarVehiculos.this, "vehiculo", nombreDeVehiculo);
+                Log.d("Morder", "idVehiculo: " + idVehiculo + ", nombre: " + nombreDeVehiculo);
+                finishActivity(1234);
             }
 
             @Override
@@ -129,9 +134,15 @@ public class OrganizarVehiculos extends AppCompatActivity {
                                 .muestraBarraDeBocados(lista, mensaje);
                     }
                 });
+                finishActivity(1234);
             }
         });
         avp.start();
+        startActivityForResult(new Intent(this, ActividadDeEspera.class), 1234);
+    }
+
+    public void actualizarEtiquetaVehiculoPrincipal(String nuevoValor){
+        ((TextView) findViewById(R.id.perfiles_de_autos_auto_actual)).setText(nuevoValor);
     }
 
     private void launchDialogoRemoverElementos() {
@@ -193,6 +204,15 @@ public class OrganizarVehiculos extends AppCompatActivity {
             }
         });
         rm.show(getSupportFragmentManager(), "Remover elementos");
+    }
+
+    public void agregarElemento(final String nuevoVehiculo){
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                adapter.add(nuevoVehiculo);
+            }
+        });
     }
 
     private void launchDialogoAgregar() {

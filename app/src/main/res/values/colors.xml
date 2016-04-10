@@ -27,4 +27,5 @@
     <color name="colorPrimaryDark">#ff006428</color>
     <color name="colorAccent">#ff008b28</color>
     <color name="error">#FFda1200</color>
+    <color name="shadowColor">#99202020</color>
 </resources>

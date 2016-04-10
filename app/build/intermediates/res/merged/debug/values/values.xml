@@ -109,6 +109,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="shadowColor">#99202020</color>
     <color name="slate">#ff76a9b5</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -1400,6 +1401,11 @@
         <item name="actionBarStyle">@style/MyActionBar</item>
         <item name="actionBarTabTextStyle">@style/TabTextStyle</item>
         <item name="actionMenuTextColor">@color/actionbar_text</item>
+    </style>
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/shadowColor</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/TitleTextStyle</item>
