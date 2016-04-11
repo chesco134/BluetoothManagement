@@ -69,7 +69,7 @@ public class AltaVehiculo extends Thread {
                 vehiculo.setIdVehiculo(json.getInt("idVehiculo"));
                 if(db.addVehiculo(vehiculo)) {
                     db.hacerVehiculoValido(vehiculo);
-                    ((OrganizarVehiculos)context).agregarElemento(texto);
+                    try{((OrganizarVehiculos)context).agregarElemento(texto);}catch(ClassCastException ignore){}
                     ProveedorToast
                             .showToastOnUIThread(context, "Cambio realizado con éxito");
                 }else
