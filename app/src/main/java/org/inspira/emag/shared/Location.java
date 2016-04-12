@@ -14,6 +14,7 @@ public class Location implements Shareable{
     private String longitud;
     private String timestamp;
     private int idTrip;
+    private boolean isCommited;
 
     public Location(int idValue, String latitud, String longitud, String timestamp, int idTrip) {
 
@@ -42,6 +43,14 @@ public class Location implements Shareable{
 
     public int getIdTrip() {
         return idTrip;
+    }
+
+    public boolean isCommited() {
+        return isCommited;
+    }
+
+    public void setIsCommited(boolean isCommited) {
+        this.isCommited = isCommited;
     }
 
     @Override

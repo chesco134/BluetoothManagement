@@ -13,6 +13,7 @@ public class Speed implements Shareable{
     private String speed;
     private String timestamp;
     private int idTrip;
+    private boolean isCommited;
 
     public Speed(int idValue, String speed, String timestamp, int idTrip) {
         this.idValue = idValue;
@@ -35,6 +36,14 @@ public class Speed implements Shareable{
 
     public int getIdTrip() {
         return idTrip;
+    }
+
+    public boolean isCommited() {
+        return isCommited;
+    }
+
+    public void setIsCommited(boolean isCommited) {
+        this.isCommited = isCommited;
     }
 
     @Override

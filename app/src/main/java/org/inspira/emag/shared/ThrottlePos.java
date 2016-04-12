@@ -14,6 +14,7 @@ public class ThrottlePos implements Shareable {
     private String throttlePos;
     private String timestamp;
     private int idTrip;
+    private boolean isCommited;
 
     public ThrottlePos(int idValue, String throttlePos, String timestamp, int idTrip) {
         this.idValue = idValue;
@@ -36,6 +37,14 @@ public class ThrottlePos implements Shareable {
 
     public int getIdTrip() {
         return idTrip;
+    }
+
+    public boolean isCommited() {
+        return isCommited;
+    }
+
+    public void setIsCommited(boolean isCommited) {
+        this.isCommited = isCommited;
     }
 
     @Override

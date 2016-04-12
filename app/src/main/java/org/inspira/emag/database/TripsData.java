@@ -281,6 +281,7 @@ public class TripsData extends SQLiteOpenHelper{
 		int lrid = -1;
 		SQLiteDatabase db = getWritableDatabase();
 		long id = db.insert("Location","---",values);
+		Log.d("InsUbicacion", "Insertando ubicación: " + latitud + ", longitud: " + longitud + ", time: " + time + ", id: " + (id));
 		if(id > -1) {
 			db.close();
 			db = getReadableDatabase();
@@ -291,6 +292,7 @@ public class TripsData extends SQLiteOpenHelper{
 			db.close();
 		}else
 			db.close();
+		Log.d("InsUbicacion", "El veredicto fue lrid = " + lrid);
 		return lrid;
 	}
 
@@ -330,10 +332,13 @@ public class TripsData extends SQLiteOpenHelper{
 	}
 
 	public RPM[] getRPMsByTrip(int idTrip){
-		Cursor c = getReadableDatabase().rawQuery("select * from RPM where idTrip = ? and isCommited = 0", new String[]{String.valueOf(idTrip)});
+		Cursor c = getReadableDatabase().rawQuery("select * from RPM where idTrip = ?", new String[]{String.valueOf(idTrip)});
 		List<RPM> rpms = new ArrayList<>();
+		RPM rpm;
 		while(c.moveToNext()){
-			rpms.add(new RPM(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("RPMVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip"))));
+			rpm = new RPM(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("RPMVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip")));
+			rpm.setIsCommited(c.getInt(c.getColumnIndex("isCommited")) != 0);
+			rpms.add(rpm);
 		}
 		c.close();
 		close();
@@ -341,10 +346,13 @@ public class TripsData extends SQLiteOpenHelper{
 	}
 
 	public Speed[] getSpeedsByTrip(int idTrip){
-		Cursor c = getReadableDatabase().rawQuery("select * from Speed where idTrip = ? and isCommited = 0", new String[]{String.valueOf(idTrip)});
+		Cursor c = getReadableDatabase().rawQuery("select * from Speed where idTrip = ?", new String[]{String.valueOf(idTrip)});
 		List<Speed> speeds = new ArrayList<Speed>();
+		Speed speed;
 		while(c.moveToNext()){
-			speeds.add(new Speed(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("SpeedVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip"))));
+			speed = new Speed(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("SpeedVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip")));
+			speed.setIsCommited(c.getInt(c.getColumnIndex("isCommited")) != 0);
+			speeds.add(speed);
 		}
 		c.close();
 		close();
@@ -352,10 +360,13 @@ public class TripsData extends SQLiteOpenHelper{
 	}
 
 	public ThrottlePos[] getThrottlePosByTrip(int idTrip){
-		Cursor c = getReadableDatabase().rawQuery("select * from ThrottlePos where idTrip = ? and isCommited = 0", new String[]{String.valueOf(idTrip)});
+		Cursor c = getReadableDatabase().rawQuery("select * from ThrottlePos where idTrip = ?", new String[]{String.valueOf(idTrip)});
 		List<ThrottlePos> throttlePoses = new ArrayList<ThrottlePos>();
+		ThrottlePos throttlePos;
 		while(c.moveToNext()){
-			throttlePoses.add(new ThrottlePos(c.getInt(c.getColumnIndex("idValue")), c.getString(c.getColumnIndex("ThrottleVal")), c.getString(c.getColumnIndex("Timestamp")), c.getInt(c.getColumnIndex("idTrip"))));
+			throttlePos = new ThrottlePos(c.getInt(c.getColumnIndex("idValue")), c.getString(c.getColumnIndex("ThrottleVal")), c.getString(c.getColumnIndex("Timestamp")), c.getInt(c.getColumnIndex("idTrip")));
+			throttlePos.setIsCommited(c.getInt(c.getColumnIndex("isCommited")) != 0);
+			throttlePoses.add(throttlePos);
 		}
 		c.close();
 		close();
@@ -363,10 +374,14 @@ public class TripsData extends SQLiteOpenHelper{
 	}
 
 	public Location[] getLocationsByTrip(int idTrip){
-		Cursor c = getReadableDatabase().rawQuery("select * from Location where idTrip = ? and isCommited = 0", new String[]{String.valueOf(idTrip)});
+		Cursor c = getReadableDatabase().rawQuery("select * from Location where idTrip = ?", new String[]{String.valueOf(idTrip)});
 		List<Location> locations = new ArrayList<Location>();
+		Location location;
 		while(c.moveToNext()){
-			locations.add(new Location(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("Latitud")),c.getString(c.getColumnIndex("Longitud")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip"))));
+			location = new Location(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("Latitud")),c.getString(c.getColumnIndex("Longitud")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip")));
+			location.setIsCommited(c.getInt(c.getColumnIndex("isCommited")) != 0);
+			locations.add(location);
+
 		}
 		c.close();
 		close();

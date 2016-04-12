@@ -13,6 +13,7 @@ public class RPM implements Shareable{
     private String rpmValue;
     private String timeStamp;
     private int idTrip;
+    private boolean isCommited;
 
     public RPM(int idValue, String rpmValue, String timeStamp, int idTrip) {
         this.idValue = idValue;
@@ -35,6 +36,14 @@ public class RPM implements Shareable{
 
     public int getIdTrip() {
         return idTrip;
+    }
+
+    public boolean isCommited() {
+        return isCommited;
+    }
+
+    public void setIsCommited(boolean isCommited) {
+        this.isCommited = isCommited;
     }
 
     @Override

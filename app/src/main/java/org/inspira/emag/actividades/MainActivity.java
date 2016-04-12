@@ -288,6 +288,7 @@ public class MainActivity extends AppCompatActivity {
                     PrintWriter locationWriter = new PrintWriter(new FileWriter(new File(DIR_UBICACION + "/" + cDate + "_" + UBICACION), true));
                     String vehiculo = ProveedorDeRecursos.obtenerRecursoString(MainActivity.this, "vehiculo");
                     int idVehiculo = db.obtenerIdVehiculoFromNombre(vehiculo);
+                    Log.d("Anttacker", "vehiculo: " + vehiculo + ", id: " + idVehiculo);
                     for (Trip trip : trips) {
                         tripsWriter.println(trip.getIdTrip() + "," + trip.getFechaInicio() + "," + trip.getFechaFin());
                         rpmWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -296,16 +297,16 @@ public class MainActivity extends AppCompatActivity {
                         locationWriter.println("Inicia viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         rpmsViaje = db.getRPMsByTrip(trip.getIdTrip());
                         for (org.inspira.emag.shared.RPM rpm : rpmsViaje)
-                            rpmWriter.println(idVehiculo + rpm.getIdValue() + "," + rpm.getRpmValue() + "," + rpm.getTimeStamp() + "," + rpm.getIdTrip());
+                            rpmWriter.println(idVehiculo + ", " + rpm.getIdValue() + ", " + rpm.getRpmValue() + ", " + rpm.getTimeStamp() + ", " + rpm.getIdTrip() + ", sincronizado? " + rpm.isCommited());
                         throttlePosViaje = db.getThrottlePosByTrip(trip.getIdTrip());
                         for (ThrottlePos throttlePos : throttlePosViaje)
-                            throttlePosWriter.println(idVehiculo + throttlePos.getIdValue() + "," + throttlePos.getThrottlePos() + "," + throttlePos.getTimestamp() + "," + throttlePos.getIdTrip());
+                            throttlePosWriter.println(idVehiculo + ", " + throttlePos.getIdValue() + ", " + throttlePos.getThrottlePos() + ", " + throttlePos.getTimestamp() + ", " + throttlePos.getIdTrip() + ", sincronizado? " + throttlePos.isCommited());
                         speedsViaje = db.getSpeedsByTrip(trip.getIdTrip());
                         for (Speed speed : speedsViaje)
-                            speedsWriter.println(idVehiculo + speed.getIdValue() + "," + speed.getSpeed() + "," + speed.getTimestamp() + "," + speed.getIdTrip());
+                            speedsWriter.println(idVehiculo + ", " + speed.getIdValue() + ", " + speed.getSpeed() + ", " + speed.getTimestamp() + ", " + speed.getIdTrip() + ", sincronizado? " + speed.isCommited());
                         locationsViaje = db.getLocationsByTrip(trip.getIdTrip());
                         for (Location location : locationsViaje)
-                            locationWriter.println(idVehiculo + location.getIdValue() + "," + location.getLatitud() + "," + location.getLongitud() + "," + location.getTimestamp() + "," + location.getIdTrip());
+                            locationWriter.println(idVehiculo + ", " + location.getIdValue() + ", " + location.getLatitud() + ", " + location.getLongitud() + ", " + location.getTimestamp() + ", " + location.getIdTrip() + ", sincronizado? " + location.isCommited());
                         rpmWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         speedsWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         throttlePosWriter.println("Termina viaje #" + trip.getIdTrip() + " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
