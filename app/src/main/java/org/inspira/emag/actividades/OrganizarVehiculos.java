@@ -150,9 +150,13 @@ public class OrganizarVehiculos extends AppCompatActivity {
         Bundle args = new Bundle();
         final List<String> elementos = new ArrayList<>();
         final String vActual = ProveedorDeRecursos.obtenerRecursoString(this, "vehiculo");
-        final Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
+        Vehiculo[] vehiculos = new TripsData(this).obtenerVehiculosValidos();
+        final List<Vehiculo> vPermitidos = new ArrayList<>();
         for(Vehiculo v : vehiculos)
-            if(!vActual.equals(v.getNombre())) elementos.add(v.getNombre());
+            if(!vActual.equals(v.getNombre())){
+                elementos.add(v.getNombre());
+                vPermitidos.add(v);
+            }
         args.putStringArray("elementos", elementos.toArray(new String[]{}));
         rm.setArguments(args);
         rm.setAd(new RemueveElementosDeLista.AccionDialogo() {
@@ -162,7 +166,7 @@ public class OrganizarVehiculos extends AppCompatActivity {
                 prepareElements(indices);
                 final List<Vehiculo> sublist = new ArrayList<>();
                 for (Integer index : indices) {
-                    sublist.add(vehiculos[index]);
+                    sublist.add(vPermitidos.get(index));
                 }
                 final TripsData db = new TripsData(OrganizarVehiculos.this);
                 db.colocarVehiculosEnNoBorrado(sublist.toArray(new Vehiculo[]{}));

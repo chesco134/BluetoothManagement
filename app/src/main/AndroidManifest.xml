@@ -38,6 +38,10 @@
             android:name="org.inspira.emag.service.ObdMainService"
             android:exported="false" />
 
+        <service
+            android:name="org.inspira.emag.service.ObdMockService"
+            android:exported="false" />
+
         <activity android:name="org.inspira.emag.actividades.Espera" />
         <activity
             android:name="org.inspira.emag.actividades.Preparacion"

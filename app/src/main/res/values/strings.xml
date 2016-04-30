@@ -52,4 +52,5 @@
         completions."
     </string>
     <string name="perfiles_de_autos_texto_fijo_auto_actual">Auto actual:</string>
+    <string name="action_test_file_output">Test File Output</string>
 </resources>

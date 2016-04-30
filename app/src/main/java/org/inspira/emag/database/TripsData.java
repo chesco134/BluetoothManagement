@@ -180,10 +180,10 @@ public class TripsData extends SQLiteOpenHelper{
 		db.close();
 	}
 
-	public int insertTrip(int idVehiculo, Date fechaInicio){
+	public int insertTrip(int idVehiculo, String fechaInicio){
         SQLiteDatabase db = getWritableDatabase();
 		ContentValues values = new ContentValues();
-		values.put("fechaInicio", new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(fechaInicio));
+		values.put("fechaInicio", fechaInicio);
         values.put("idVehiculo", idVehiculo);
 		db.insert("Trip", "---", values);
 		db.close();
@@ -322,9 +322,10 @@ public class TripsData extends SQLiteOpenHelper{
 	public Trip[] getUncommitedTrips(){
 		List<Trip> trips = new ArrayList<Trip>();
 		Cursor c = getReadableDatabase().rawQuery("select * from Trip where isCommited = 0",null);
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		while(c.moveToNext()){
-			trips.add(new Trip(c.getInt(c.getColumnIndex("idTrip")), (c.getString(c.getColumnIndex("fechaInicio"))), (c.getString(c.getColumnIndex("fechaFin")))));
+			trips.add(new Trip(c.getInt(c.getColumnIndex("idTrip")),
+					(c.getString(c.getColumnIndex("fechaInicio"))),
+					(c.getString(c.getColumnIndex("fechaFin")))));
 		}
 		c.close();
 		close();
@@ -336,7 +337,10 @@ public class TripsData extends SQLiteOpenHelper{
 		List<RPM> rpms = new ArrayList<>();
 		RPM rpm;
 		while(c.moveToNext()){
-			rpm = new RPM(c.getInt(c.getColumnIndex("idValue")),c.getString(c.getColumnIndex("RPMVal")),c.getString(c.getColumnIndex("Timestamp")),c.getInt(c.getColumnIndex("idTrip")));
+			rpm = new RPM(c.getInt(c.getColumnIndex("idValue")),
+                    c.getString(c.getColumnIndex("RPMVal")),
+                    c.getString(c.getColumnIndex("Timestamp")),
+                    c.getInt(c.getColumnIndex("idTrip")));
 			rpm.setIsCommited(c.getInt(c.getColumnIndex("isCommited")) != 0);
 			rpms.add(rpm);
 		}

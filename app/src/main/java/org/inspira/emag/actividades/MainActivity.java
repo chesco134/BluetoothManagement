@@ -26,6 +26,7 @@ import org.inspira.emag.database.TripsData;
 import org.inspira.emag.networking.CommitTrip;
 import org.inspira.emag.networking.Uploader;
 import org.inspira.emag.service.ObdMainService;
+import org.inspira.emag.service.ObdMockService;
 import org.inspira.emag.shared.Location;
 import org.inspira.emag.shared.RawReading;
 import org.inspira.emag.shared.Speed;
@@ -76,8 +77,9 @@ public class MainActivity extends AppCompatActivity {
 	private int backButtonCount = 1;
     private boolean serviceOn = false;
 	private boolean serverActionInProgress = false;
+    private Intent mServiceMock;
 
-	private void launchAction(int typeAction) {
+    private void launchAction(int typeAction) {
 		backButtonCount = 1;
 		serverActionInProgress = true;
 		switch (typeAction) {
@@ -109,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
         pdaText = (TextView) findViewById(R.id.pda_value);
 		manager = new BluetoothManager(this);
 		mService = new Intent(this, ObdMainService.class);
+        mServiceMock = new Intent(this, ObdMockService.class);
         ((TextView)findViewById(R.id.welcome)).setTypeface(Typeface.createFromAsset(getAssets(),
                 "RobotoCondensed/RobotoCondensed-Regular.ttf"));
 		if (manager.getBluetoothAdapter() == null) {
@@ -175,8 +178,68 @@ public class MainActivity extends AppCompatActivity {
             grabReport();
         }else if(id == R.id.action_settings){
             launchConfiguraPerfiles();
+        }else if(id == R.id.action_test_file_output){
+            testFileOutput();
         }
         return true;
+    }
+
+    private boolean serviceOnMock;
+    private ObdMockService mBoundServiceMock;
+    private ServiceConnection mConnectionMock = new ServiceConnection() {
+
+        @Override
+        public void onServiceConnected(ComponentName className, IBinder service) {
+            // This is called when the connection with the service has been
+            // established, giving us the service object we can use to
+            // interact with the service. Because we have bound to a explicit
+            // service that we know is running in our own process, we can
+            // cast its IBinder to a concrete class and directly access it.
+            mIsBoundMock = true;
+            serviceOnMock = true;
+            mBoundServiceMock = ((ObdMockService.LocalBinder) service).getService();
+            mBoundServiceMock.setActivity(MainActivity.this);
+            Uploader up = new Uploader(new RawReading("Acabamos de ponerle algo aquí " + new SimpleDateFormat().format(new Date())));
+            up.setContext(MainActivity.this);
+            up.start();
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName className) {
+            // This is called when the connection with the service has been
+            // unexpectedly disconnected -- that is, its process crashed.
+            // Because it is running in our same process, we should never
+            // see this happen.
+            mBoundServiceMock = null;
+        }
+    };
+    private boolean mIsBoundMock;
+
+    void doBindServiceMock() {
+        // Establish a connection with the service. We use an explicit
+        // class name because we want a specific service implementation that
+        // we know will be running in our own process (and thus won't be
+        // supporting component replacement by other applications).
+        if(!mIsBoundMock) {
+            bindService(mServiceMock, mConnectionMock,
+                    Context.BIND_AUTO_CREATE);
+            Log.d("DBZ", "Bounded");
+        }
+    }
+
+    public void doUnbindServiceMock() {
+        if (mIsBoundMock) {
+            // Detach our existing connection.
+            unbindService(mConnectionMock);
+            mIsBoundMock = false;
+            Log.d("DBZ","unBounded");
+        }
+    }
+
+    private void testFileOutput() {
+        startService(mServiceMock);
+        doBindServiceMock();
+        Log.d("Main Activity", "Mock Started");
     }
 
     private void launchConfiguraPerfiles() {
@@ -281,11 +344,11 @@ public class MainActivity extends AppCompatActivity {
                     if (!f.exists()) {
                         f.mkdirs();
                     }
-                    PrintWriter tripsWriter = new PrintWriter(new FileWriter(new File(DIR_VIAJE + "/" + cDate + "_" + VIAJE), true));
-                    PrintWriter rpmWriter = new PrintWriter(new FileWriter(new File(DIR_RPM + "/" + cDate + "_" + RPM), true));
-                    PrintWriter speedsWriter = new PrintWriter(new FileWriter(new File(DIR_VELOCIDAD + "/" + cDate + "_" + VELOCIDAD), true));
-                    PrintWriter throttlePosWriter = new PrintWriter(new FileWriter(new File(DIR_THROTTLE_POS + "/" + cDate + "_" + THROTTLE_POS), true));
-                    PrintWriter locationWriter = new PrintWriter(new FileWriter(new File(DIR_UBICACION + "/" + cDate + "_" + UBICACION), true));
+                    PrintWriter tripsWriter = new PrintWriter(new FileWriter( new File(DIR_VIAJE + "/" + ProveedorDeRecursos.obtenerFecha().split(" ")[0].replace("/","_") + "_" + VIAJE), true));
+                    PrintWriter rpmWriter = new PrintWriter(new FileWriter(new File(DIR_RPM + "/" + ProveedorDeRecursos.obtenerFecha().split(" ")[0].replace("/","_") + "_" + RPM), true));
+                    PrintWriter speedsWriter = new PrintWriter(new FileWriter(new File(DIR_VELOCIDAD + "/" + ProveedorDeRecursos.obtenerFecha().split(" ")[0].replace("/","_") + "_" + VELOCIDAD), true));
+                    PrintWriter throttlePosWriter = new PrintWriter(new FileWriter(new File(DIR_THROTTLE_POS + "/" + ProveedorDeRecursos.obtenerFecha().split(" ")[0].replace("/","_") + "_" + THROTTLE_POS), true));
+                    PrintWriter locationWriter = new PrintWriter(new FileWriter(new File(DIR_UBICACION + "/" + ProveedorDeRecursos.obtenerFecha().split(" ")[0].replace("/","_") + "_" + UBICACION), true));
                     String vehiculo = ProveedorDeRecursos.obtenerRecursoString(MainActivity.this, "vehiculo");
                     int idVehiculo = db.obtenerIdVehiculoFromNombre(vehiculo);
                     Log.d("Anttacker", "vehiculo: " + vehiculo + ", id: " + idVehiculo);
@@ -383,6 +446,10 @@ public class MainActivity extends AppCompatActivity {
             doUnbindService();
             clientMode.setBackgroundResource(R.drawable.off);
         }
+        if(serviceOnMock){
+            doUnbindServiceMock();
+            clientMode.setBackgroundResource(R.drawable.off);
+        }
     }
 
 	@Override
@@ -399,7 +466,7 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 makeSnackbar("Presione una vez más para salir");
             }
-		} else {
+        } else {
 			super.onBackPressed();
 		}
 	}

@@ -13,4 +13,10 @@
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_file_output"
+        android:orderInCategory="100"
+        android:icon="@drawable/limpiar"
+        android:title="@string/action_test_file_output"
+        app:showAsAction="collapseActionView" />
 </menu>

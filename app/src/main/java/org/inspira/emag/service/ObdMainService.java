@@ -52,6 +52,7 @@ import org.inspira.emag.shared.Trip;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -124,8 +125,11 @@ public class ObdMainService extends Service {
                                 .getRemoteDevice((String) msg.obj)
                 );
                 TripsData db = new TripsData(ObdMainService.this);
-                int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(ProveedorDeRecursos.obtenerRecursoString(ObdMainService.this, "vehiculo")), new Date());
-                Trip t = new Trip(rid, new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()), null);
+                String tiempo = ProveedorDeRecursos.obtenerFecha();
+                int rid = db.insertTrip(db
+                        .obtenerIdVehiculoFromNombre(ProveedorDeRecursos
+                                .obtenerRecursoString(ObdMainService.this, "vehiculo")), tiempo);
+                Trip t = new Trip(rid, tiempo, null);
                 Uploader u = new Uploader(t);
                 u.setContext(ObdMainService.this);
                 u.start();
@@ -155,7 +159,7 @@ public class ObdMainService extends Service {
                 TripsData td = new TripsData(ObdMainService.this);
                 Trip trip = td.getUnconcludedTrip();
                 Shareable value = null;
-                String time = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
+                String time = ProveedorDeRecursos.obtenerFecha();
                 if (cmd.getName().equals(AvailableCommandNames.SPEED.getValue())) {
                     if(mActivity != null ) mActivity.runOnUiThread(
                             new Runnable() {
