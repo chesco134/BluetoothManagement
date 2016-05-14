@@ -5,7 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.IBinder;
@@ -45,6 +48,7 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by jcapiz on 15/09/15.tl
@@ -111,6 +115,21 @@ public class MainActivity extends AppCompatActivity {
 		manager = new BluetoothManager(this);
 		mService = new Intent(this, ObdMainService.class);
         mServiceMock = new Intent(this, ObdMockService.class);
+        TextView verResultados = (TextView) findViewById(R.id.bluetooth_activity_ver_resultados);
+        verResultados.setOnClickListener(new View.OnClickListener(){
+            @Override public void onClick(View view){
+                Uri location = Uri.parse("http://www.emag.zooropa.com.mx");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW    , location);
+                // Verify it resolves
+                PackageManager packageManager = getPackageManager();
+                List<ResolveInfo> activities = packageManager.queryIntentActivities(mapIntent, 0);
+                boolean isIntentSafe = activities.size() > 0;
+                // Start an activity if it's safe
+                if (isIntentSafe) {
+                    startActivity(mapIntent);
+                }
+            }
+        });
         ((TextView)findViewById(R.id.welcome)).setTypeface(Typeface.createFromAsset(getAssets(),
                 "RobotoCondensed/RobotoCondensed-Regular.ttf"));
 		if (manager.getBluetoothAdapter() == null) {

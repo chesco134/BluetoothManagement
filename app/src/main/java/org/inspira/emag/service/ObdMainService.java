@@ -126,8 +126,7 @@ public class ObdMainService extends Service {
                 );
                 TripsData db = new TripsData(ObdMainService.this);
                 String tiempo = ProveedorDeRecursos.obtenerFecha();
-                int rid = db.insertTrip(db
-                        .obtenerIdVehiculoFromNombre(ProveedorDeRecursos
+                int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(ProveedorDeRecursos
                                 .obtenerRecursoString(ObdMainService.this, "vehiculo")), tiempo);
                 Trip t = new Trip(rid, tiempo, null);
                 Uploader u = new Uploader(t);
