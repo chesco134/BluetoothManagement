@@ -31,11 +31,11 @@ public class ProveedorDeRecursos {
         int hourOfDay = c.get(Calendar.HOUR_OF_DAY);
         int minute = c.get(Calendar.MINUTE);
         int second = c.get(Calendar.SECOND);
-        return (dayOfMonth < 10 ? "0" + dayOfMonth : dayOfMonth)
-                + "/" +
+        return year
+                + "-" +
                 (month < 10 ? "0" + month : month)
-                + "/" +
-                year
+                + "-" +
+                (dayOfMonth < 10 ? "0" + dayOfMonth : dayOfMonth)
                 + " " +
                 (hourOfDay < 10 ? "0" + hourOfDay : hourOfDay)
                 + ":" +
