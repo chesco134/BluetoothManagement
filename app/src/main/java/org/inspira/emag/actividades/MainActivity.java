@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean serviceOn = false;
 	private boolean serverActionInProgress = false;
     private Intent mServiceMock;
+    private Menu menu;
 
     private void launchAction(int typeAction) {
 		backButtonCount = 1;
@@ -164,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.bluetooth_activity_menu, menu);
+        this.menu = menu;
         return true;
     }
 
@@ -282,7 +284,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void commitTrip(int idTrip){
-        new CommitTrip(this,idTrip).start();
+        new CommitTrip(this,idTrip, menu, R.id.action_sync_data).start();
     }
 
     public void sendUncommitedData(){
@@ -310,6 +312,15 @@ public class MainActivity extends AppCompatActivity {
                     Uploader ups = new Uploader(db.getSpeedsByTrip(trip.getIdTrip()));
                     ups.setContext(MainActivity.this);
                     ups.start();
+                    Uploader upth = new Uploader(db.getThrottlePosByTrip(trip.getIdTrip()));
+                    upth.setContext(MainActivity.this);
+                    upth.start();
+                    try {
+                        upl.join();
+                        upt.join();
+                        ups.join();
+                        upth.join();
+                    }catch(InterruptedException e){}
                     if (db.getLocationsByTrip(trip.getIdTrip()).length == 0
                             && db.getRPMsByTrip(trip.getIdTrip()).length == 0
                             && db.getSpeedsByTrip(trip.getIdTrip()).length == 0) {

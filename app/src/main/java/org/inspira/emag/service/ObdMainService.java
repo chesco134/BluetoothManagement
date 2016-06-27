@@ -71,6 +71,7 @@ public class ObdMainService extends Service {
     private NotificationCompat.Builder mBuilder;
     private ConcurrentLinkedQueue<Runnable> updates;
     private int startId;
+    private boolean FLAG;
 
     public class LocalBinder extends Binder {
         public ObdMainService getService() {
@@ -119,11 +120,13 @@ public class ObdMainService extends Service {
 
         @Override
         public void handleMessage(Message msg) {
+            if(!FLAG)
             try {
                 beginConnection(
                         BluetoothAdapter.getDefaultAdapter()
                                 .getRemoteDevice((String) msg.obj)
                 );
+                FLAG = true;
                 TripsData db = new TripsData(ObdMainService.this);
                 String tiempo = ProveedorDeRecursos.obtenerFecha();
                 int rid = db.insertTrip(db.obtenerIdVehiculoFromNombre(ProveedorDeRecursos
@@ -210,6 +213,7 @@ public class ObdMainService extends Service {
 
         private void stopActions() {
             mNM.cancel(SERVICIO_EMAG);
+            FLAG = false;
             if(mlp != null && mlp.isConnected())
                 mlp.stopLocationUpdates();
             stopLectures();
@@ -246,6 +250,7 @@ public class ObdMainService extends Service {
 
     @Override
     public void onCreate() {
+        FLAG = false;
         mlp = new MyLocationProvider();
         updates = new ConcurrentLinkedQueue<>();
         HandlerThread thread = new HandlerThread("ServiceStartArguments",

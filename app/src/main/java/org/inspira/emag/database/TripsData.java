@@ -61,10 +61,10 @@ public class TripsData extends SQLiteOpenHelper{
                 "idVehiculo INTEGER NOT NULL," +
                 "FOREIGN KEY(idVehiculo) REFERENCES Vehiculo(idVehiculo)" +
                 ")");
-		dataBase.execSQL("create table RPM(idValue INTEGER PRIMARY KEY AUTOINCREMENT, RPMVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
-		dataBase.execSQL("create table Speed(idValue INTEGER PRIMARY KEY AUTOINCREMENT, SpeedVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
-		dataBase.execSQL("create table ThrottlePos(idValue INTEGER PRIMARY KEY AUTOINCREMENT, ThrottleVal TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
-		dataBase.execSQL("create table Location(idValue INTEGER PRIMARY KEY AUTOINCREMENT, Latitud TEXT NOT NULL, Longitud TEXT NOT NULL, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
+		dataBase.execSQL("create table RPM(idValue INTEGER PRIMARY KEY AUTOINCREMENT, RPMVal TEXT NOT NULL, Timestamp TEXT, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
+		dataBase.execSQL("create table Speed(idValue INTEGER PRIMARY KEY AUTOINCREMENT, SpeedVal TEXT NOT NULL, Timestamp TEXT, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
+		dataBase.execSQL("create table ThrottlePos(idValue INTEGER PRIMARY KEY AUTOINCREMENT, ThrottleVal TEXT NOT NULL, Timestamp TEXT, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
+		dataBase.execSQL("create table Location(idValue INTEGER PRIMARY KEY AUTOINCREMENT, Latitud TEXT NOT NULL, Longitud TEXT NOT NULL, Timestamp TEXT, isCommited INTEGER DEFAULT 0, idTrip INTEGER NOT NULL, FOREIGN KEY(idTrip) REFERENCES Trip(idTrip))");
 	}
 
     public boolean addVehiculo(Vehiculo vehiculo){

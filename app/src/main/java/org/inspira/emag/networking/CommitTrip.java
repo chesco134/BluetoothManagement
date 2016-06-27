@@ -2,6 +2,7 @@ package org.inspira.emag.networking;
 
 import android.content.Context;
 import android.util.Log;
+import android.view.Menu;
 
 import org.inspira.emag.actividades.MainActivity;
 import org.inspira.emag.database.TripsData;
@@ -24,9 +25,13 @@ public class CommitTrip extends Thread {
 
     private int idViaje;
     private Context ctx;
+    private Menu menu;
+    private int itemId;
 
-    public CommitTrip(Context ctx, int idViaje){
+    public CommitTrip(Context ctx, int idViaje, Menu menu, int itemId){
         this.ctx = ctx;
+        this.menu = menu;
+        this.itemId = itemId;
         this.idViaje = idViaje;
     }
 
@@ -53,7 +58,8 @@ public class CommitTrip extends Thread {
             if(baos.toString().equals("OK")){
                 TripsData tripDB = new TripsData(ctx);
                 tripDB.terminaFechaTrip(idViaje, new Date());
-                }
+                menu.findItem(itemId).setEnabled(false);
+            }
             baos.close();
         }catch(IOException e){
             Log.d("Error from Commiter", e.getMessage());
